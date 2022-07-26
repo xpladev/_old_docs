@@ -1,0 +1,3 @@
+[submodule "themes/book-delight"]
+	path = themes/book-delight
+	url = https://github.com/DELIGHT-LABS/hugo-book.git
