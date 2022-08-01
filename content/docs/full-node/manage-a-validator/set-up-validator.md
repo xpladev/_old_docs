@@ -1,4 +1,9 @@
-# Register a validator
+---
+weight: 50
+title: Set-up Validator
+---
+
+# Register a Validator
 
 This is a detailed step-by-step guide for setting up a Xpla validator. Please be aware that while it is easy to set up a rudimentary validating node, running a production-quality validator node with a robust architecture and security features requires an extensive setup.
 
@@ -11,7 +16,7 @@ For more information on setting up a validator, see [additional resources](_inde
 - You have read through [the validator FAQ](faq.md)
 - You understand the [different keys](faq.md#validator-keys-and-states) of a validator in the FAQ
 
-## 1. Retrieve your PubKey
+## 1. Retrieve Your PubKey
 
 The Consensus PubKey of your node is required to create a new validator. Run:
 
@@ -19,7 +24,7 @@ The Consensus PubKey of your node is required to create a new validator. Run:
 --pubkey=$(xplad tendermint show-validator)
 ```
 
-## 2. Create a new validator
+## 2. Create a New Validator
 
    :::{admonition} Get tokens
    :class: tip
@@ -45,7 +50,7 @@ xplad tx staking create-validator \
 When you specify commission parameters, the `commission-max-change-rate` is measured as a percentage-point change of the `commission-rate`. For example, a change from 1% to 2% is a 100% rate increase, but the `commission-max-change-rate` is measured as 1%.
 :::
 
-## 3. Confirm your validator is active
+## 3. Confirm Your Validator is Active
 
 If running the following command returns something, your validator is active:
 
@@ -59,7 +64,7 @@ You are looking for the `bech32` encoded `address` in the `~/.xpla/config/priv_v
 Only the top 130 validators in voting power are included in the active validator set.
 :::
 
-## 4. Secure your keys and have a backup plan
+## 4. Secure Your Keys and Have a Backup Plan
 
 Protecting and having a contingency backup plan for your [keys](faq.md#what-type-of-key-do-i-need-to-use) will help mitigate catastrophic hardware or software failures of the node.
 It is a good practice to test your backup plan on a testnet node in case of node failure.

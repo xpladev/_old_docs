@@ -1,3 +1,8 @@
+---
+weight: 40
+title: Wallet Provider Tutorial
+---
+
 # Get started with Wallet Provider
 
 [Wallet Provider](https://github.com/c2xdev/wallet-provider) makes it easy to build Xpla Station (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.

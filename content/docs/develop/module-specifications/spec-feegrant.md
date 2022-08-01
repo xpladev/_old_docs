@@ -1,4 +1,9 @@
-# Fee grant
+---
+weight: 80
+title: Fee Grant
+---
+
+# Fee Grant
 
 :::{Important}
 Xpla's fee grant module inherits from the Cosmos SDK's [`feegrant`](https://docs.cosmos.network/master/modules/feegrant/) module. This document is a stub and explains mainly important Xpla-specific notes about how it is used.

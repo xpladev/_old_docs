@@ -1,3 +1,9 @@
+---
+bookCollapseSection: false
+weight: 20
+title: Smart Contract
+---
+
 # Smart contract guide
 
 ## Overview

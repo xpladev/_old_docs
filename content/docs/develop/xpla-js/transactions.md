@@ -1,3 +1,8 @@
+---
+weight: 140
+title: Transactions
+---
+
 # Transactions
 
 This document explains how to influence the blockchain's state by broadcasting transactions.

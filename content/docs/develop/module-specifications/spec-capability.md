@@ -1,3 +1,8 @@
+---
+weight: 40
+title: Capability
+---
+
 # Capability
 
 :::{Important}

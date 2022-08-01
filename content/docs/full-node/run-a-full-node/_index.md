@@ -1,3 +1,10 @@
+---
+bookCollapseSection: true
+bookFlatSection: false
+weight: 30
+title: Run Full Node
+---
+
 # Run a full Xpla node <img src="/img/icon_node.svg" height="40px">
 
 :::{admonition} Recommended operating systems

@@ -1,4 +1,11 @@
-# Manage a validator <img src="/img/Build_a_validator.svg" height="40px">
+---
+bookCollapseSection: true
+bookFlatSection: false
+weight: 10
+title: Manage Validator
+---
+
+# Manage a Validator <img src="/img/Build_a_validator.svg" height="40px">
 
 The tasks in this section describe how to set up a Xpla validator. While setting up a rudimentary validating node is easy, running a production-quality validator node with a robust architecture and security features requires an extensive setup.
 
@@ -16,6 +23,6 @@ If validators double sign, are frequently offline, or do not participate in gove
 
 For more general information on validators, visit the [validator section](../../learn/protocol.md#validators) of the concepts page.
 
-## Additional resources
+## Additional Resources
 
 - [The validator FAQ](faq.md)

@@ -1,3 +1,8 @@
+---
+weight: 150
+title: Wallets
+---
+
 # Wallets
 
 ## Create a wallet

@@ -1,3 +1,10 @@
+---
+bookCollapseSection: true
+bookFlatSection: false
+weight: 110
+title: Xpla js
+---
+
 # xpla.js <img src="/img/xpla_js.svg" height="40px">
 
 :::{admonition} Using xpla.js on the new Xpla chain

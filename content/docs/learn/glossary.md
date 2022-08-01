@@ -1,3 +1,8 @@
+---
+weight: 30
+title: Glossary
+---
+
 # Glossary
 
 Use this glossary to learn about terms specific to the Xpla Protocol.

@@ -1,3 +1,8 @@
+---
+weight: 10
+title: Developer Tools
+---
+
 # Tools
 
 If this is your first time building on Xpla, check out the [Getting started guide](./get-started.md). 

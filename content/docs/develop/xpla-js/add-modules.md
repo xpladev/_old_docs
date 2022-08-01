@@ -1,12 +1,17 @@
-# Add modules
+---
+weight: 10
+title: Add Modules
+---
+
+# Add Modules
 
 When a new module is added to Xpla core, you must add it to several places in xpla.js too. To add a module, complete the following steps:
 
-## Create a new folder
+## Create a New Folder
 
 In the `src/core` folder, create a new folder and name it after the new module. For example,`src/core/greeting`.
 
-## Add messages
+## Add Messages
 
 1. Register new messages in a subdirectory in the folder that you created for your new module, as shown in the following example:
 

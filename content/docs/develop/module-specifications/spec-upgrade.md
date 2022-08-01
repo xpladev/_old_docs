@@ -1,3 +1,8 @@
+---
+weight: 140
+title: Upgrade
+---
+
 # Upgrade
 
 :::{Important}

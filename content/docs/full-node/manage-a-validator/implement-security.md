@@ -1,14 +1,19 @@
-# Implement security practices
+---
+weight: 30
+title: Implement Security
+---
+
+# Implement Security Practices
 
 Each validator candidate is encouraged to run its operations independently. Diverse individual setups increase the resilience of the network.
 
-## Manage digital keys with HSM
+## Manage Digital Keys with HSM
 
 Key management is mission critical for validators. If an attacker gains access to a validator's private key, it puts the validator's entire delegated stake at risk. Hardware security modules are an important strategy for mitigating this risk.
 
 Consider implementing this [key-management method](https://github.com/iqlusioninc/tmkms) by Iqulusion.
 
-## Defend against DDoS attacks
+## Defend against DDoS Attacks
 
 Validators are responsible for ensuring that the network can defend against denial of service attacks.
 

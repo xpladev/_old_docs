@@ -1,3 +1,8 @@
+---
+weight: 40
+title: Set-up Local environment
+---
+
 # Environment Setup
 
 As a smart contract developer, you will need to write, compile, upload, and test your contracts before deploying them on the Dimension mainnet. The first step is to set up a specialized environment to streamline development.

@@ -1,3 +1,8 @@
+---
+weight: 20
+title: Interact with Smart Contract
+---
+
 # Interacting with the Contract
 
 :::{tip}

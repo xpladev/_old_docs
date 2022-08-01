@@ -1,3 +1,8 @@
+---
+weight: 30
+title: Manage CW20 Tokens
+---
+
 # CW20 Tokens
 
 According to the [official documentation](https://docs.rs/crate/cw20/0.2.3):

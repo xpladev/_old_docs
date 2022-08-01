@@ -1,3 +1,8 @@
+---
+weight: 40
+title: "Using 'xplad'"
+---
+
 # Using `xplad`
 
 The following information explains the functions you can use from xplad, the command-line interface that connects to Xpla and enables you to interact with the Xpla blockchain. Every active validator and full node runs xplad and communicates with their node via xplad. In this relationship, xplad operates as both the client and the server. You can use xplad to interact with the Xpla blockchain by uploading contracts, querying data, managing staking activities, working with governance proposals, and more. For more general information at the command line, run `xplad --help`. For more information about a specific `xplad` command, append the `-h` or `--help` flag after the command, such as `xplad query --help`.

@@ -1,3 +1,8 @@
+---
+weight: 30
+title: Station Mobile
+---
+
 # Xpla Station Mobile App
 
 Xpla Station Mobile is an application that enables users to interact with Xpla Core.

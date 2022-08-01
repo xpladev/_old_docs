@@ -1,4 +1,8 @@
-# Which tools to use
+---
+weight: 100
+title: Which Tools
+---
+# Which Tools to Use
 
 There are a variety of tools in the Xpla Development Suite. Use this guide to find the right tool for your project.
 

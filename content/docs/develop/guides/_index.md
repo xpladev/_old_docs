@@ -1,3 +1,10 @@
+---
+bookCollapseSection: true
+bookFlatSection: false
+weight: 40
+title: Guides 
+---
+
 # Guides
 
 Use these guides to start building! 

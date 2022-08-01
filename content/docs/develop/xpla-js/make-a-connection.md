@@ -1,4 +1,9 @@
-# Make a connection
+---
+weight: 80
+title: Make Connection
+---
+
+# Make a Connection
 
 Users can interact with the blockchain by using the following modes:
 

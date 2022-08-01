@@ -1,3 +1,8 @@
+---
+weight: 60
+title: Distribution
+---
+
 # Distribution
 
 ::: {important}

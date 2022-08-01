@@ -1,3 +1,8 @@
+---
+weight: 110
+title: Testnet
+---
+
 # Testnet <img src="/img/icon_node.svg" height="40px">
 
 The testnet is the testing environment for the Xpla network. Use this guide to simulate transactions on the testnet.

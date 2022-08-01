@@ -1,3 +1,8 @@
+---
+weight: 100
+title: Staking
+---
+
 # Manage staking <img src="/img/Staking.svg" height="40px">
 
 Use this guide to manage your staking delegations in Station. To learn how to stake or withdraw rewards, visit the Station [desktop](download/station-desktop.md) or [mobile](download/station-mobile.md) tutorials.  

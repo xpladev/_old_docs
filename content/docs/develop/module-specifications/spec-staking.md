@@ -1,3 +1,8 @@
+---
+weight: 130
+title: Staking
+---
+
 # Staking
 
 :::{Important}

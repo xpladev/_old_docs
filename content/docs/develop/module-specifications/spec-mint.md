@@ -1,3 +1,8 @@
+---
+weight: 100
+title: Mint
+---
+
 # Mint
 
 :::{Important}

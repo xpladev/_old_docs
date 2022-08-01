@@ -1,3 +1,10 @@
+---
+bookCollapseSection: true
+bookFlatSection: true
+weight: 30
+title: Learn
+---
+
 # Learn
 
 Discover [how Xpla works](protocol.md) and learn about [validators](protocol.md#validators), [staking](protocol.md#staking), and [governance](protocol.md#governance). Use [Station](station/_index.md) to [Create a Wallet](station/download/_index.md), [Stake XPLA](station/staking.md), [Xend Tokens](station/send.md), and [Participate in Governance](station/governance.md). Browse the [Glossary](glossary.md) to look up helpful terms.

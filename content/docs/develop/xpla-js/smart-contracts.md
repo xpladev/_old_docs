@@ -1,8 +1,13 @@
-# Smart contracts
+---
+weight: 130
+title: Smart Contracts
+---
+
+# Smart Contracts
 
 This document explains how to perform tasks related to working with smart contracts with xpla.js.
 
-## Upload code
+## Upload Code
 
 You will first need a compiled WASM smart contract's binary to upload.
 
@@ -43,7 +48,7 @@ const {
 } = storeCodeTxResult.logs[0].eventsByType;
 ```
 
-## Create a contract
+## Create a Contract
 
 For Xpla smart contracts, there is a distinction between uploading contract code and creating a contract. This allows multiple contracts to share the same code if there are only minor variations in their logic which can be configured at contract creation. This configuration is passed in an **InitMsg**, and provides the initial state for the contract.
 

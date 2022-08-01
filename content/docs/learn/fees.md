@@ -1,3 +1,8 @@
+---
+weight: 20
+title: Fees
+---
+
 # Fees
 
 On Xpla, there is only one fee that applies to all transactions: the gas fee. 

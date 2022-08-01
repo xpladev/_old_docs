@@ -1,3 +1,8 @@
+---
+weight: 160
+title: Websockets
+---
+
 # Websockets
 
 ## `WebSocketClient`

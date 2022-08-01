@@ -1,3 +1,8 @@
+---
+weight: 80
+title: Resources
+---
+
 # Developer resources
 
 ## Developer links

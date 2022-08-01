@@ -1,3 +1,8 @@
+---
+weight: 40
+title: Tic-Tac-Toe App
+---
+
 # Tic-tac-toe app example
 
 This app example was created to illustrate the structure of an application with smart contracts and a basic front end. The open-source application code, including the smart contract code, can be found in the [emidev98/tic-tac-toe](https://github.com/emidev98/tic-tac-toe/tree/main/contracts/tic_tac_toe) repository. 

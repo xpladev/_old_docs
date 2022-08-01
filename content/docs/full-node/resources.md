@@ -1,8 +1,13 @@
-# Full node resources
+---
+weight: 30
+title: Resources
+---
+
+# Full Node Resources
 
 Use these resources to set up your full node.
 
-## Full node text tutorial
+## Full Node Text Tutorial
 
 - [Full node tutorial](run-a-full-node/_index.md)
 - [System configuration](run-a-full-node/system-config.md)
