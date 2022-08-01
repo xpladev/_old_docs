@@ -1,3 +1,8 @@
+---
+weight: 10
+title: Sign Bytes
+---
+
 # Signing Bytes
 
 You can sign arbitrary bytes with [Wallet Provider](https://www.npmjs.com/package/@c2xdev/wallet-provider) in a React-based web application. This action is useful for verifying account ownership without having to post a transaction to the chain, and is commonly used as a form of simple user authentication.

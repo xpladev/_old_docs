@@ -1,3 +1,8 @@
+---
+weight: 90
+title: Governance
+---
+
 # Governance <img src="/img/Governance.svg" height="40px">
 
 :::{Important}

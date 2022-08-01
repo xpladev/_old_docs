@@ -1,3 +1,8 @@
+---
+weight: 110
+title: Numeric
+---
+
 # Numeric
 
 xpla.js includes `Dec` and `Int`, which represent decimal numbers and integer numbers compatible with the Cosmos-SDK. 

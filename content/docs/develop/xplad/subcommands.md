@@ -1,3 +1,8 @@
+---
+weight: 30
+title: Subcommands
+---
+
 # Subcommands
 
 This section describes the subcommands available for `xplad`.

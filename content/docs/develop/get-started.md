@@ -1,4 +1,9 @@
-# Get started <img src="/img/icon_innovation.svg" height="40px">
+---
+weight: 30
+title: Get Started
+---
+
+# Get Started <img src="/img/icon_innovation.svg" height="40px">
 
 Use this beginner-friendly guide to start building on Xpla. 
 

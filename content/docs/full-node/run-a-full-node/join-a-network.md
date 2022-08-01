@@ -1,4 +1,9 @@
-# Join a network
+---
+weight: 30
+title: Join a Network
+---
+
+# Join a Network
 
 It is highly recommended that you set up a private local network before joining a public network. This will help you get familiar with the setup process, and provide an environment for testing. The following sections outline this process. If you want to join a public network without setting up a private network, you can skip to [join a public network ](#join-a-public-network).
 

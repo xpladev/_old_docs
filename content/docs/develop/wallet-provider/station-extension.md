@@ -1,3 +1,8 @@
+---
+weight: 20
+title: Station Extension
+---
+
 # Xpla Station extension
 
 The API for the Xpla Station extension gets updated periodically. If you are developing a dApp, please check regularly for updates as breaking changes may be introduced frequently.

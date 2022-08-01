@@ -1,4 +1,9 @@
-# Station Chrome extension
+---
+weight: 20 
+title: Station Extension
+---
+
+# Station Chrome Extension
 
 Complete this tutorial to install the Station extension for the Google Chrome browser.
 

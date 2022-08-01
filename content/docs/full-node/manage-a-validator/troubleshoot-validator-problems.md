@@ -1,8 +1,15 @@
-# Troubleshoot validator problems
+---
+bookCollapseSection: true
+bookFlatSection: false
+weight: 60
+title: Troubleshoot Validator Problems
+---
+
+# Troubleshoot Validator Problems
 
 Use this guide to solve the most common validator problems.
 
-## Validator has 0 voting power
+## Validator Has 0 Voting Power
 
 If your validator has 0 voting power, your validator has become auto-unbonded. On the mainnet, validators unbond when they do not vote on `9500` of the last `10000` blocks (`50` of the last `100` blocks on the testnet). Because blocks are proposed every ~5 seconds, a validator that is unresponsive for ~13 hours (~4 minutes on testnet) become unbonded. This problem usually happens when your `xplad` process crashes.
 
@@ -35,7 +42,7 @@ To return the voting power back to your validator:
 
    If your voting power is less than it was previously, you may have been slashed for downtime.
 
-## `xplad` crashes because of too many open files
+## `xplad` Crashes Because of Too Many Open Files
 
 The default number of files Linux can open per process is `1024`. `xplad` is known to open more than this amount, causing the process to crash.
 
@@ -63,7 +70,7 @@ The default number of files Linux can open per process is `1024`. `xplad` is kno
    [Install]
    WantedBy=multi-user.target
    ```
-## `xplad` crashes because of memory fragmentation
+## `xplad` Crashes Because of Memory Fragmentation
 
 As described in [this issue](https://github.com/c2xdev/core/issues/592), huge memory allocation can cause memory fragmentation issue. Temporal solution is just using small wasm cache size like 50~100MB.
 
@@ -79,7 +86,7 @@ contract-memory-cache-size = 100
 write-vm-memory-cache-size = 100
 ```
 
-## The validator is not active
+## The Validator is Not Active
 
 - The validator is jailed. To solve this problem, `unjail` the validator by running:
 

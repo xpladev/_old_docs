@@ -1,4 +1,9 @@
-# Station desktop
+---
+weight: 10
+title: Station Desktop
+---
+
+# Station Desktop
 
 This tutorial walks you through the process of using Station, the official desktop wallet for Xpla.
 

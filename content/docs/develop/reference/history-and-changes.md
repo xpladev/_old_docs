@@ -1,4 +1,9 @@
-# History and changes
+---
+weight: 10
+title: History and Changes
+---
+
+# History and Changes
 
 This is a history of changes to the Xpla core.
 

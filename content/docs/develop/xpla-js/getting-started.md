@@ -1,4 +1,9 @@
-# Get started with xpla.js
+---
+weight: 50
+title: Getting Started
+---
+
+# Get Started with xpla.js
 
 This is an in-depth guide on how to use the `xpla.js` SDK.
 
@@ -17,7 +22,7 @@ By the end of this guide, you'll be able to execute a token swap from your appli
 - [npm and node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - Xpla Station browser extension
 
-## 1. Set up your project
+## 1. Set-up Your Project
 
 1. Create a new directory for your project:
 

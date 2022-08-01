@@ -1,3 +1,8 @@
+---
+weight: 120
+title: Wallet
+---
+
 # Wallet <img src="/img/StationWallet.svg" height="40px">
 
 This guide is for advanced features of the Station wallet. If this is your first time using Station, follow the [Station tutorial](download/station-desktop.md).

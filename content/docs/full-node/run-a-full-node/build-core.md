@@ -1,3 +1,8 @@
+---
+weight: 10
+title: Build Core
+---
+
 # Build Xpla core
 
 Xpla core is the official Golang reference implementation of the Xpla node software. Use this guide to install Xpla core and `xplad`, the command-line interface and daemon that connects to Xpla and enables you to interact with the Xpla blockchain.

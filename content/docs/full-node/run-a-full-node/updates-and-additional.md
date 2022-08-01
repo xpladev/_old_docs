@@ -1,3 +1,8 @@
+---
+weight: 80
+title: Updates and Additional
+---
+
 # Updates and additional settings
 
 ## Upgrade the testnet

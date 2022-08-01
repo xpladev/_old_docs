@@ -1,3 +1,8 @@
+---
+weight: 60
+title: Open Source
+---
+
 # Open source contract comparison
 
 Ethereum | Solana | Xpla                                                                                                                        | Description

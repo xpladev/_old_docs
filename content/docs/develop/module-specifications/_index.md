@@ -1,4 +1,11 @@
-# Xpla Core modules <img src="/img/icon_core.svg" height="40px">
+---
+bookCollapseSection: true
+bookFlatSection: false
+weight: 50
+title: Module Specification
+---
+
+# Xpla Core Modules <img src="/img/icon_core.svg" height="40px">
 
 The Xpla Core is the official Golang reference implementation of the Xpla protocol.
 The Xpla Core is built using the [Cosmos SDK](https://cosmos.network/sdk), which provides a robust framework for blockchains that run atop the [Tendermint](https://tendermint.com/) consensus protocol.

@@ -1,4 +1,9 @@
-# Common examples guide
+---
+weight: 30
+title: Common Examples
+---
+
+# Common Examples Guide
 
 Use the following common examples to learn how to use xpla.js. If this is your first time using xpla.js, use the [xpla.js installation guide](./getting-started.md).
 

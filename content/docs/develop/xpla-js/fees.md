@@ -1,3 +1,8 @@
+---
+weight: 40
+title: Fees
+---
+
 # Fees
 
 ```ts

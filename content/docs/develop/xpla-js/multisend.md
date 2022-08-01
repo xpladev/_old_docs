@@ -1,3 +1,8 @@
+---
+weight: 100
+title: Multisend
+---
+
 # MsgSend
 
 ```js

@@ -1,3 +1,8 @@
+---
+weight: 70
+title: Troubleshoot
+---
+
 # Reset and troubleshooting
 
 ## Complete reset

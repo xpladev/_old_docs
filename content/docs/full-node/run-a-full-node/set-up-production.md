@@ -1,4 +1,9 @@
-# Set up a production environment
+---
+weight: 40
+title: Set-up Production
+---
+
+# Set-up a production environment
 
 Use the following information to set up and manage your production-level Xpla full node.
 

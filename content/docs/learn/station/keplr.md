@@ -1,3 +1,8 @@
+---
+weight: 40
+title: Keplr
+---
+
 # Connect your Station Wallet to Keplr
 
 Use this guide to connect your Station wallet to a Keplr wallet using a Chrome browser.

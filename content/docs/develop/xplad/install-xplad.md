@@ -1,3 +1,8 @@
+---
+weight: 20
+title: Install
+---
+
 # Install `xplad`
 
 `xplad` is the command-line interface and daemon that connects to Xpla and enables you to interact with the Xpla blockchain. Xpla core is the official Golang reference implementation of the Xpla node software.

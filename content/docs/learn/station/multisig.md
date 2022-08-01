@@ -1,3 +1,8 @@
+---
+weight: 70
+title: Multisig
+---
+
 # Multisig wallets
 
 Multisig wallets are an advanced feature of Station. If you’re using Station for the first time, follow the [Station Tutorial](download/station-desktop.md).

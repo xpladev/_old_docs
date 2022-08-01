@@ -1,3 +1,8 @@
+---
+weight: 10
+title: Contracts
+---
+
 # Contract <img src="/img/icon_smartcontract.svg" height="40px">
 
 Smart contracts are an advanced feature of Station. If you’re using Station for the first time, follow the [Station Tutorial](download/station-desktop.md).

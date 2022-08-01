@@ -1,3 +1,8 @@
+---
+weight: 10
+title: Sign with Multisig
+---
+
 # Sign with a multisig account
 
 A **multisig account** is a Xpla account with a special key that can require more than one signatures to sign transactions. This can be useful for increasing the security of the account or for requiring the consent of multiple parties to make transactions. Multisig accounts can be created by specifying:

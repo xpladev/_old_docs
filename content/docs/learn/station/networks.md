@@ -1,4 +1,9 @@
-# Switch networks
+---
+weight: 80
+title: Networks
+---
+
+# Switch Networks
 
 Use this guide to switch between Xpla mainnet and testnet networks. 
 

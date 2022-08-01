@@ -1,3 +1,8 @@
+---
+weight: 20
+title: Endpoints
+---
+
 # Public and private endpoints
 
 ## Private endpoints

@@ -1,3 +1,8 @@
+---
+weight: 30
+title: Start LCD
+---
+
 # Start the light client daemon (LCD)
 
 The light client daemon (LCD) provides a REST-based adapter for the RPC endpoints, which also helps for decoding the Amino-encoded blockchain data into parseable JSON. This enables apps to communicate with a node through simple HTTP.

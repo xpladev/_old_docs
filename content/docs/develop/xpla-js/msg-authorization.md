@@ -1,3 +1,8 @@
+---
+weight: 90
+title: Msg Authorization
+---
+
 # MsgAuthorization
 
 1. `test1` creates MsgGrantAuthorization message to grant MsgSend authorization to grantee `test2`.

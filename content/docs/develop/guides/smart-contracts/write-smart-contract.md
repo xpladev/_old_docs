@@ -1,3 +1,8 @@
+---
+weight: 50
+title: Write Smart Contract
+---
+
 # Writing the Contract
 
 ::: {seealso}

@@ -1,3 +1,8 @@
+---
+weight: 50
+title: Crisis
+---
+
 # Crisis
 
 :::{Important}

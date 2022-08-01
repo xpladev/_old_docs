@@ -1,3 +1,8 @@
+---
+weight: 40
+title: Network
+---
+
 # About Xpla
 
 ## What is Xpla?

@@ -1,3 +1,8 @@
+---
+weight: 120
+title: Slashing 
+---
+
 # Slashing
 
 :::{Important}

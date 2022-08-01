@@ -27,15 +27,15 @@ sectionPagesMenu = "main"
   weight = 1
 
 [menu]
-[[menu.before]]
+[[menu.after]]
   name = "XPLA"
   url = "https://tobe.defined.io"
-  weight = 20
-
+  weight = 10
 [[menu.after]]
   name = "Github"
   url = "https://github.com/c2xdev"
-  weight = 10
+  weight = 20
+
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.

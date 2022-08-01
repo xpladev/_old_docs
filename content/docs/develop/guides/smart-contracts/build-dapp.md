@@ -1,3 +1,8 @@
+---
+weight: 10
+title: Build dApp
+---
+
 # Build a simple Xpla dApp
 
 This tutorial is designed to acquaint you with everything you need to know to launch your own smart-contract powered applications on Xpla.

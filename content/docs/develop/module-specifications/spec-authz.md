@@ -1,3 +1,8 @@
+---
+weight: 20
+title: AuthZ
+---
+
 # AuthZ
 
 :::{Important}

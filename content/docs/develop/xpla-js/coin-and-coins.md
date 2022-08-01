@@ -1,3 +1,8 @@
+---
+weight: 20
+title: Coin and Coins
+---
+
 # Coin and Coins
 
 A `Coin` represents a single coin, which is a pair consisting of a denomination and an amount. `Coins` represents a collection of `Coin` objects, that many operators use to group tokens in one construct.

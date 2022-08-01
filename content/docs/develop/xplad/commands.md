@@ -1,3 +1,8 @@
+---
+weight: 10
+title: Commands
+---
+
 # Commands
 
 This section describes the commands available from `xplad`, the command line interface that connects a running `xplad` process.

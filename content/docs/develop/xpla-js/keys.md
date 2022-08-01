@@ -1,3 +1,8 @@
+---
+weight: 70
+title: Keys
+---
+
 # Keys
 
 To perform actions using an account and private-public key pairs with xpla.js, you need an implementation of the [ *Key* ](https://github.com/c2xdev/xpla.js/blob/main/src/key/Key.ts) class, which provides an abstraction around the signing functions of an account. There are multiple implementations available: 

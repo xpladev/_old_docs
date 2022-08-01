@@ -1,3 +1,8 @@
+---
+weight: 30
+title: Governance
+---
+
 # Governance <img src="/img/Governance.svg" height="40px">
 
 If this is your first time using Station, follow the [Station Tutorial](download/station-desktop.md).

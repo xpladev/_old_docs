@@ -1,3 +1,8 @@
+---
+weight: 60
+title: System Configuration
+---
+
 # System Configuration
 
 :::{admonition} Recommended operating systems
