@@ -74,7 +74,7 @@ The following processes are executed during each block transition:
 
 - XPLA is the Xpla protocol's native staking asset. Delegators earn mining rewards when they stake their Xpla to an active validator. Xpla is also used to make and vote on governance proposals.
 
-The microunit ($\times 10^{-6}$) is the smallest atomic unit of Xpla.
+The microunit ($\times 10^{-18}$) is the smallest atomic unit of Xpla.
 
 | Denomination | Micro-Unit | Code    | Value                     |
 |:-------------|:-----------|:--------|:--------------------------|
