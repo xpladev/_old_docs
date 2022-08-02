@@ -1,31 +1,30 @@
 ---
-weight: 30
+weight: 10
 title: Get Started
 ---
 
-# Get Started <img src="/img/icon_innovation.svg" height="40px">
+# Get Started
 
 Use this beginner-friendly guide to start building on Xpla. 
 
-:::{admonition} Learn about Xpla
-:class: note
-
-To learn more about Xpla concepts like XPLA, validators, and governance, visit the [Xpla protocol overview](../learn/protocol.md). 
-:::
+{{< hint info >}}
+**Learn about Xpla**  
+To learn more about Xpla concepts like XPLA, validators, and governance, visit the [Xpla protocol overview]({{< ref "network" >}}). 
+{{< /hint >}}
 
 ## Development Suite
 
 Congrats! You have the basics down! 
 
-Now you can dive into the other tools in the Xpla Development Suite. Visit the [tool guide](which-tools.md) for more info. 
+Now you can dive into the other tools in the Xpla Development Suite. Visit the [tool guide]({{< ref "which-tools-to-use" >}}) for more info. 
 
-### xpla<span/>.js <img src="/img/xpla_js.svg" height="30px">
+### xpla.js
 
-Use xpla<span/>.js to create bots, power NFT mints, and for all-purpose back end services. Follow the [xpla.js tutorial](xpla-js/getting-started.md) to get started.
+Use xpla.js to create bots, power NFT mints, and for all-purpose back end services. Follow the [xpla.js tutorial]({{< ref "getting-started" >}}) to get started.
 
-### Wallet Provider and Templates: <img src="/img/Walletconnect.svg" height="30px">
+### Wallet Provider and Templates
 
-If you have a back end for your app and want a front end to connect to Xpla Station, use Wallet provider and Xpla Templates. Follow the [Wallet Provider tutorial](wallet-provider/wallet-provider-tutorial.md) to get started. 
+If you have a back end for your app and want a front end to connect to Xpla Station, use Wallet provider and Xpla Templates. Follow the [Wallet Provider Tutorial]({{< ref "get-started-with-wallet-provider" >}}) to get started. 
 
 ### Other Tools
 
@@ -33,7 +32,7 @@ Xpla also provides other tools for building:
 
 - [Finder](https://finder.c2x.world): Xpla’s multi-purpose block explorer. 
 - [Faucet](https://faucet.c2x.world): Get tokens sent to your testnet address. 
-- [`xplad`](xplad/install-xplad.md): the node daemon and command line interface that connects to the Xpla network. 
+- [`xplad`]({{< ref "install-xplad" >}}): the node daemon and command line interface that connects to the Xpla network. 
 
 ## Resources
 
