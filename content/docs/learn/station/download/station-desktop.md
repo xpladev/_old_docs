@@ -1,6 +1,7 @@
 ---
 weight: 10
 title: Station Desktop
+bookHidden: true
 ---
 
 # Station Desktop

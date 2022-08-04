@@ -1,11 +1,11 @@
 ---
-weight: 90
+weight: 80
 title: Send
 ---
 
 # Send
 
-You can send tokens to other Xpla wallets using the **Send** feature of Station. If this is your first time using Station, follow the [Station Tutorial](download/station-desktop.md).
+You can send tokens to other Xpla wallets using the **Send** feature of Station. If this is your first time using Station, follow the [Station Tutorial]({{< ref "station" >}}).
 
 1. Open Station and connect to your wallet.
 
