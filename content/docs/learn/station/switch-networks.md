@@ -1,6 +1,6 @@
 ---
-weight: 80
-title: Networks
+weight: 90
+title: Switch Networks
 ---
 
 # Switch Networks
@@ -13,4 +13,6 @@ Use this guide to switch between Xpla mainnet and testnet networks.
 
 3. Select the network you would like to connect to. 
 
-![](../../../img/screens/network.png)
+   ```
+   TODO: image
+   ```

@@ -9,7 +9,7 @@ Use this beginner-friendly guide to start building on Xpla.
 
 {{< hint info >}}
 **Learn about Xpla**  
-To learn more about Xpla concepts like XPLA, validators, and governance, visit the [Xpla protocol overview]({{< ref "network" >}}). 
+To learn more about Xpla concepts like XPLA, validators, and governance, visit the [Xpla protocol overview]({{< ref "about-xpla" >}}). 
 {{< /hint >}}
 
 ## Development Suite

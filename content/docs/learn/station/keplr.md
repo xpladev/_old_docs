@@ -1,6 +1,7 @@
 ---
 weight: 40
 title: Keplr
+bookHidden: true
 ---
 
 # Connect your Station Wallet to Keplr

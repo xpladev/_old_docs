@@ -1,15 +1,15 @@
 ---
-weight: 10
+weight: 20
 title: Contracts
 ---
 
-# Contract <img src="/img/icon_smartcontract.svg" height="40px">
+# Contract
 
-Smart contracts are an advanced feature of Station. If you’re using Station for the first time, follow the [Station Tutorial](download/station-desktop.md).
+Smart contracts are an advanced feature of Station. If you’re using Station for the first time, follow the [Station Tutorial]({{< ref "station" >}}).
 
 ## Prerequisites
 
-Compile a contract locally and create a `.wasm` file.  
+Compile a contract locally and create a `.wasm` file.
 
 ## Upload
 

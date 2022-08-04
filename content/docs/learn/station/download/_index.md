@@ -1,8 +1,13 @@
 ---
-bookCollapseSection: false
+bookCollapseSection: true
 bookFlatSection: false
-weight: 20
+weight: 10
 title: Download
 ---
 
 # Download
+
+TODO
+
+- [Station extension]({{< ref "station-extension" >}})
+- [Station mobile]({{< ref "station-mobile" >}})

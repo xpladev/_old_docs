@@ -1,17 +1,17 @@
 ---
 weight: 100
-title: Staking
+title: Manage Staking
 ---
 
-# Manage staking <img src="/img/Staking.svg" height="40px">
+# Manage Staking
 
-Use this guide to manage your staking delegations in Station. To learn how to stake or withdraw rewards, visit the Station [desktop](download/station-desktop.md) or [mobile](download/station-mobile.md) tutorials.  
+Use this guide to manage your staking delegations in Station. To learn how to stake or withdraw rewards, visit the [Station mobile]({{< ref "download/station-mobile" >}}) tutorials.  
 
-If this is your first time using Station, follow the [Station tutorial](download/station-desktop.md).
+If this is your first time using Station, follow the [Station tutorial]({{< ref "station" >}}).
 
-## Stake Xpla
+## Stake XPLA
 
-Stake your Xpla to a validator to start earning rewards. Before you stake, make sure you have Xpla in your wallet. You can transfer Xpla from an [exchange](wallet.md).
+Stake your XPLA to a validator to start earning rewards. Before you stake, make sure you have XPLA in your wallet. You can transfer XPLA from an [exchange]({{< ref "wallet" >}}).
 
 1. Open Station and click **Staking**.
 
@@ -19,20 +19,20 @@ Stake your Xpla to a validator to start earning rewards. Before you stake, make 
 
 3. In the **My delegations** section, click **Delegate**. A new window will appear.
 
-4. In the **Amount** field, specify the amount of Xpla you want to delegate, and click **Next**.
+4. In the **Amount** field, specify the amount of XPLA you want to delegate, and click **Next**.
 
-   :::{admonition} Keep coins for fees
-   :class: warning
+   {{< hint warning >}}
+   **Keep coins for fees**  
    Always keep some coins to pay fees with. Never stake your entire wallet amount. Without money for fees, you can't make any transactions.
-   :::
+   {{< /hint >}}
 
 5. Double check the amounts and fees. Enter your password and click **Delegate**.
 
-Congratulations, you've just delegated Xpla!
+Congratulations, you've just delegated XPLA!
 
-## Withdraw staking rewards
+## Withdraw Staking Rewards
 
-Rewards start accruing the moment you stake Xpla. Monitor your rewards in the staking section of Station. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake XPLA. Monitor your rewards in the staking section of Station. Once you have sufficient rewards, follow these steps to withdraw them:
 
 1. Open Station and click **Staking**.
 
@@ -48,9 +48,10 @@ Congratulations, you've just withdrawn your staking rewards!
 
 Redelegating lets you transfer staked Xpla from one validator to another without waiting the 21-day unstaking period. Redelegating happens instantly.
 
-:::{warning}
+{{< hint warning >}}
+**Warning**  
 When a user redelegates staked Xpla from one validator to another, the validator receiving the staked Xpla is barred from making further redelegation transactions for 21 days. This requirement only applies to the wallet that made the redelegation transaction.
-:::
+{{< /hint >}}
 
 1. Open Station and connect your wallet. Click **Staking**.
 
@@ -70,10 +71,11 @@ Your staked Xpla will be transferred to the new validator.
 
 Undelegate Xpla to unstake it from a validator. The unstaking period takes 21 days to complete.
 
-:::{warning}
+{{< hint warning >}}
+**Warning**  
 Once started, the delegating or undelegating processes can't be stopped.
 Undelegating takes 21 days to complete. The only way to undo a delegating or undelegating transaction is to wait for the unbonding process to pass. Alternatively, you can redelegate staked Xpla to a different validator without waiting 21 days.
-:::
+{{< /hint >}}
 
 1. Open Station and connect your wallet. Click **Staking**.
 

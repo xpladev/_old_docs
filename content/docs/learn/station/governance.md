@@ -3,13 +3,13 @@ weight: 30
 title: Governance
 ---
 
-# Governance <img src="/img/Governance.svg" height="40px">
+# Governance
 
-If this is your first time using Station, follow the [Station Tutorial](download/station-desktop.md).
+If this is your first time using Station, follow the [Station Tutorial]({{< ref "station" >}}).
 
-Governance is an important part of being involved in the Xpla community. Use the following information to learn how to vote on and submit governance proposals in Station. For more information on governance and voting options, visit [the governance overview](../protocol.md#governance).
+Governance is an important part of being involved in the Xpla community. Use the following information to learn how to vote on and submit governance proposals in Station. For more information on governance and voting options, visit [the governance overview]({{< ref "about-xpla#governance" >}}).
 
-## Vote on a proposal
+## Vote on a Proposal
 
 Voting is an important way for community members to help the Xpla protocol evolve. Follow these steps to vote with your staked XPLA.
 
@@ -27,12 +27,14 @@ Voting is an important way for community members to help the Xpla protocol evolv
 
 Your vote will be submitted.
 
-## Deposit XPLA to a proposal
+## Deposit XPLA to a Proposal
 
 Users can vote on a proposal after a minimum deposit of 50 XPLA is reached. To help push a proposal forward to a vote, deposit XPLA to the proposal.
 
-:::{caution} While most deposits get refunded, some deposits get burned. For more information on which deposits get burned, visit the [governance section](../protocol.md#governance) of the concepts page.
-:::
+{{< hint warning >}}
+**Warning**  
+While most deposits get refunded, some deposits get burned. For more information on which deposits get burned, visit the [governance section]({{< ref "about-xpla#governance" >}}) of the concepts page.
+{{< /hint >}}
 
 1. Open Station and connect your wallet. In the sidebar, click **Governance**.
 
@@ -48,24 +50,25 @@ Users can vote on a proposal after a minimum deposit of 50 XPLA is reached. To h
 
 Your deposit will be added to the proposal.
 
-## Create a new proposal
+## Create a New Proposal
 
-:::{admonition} Avoid unnecessary proposals
-:class: caution
-To prevent unnecessary proposals or abuse of the system, all governance proposals must obtain a minimum deposit of 50 XPLA. If 33.4% of the total vote is `NoWithVeto`, `quorum` is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded. For more information on deposits and refunds, visit the [governance overview](../protocol.md#governance).
-:::
+{{< hint warning >}}
+**Avoid unnecessary proposals**  
+To prevent unnecessary proposals or abuse of the system, all governance proposals must obtain a minimum deposit of 50 XPLA. If 33.4% of the total vote is `NoWithVeto`, `quorum` is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded. For more information on deposits and refunds, visit the [governance overview]({{< ref "about-xpla#governance" >}}).
+{{< /hint >}}
 
 1. Open Station and connect your wallet. In the sidebar, click **Governance**.
 
 2. Click on **New proposal**.
 
-    :::{tip}
-    Before uploading any proposal, try to get community feedback on [the Xpla Agora research forum](https://agora.c2x.world).
-    Do not use text proposals to suggest parameter changes. For more information, visit the [Governance module reference page](../../develop/module-specifications/spec-governance.md).
-    :::
+   {{< hint info >}}
+   **Note**  
+   Before uploading any proposal, try to get community feedback on [the Xpla Agora research forum](https://agora.c2x.world).
+   Do not use text proposals to suggest parameter changes. For more information, visit the [Governance module reference page]({{< ref "/docs/develop/core-modules/governance" >}}).
+   {{< /hint >}}
 
 3. Select the type of proposal, and enter a title, a description, and the amount of XPLA you want to deposit initially.
 
 4. Enter your password and click **Submit**.
 
-Your proposal will enter the two-week deposit period. After a minimum deposit of 50 XPLA has been reached, your proposal will enter a one-week voting period. For more information on governance and voting options, visit the [governance overview](../protocol.md#governance).
+Your proposal will enter the two-week deposit period. After a minimum deposit of 50 XPLA has been reached, your proposal will enter a one-week voting period. For more information on governance and voting options, visit the [governance overview]({{< ref "about-xpla#governance" >}}).
