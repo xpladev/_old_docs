@@ -7,7 +7,7 @@ title: Get Started with Wallet Provider
 
 [Wallet Provider](https://github.com/c2xdev/wallet-provider) makes it easy to build Xpla Station (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.
 
-This guide will cover how to set up a React app, integrate Wallet Provider, check the balance of the connected account, and call a token swap. If you want to integrate Xpla Station into an existing react app you can skip past the `Project Setup` section.
+This guide will cover how to set up a React app, integrate Wallet Provider, check the balance of the connected account, and call a token swap. If you want to integrate Xpla Station into an existing React app you can skip past the `Project Setup` section.
 
 {{< hint info >}}
 **Just want to dive in?**  
@@ -74,7 +74,7 @@ Next, you'll wrap your `App` with `<WalletProvider>` to give all your components
    npm start
    ```
 
-Your browser should open to `http://localhost:3000/`, and you should see the react logo with a black background and some text.
+Your browser should open to `http://localhost:3000/`, and you should see the React logo with a black background and some text.
 
 {{< expand "Getting polyfill errors?" >}}
 
@@ -247,7 +247,7 @@ npm install @c2xdev/xpla.js
 
 Before broadcasting this example transaction, ensure you're on the Xpla testnet. To change networks click the gear icon in your Xpla station and select `testnet`.
 
-You can request tesnet funds from the [faucet](https://faucet.c2x.world/).
+You can request testnet funds from the [faucet](https://faucet.c2x.world/).
 
 A XPLA transfer transaction needs a fee and a message containing the sender address, recipient address, and send amount (in this case 1 XPLA). Once the message is constructed, the `post` method on `connectedWallet` broadcasts it to the network.
 

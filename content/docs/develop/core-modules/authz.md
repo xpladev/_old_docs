@@ -7,7 +7,7 @@ title: AuthZ
 
 {{< hint info >}}
 **Note**  
-Xpla's fee grant module inherits from the Cosmos SDK's [`authz`](https://docs.cosmos.network/master/modules/authz/) module. This document is a stub and eXplains mainly important Xpla-specific notes about how it is used.
+Xpla's fee grant module inherits from the Cosmos SDK's [`authz`](https://docs.cosmos.network/master/modules/authz/) module. This document is a stub and explains mainly important Xpla-specific notes about how it is used.
 {{< /hint >}}
 
 The authz (message authorization) module allows users to authorize another account to send messages on their behalf. Certain authorizations, such as the spending of another account's tokens, can be parameterized to constrain the permissions of the grantee, such as setting a spending limit.

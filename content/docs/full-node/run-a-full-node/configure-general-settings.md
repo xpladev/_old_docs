@@ -15,7 +15,7 @@ The following information describes the most important node configuration settin
 │-- app.toml                            # xplad configuration file
 │-- client.toml                         # configurations for the cli wallet (ex xplacli)
 │-- config.toml                         # Tendermint configuration  file
-│-- genesis.json                        # gensesis transactions
+│-- genesis.json                        # genesis transactions
 │-- node_key.json                       # private key used for node authentication in the p2p protocol (its corresponding public key is the nodeid)
 └-- priv_validator_key.json             # key used by the validator on the node to sign blocks
 ```
@@ -43,7 +43,7 @@ You can update your node's moniker by editing the `moniker` field in `~/.xpla/co
 
 2. Modify `minimum-gas-prices` and set the minimum price of gas a validator will accept to validate a transaction and to prevent spam.
 
-Recomended setting is:
+Recommended setting is:
 `minimum-gas-prices = "0.15axpla"`
 
 **Example**:

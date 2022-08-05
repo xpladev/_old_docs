@@ -166,7 +166,7 @@ Currently, the SDK handles two types of evidence inside the ABCI `BeginBlock`:
 - `DuplicateVoteEvidence`,
 - `LightClientAttackEvidence`.
 
-The evidence module handles these two evidence types the same way. First, the SDK converts the Tendermint concrete evidence type to a SDK `Evidence` interface by using `Equivocation` as the concrete type.
+The evidence module handles these two evidence types the same way. First, the SDK converts the Tendermint concrete evidence type to an SDK `Evidence` interface by using `Equivocation` as the concrete type.
 
 ```protobuf
 // Equivocation implements the Evidence interface.

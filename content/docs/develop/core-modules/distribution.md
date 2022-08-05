@@ -21,7 +21,7 @@ The distribution module describes a mechanism that tracks collected fees and pas
 Passive distribution means that validators and delegators need to manually collect their fee rewards by [submitting withdrawal transactions]({{< ref "subcommands#tx-distribution-withdraw-rewards" >}}).
 {{< /hint >}}
 
-Collected rewards are pooled globally and distrubuted to validators and delegators. Each validator has the opportunity to charge delegators commission on the rewards collected on behalf of the delegators. Fees are collected directly into a global reward pool and a validator proposer-reward pool. Due to the nature of passive accounting, whenever changes to parameters which affect the rate of reward distribution occur, withdrawal of rewards must also occur.
+Collected rewards are pooled globally and distributed to validators and delegators. Each validator has the opportunity to charge delegators commission on the rewards collected on behalf of the delegators. Fees are collected directly into a global reward pool and a validator proposer-reward pool. Due to the nature of passive accounting, whenever changes to parameters which affect the rate of reward distribution occur, withdrawal of rewards must also occur.
 
 ## State
 
@@ -187,7 +187,7 @@ The genesis parameters for the crisis module outlined in the [Genesis Builder Sc
     # Distribution: module account registration
     add_module_account(
         genesis, 'distribution',
-        'Xpla1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl',
+        'xpla1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl',
         str(community_pool_allocation), [])
 
 ```

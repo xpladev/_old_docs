@@ -33,7 +33,7 @@ Complete this tutorial to get started with the Station mobile app.
 1. Using a pen and paper, write down your 24-word seed phrase exactly as it appears. Number each word to make verifying easier.
 
    {{< hint danger >}}
-   **Protect your seed phrease**  
+   **Protect your seed phrase**  
    Anyone with your seed phrase can access your money, and there is no recourse for someone stealing your seed phrase. To protect your seed phrase, consider the following tips:
    - Never save or store your seed phrase as a digital file on any device.
    - Always write down your seed phrase with a pen and paper.

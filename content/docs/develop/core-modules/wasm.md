@@ -156,7 +156,7 @@ Creates a new instance of a smart contract. Initial configuration is provided in
 
 ```go
 type MsgInstantiateContract struct {
-	// Sender is an sender address
+	// Sender is a sender address
 	Sender string `protobuf:"bytes,1,opt,name=sender,proto3" json:"sender,omitempty" yaml:"sender"`
 	// Admin is an optional admin address who can migrate the contract
 	Admin string `protobuf:"bytes,2,opt,name=admin,proto3" json:"admin,omitempty" yaml:"admin"`
