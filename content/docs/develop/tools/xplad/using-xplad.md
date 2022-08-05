@@ -116,7 +116,7 @@ xplad tx sign \
     --from=xpla1EXAMPLEy09tEXAMPLEtf9EXAMPLE3h0EXAMPLEss unsignedTx.json
 ```
 
-A healthy response should looks simillar to the following:
+A healthy response should look similar to the following:
 
 ```json
 {
@@ -194,7 +194,7 @@ The transaction `fees` are the product of `gas` and `gasPrice`. As a user, you h
 
 ### Setting Fees
 
-Each transaction may either supply fees or gas prices, but not both. Most users will typically provide fees as this is the final cost you will end up incurring for the transaction being included in the ledger, where as gas prices will be dynamically calculated depending on the validator.
+Each transaction may either supply fees or gas prices, but not both. Most users will typically provide fees as this is the final cost you will end up incurring for the transaction being included in the ledger, whereas gas prices will be dynamically calculated depending on the validator.
 
 Validators specify a minimum gas price that they use to determine whether to include a transaction, which they calculate during `CheckTx`, where `gasPrices >= minGasPrices`. Note, your transaction must supply fees that are greater than or equal to **any** of the denominations the validator requires.
 

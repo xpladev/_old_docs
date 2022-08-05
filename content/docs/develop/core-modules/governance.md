@@ -10,7 +10,7 @@ title: Governance
 Xpla's Governance module inherits from Cosmos SDK's [`gov`](https://docs.cosmos.network/master/modules/gov/) module. This document is a stub, and covers mainly important Xpla-specific notes about how it is used.
 {{< /hint >}}
 
-Governance is the process through which members of the Xpla community can effect change on the protocol by submitting petitions known as "proposals" and arriving at a popular consensus when a threshold amount of support has been reached. The proposal structure is versatile and allows for holders of staked XPLA (those who have an interest in the long-term viability of the network) to voice their opinion on both blockchain parameter updates as well as the future development of the Xpla protocol.
+Governance is the process through which members of the Xpla community can effect change on the protocol by submitting petitions known as "proposals" and arriving at a popular consensus when a threshold amount of support has been reached. The proposal structure is versatile and allows for holders of staked XPLA (those who have an interest in the long-term viability of the network) to voice their opinion on both blockchain parameter updates and the future development of the Xpla protocol.
 
 Check the [Governance section of the `xplad` reference]({{< ref "subcommands#tx-gov-submit-proposal" >}}) to see examples of how to participate in the Governance process.
 
@@ -202,7 +202,7 @@ for finishedProposalID in GetAllFinishedProposalIDs(block.Time)
 	delegations = stakingKeeper.getDelegations(voterAddress) // get all delegations for current voter
 
 	for each delegation in delegations
-		// make sure delegation.Shares does NOT include shares being unbonded
+		// make sure delegation. Shares does NOT include shares being unbonded
 		tmpValMap(delegation.ValidatorAddr).Minus += delegation.Shares
 		proposal.updateTally(vote, delegation.Shares)
 

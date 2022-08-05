@@ -21,7 +21,7 @@ The `verifyBytes` function then compares the original `TEST_BYTES` against the s
 You can see how the `verifyBytes` function works [here](https://github.com/c2xdev/wallet-provider/blob/4e601c2dece7bec92c9ce95991d2314220a2c954/packages/src/%40c2xdev/wallet-controller/verifyBytes.ts#L1).
 {{< /hint >}}
 
-Wallet Provider also supplies useful error types that can be used with a `catch` statement notify the user whether or not the signing was successful:
+Wallet Provider also supplies useful error types that can be used with a `catch` statement notify the user whether the signing was successful:
 
 ```ts
  import {

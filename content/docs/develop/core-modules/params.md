@@ -20,7 +20,7 @@ The params module provides a base parameter store for all other Xpla modules. St
 
 ### Subspaces
 
-`Subspace` is an unique namespace for a paramstore, where keys are configured with a certain prefix. `Subspace` are used by individual keepers, which require an unmodifiable private parameter store.
+`Subspace` is a unique namespace for a paramstore, where keys are configured with a certain prefix. `Subspace` are used by individual keepers, which require an unmodifiable private parameter store.
 
 ## Parameters
 

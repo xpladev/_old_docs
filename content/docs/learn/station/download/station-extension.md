@@ -15,7 +15,7 @@ Complete this tutorial to install the Station extension for the Google Chrome br
 
 ### Install the Station Extension
 
-1. Open your Chrome browser and visit the [the Station web extension](https://chrome.google.com/webstore/detail/xpla-station/aiifbnbfobpmeekipheeijimdpnlpgpp).
+1. Open your Chrome browser and visit the [Station web extension](https://chrome.google.com/webstore/detail/xpla-station/aiifbnbfobpmeekipheeijimdpnlpgpp).
 
 1. Install the extension and add it to your browser.
 

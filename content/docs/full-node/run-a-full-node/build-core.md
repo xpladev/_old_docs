@@ -38,7 +38,7 @@ Xpla core is the official Golang reference implementation of the Xpla node softw
    commit: ea682c41e7e71ba0b182c9e7f989855fb9595885
    build_tags: netgo,ledger
    go: go version go1.18.2 darwin/amd64
-   # ...followed by a lot of dependenecies
+   # ...followed by a lot of dependencies
    ```
 
 ::: {tip}

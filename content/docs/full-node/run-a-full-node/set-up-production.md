@@ -11,7 +11,7 @@ For information about running a validator node, visit the [validator guide](../m
 
 ## Create a dedicated user
 
-Although `xplad` does not require a super user account, during the setup process you'll need super user permission to create and modify some files. It is strongly recommended to use a normal user when running `xplad`.
+Although `xplad` does not require a super user account, during the setup process you'll need super user permission to create and modify some files. It is strongly recommended using a normal user when running `xplad`.
 
 ## Increase the maximum files `xplad` can open
 
@@ -63,7 +63,7 @@ Modify `/etc/security/limits.conf`[\*](https://linux.die.net/man/5/limits.conf) 
 
 3. Run `systemctl daemon-reload` followed by `systemctl enable xplad`. This will register `xplad` as a system service and turn it on upon startup.
 
-4. Now start the serivce with `systemctl start xplad`.
+4. Now start the service with `systemctl start xplad`.
 
 ### Controlling the service
 

@@ -17,7 +17,7 @@ In the `src/core` folder, create a new folder and name it after the new module. 
 
 `src/core/greeting/msgs`
 
-For this example, let's assume that you are creating a two new messages, `MsgHello` and `MsgGoodbye`. The following example shows the code for `MsgHello`, and you can extrapolate from it the way to implement `MsgGoodbye`.
+For this example, let's assume that you are creating two new messages, `MsgHello` and `MsgGoodbye`. The following example shows the code for `MsgHello`, and you can extrapolate from it the way to implement `MsgGoodbye`.
 
 `src/core/greeting/msgs/MsgHello.ts`
 

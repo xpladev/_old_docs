@@ -332,7 +332,7 @@ console.log(isValid("random string")); // false
 
 ## Avoid Status 500: Timed Out Waiting for TX to be Included in a Block
 
-Occasionally the broadcast function of xpla.js throws the error `Status 500: timed out waiting for tx to be included in a block`, even if transaction will confirmed onchain after a few seconds.
+Occasionally the broadcast function of xpla.js throws the error `Status 500: timed out waiting for tx to be included in a block`, even if transaction will be confirmed onchain after a few seconds.
 
 This happens because the libraries use by default the `broadcast-mode = block`, with this mode the LCD to which you are broadcasting the transaction sends an http response to your request only when the transaction has been included in a block, but if the chain is overloaded the confirmation may take too long and trigger a timeout in the LCD.
 

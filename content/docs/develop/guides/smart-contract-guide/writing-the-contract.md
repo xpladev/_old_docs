@@ -58,7 +58,7 @@ pub const STATE: Item<State> = Item::new("state");
 
 Xpla smart contracts have the ability to keep persistent state through Xpla's native LevelDB, a bytes-based key-value store. As such, any data you wish to persist should be assigned a unique key at which the data can be indexed and later retrieved. The singleton in the example above is assigned the key `config` (in bytes).
 
-Data can only be persisted as raw bytes, so any notion of structure or data type must be expressed as a pair of serializing and deserializing functions. For instance, objects must be stored as bytes, so you must supply both the function that encodes the object into bytes to save it on the blockchain, as well as the function that decodes the bytes back into data types that your contract logic can understand. The choice of byte representation is up to you, so long as it provides a clean, bi-directional mapping.
+Data can only be persisted as raw bytes, so any notion of structure or data type must be expressed as a pair of serializing and deserializing functions. For instance, objects must be stored as bytes, so you must supply both the function that encodes the object into bytes to save it on the blockchain and the function that decodes the bytes back into data types that your contract logic can understand. The choice of byte representation is up to you, so long as it provides a clean, bi-directional mapping.
 
 Fortunately, the CosmWasm team have provided utility crates such as [cosmwasm_storage](https://github.com/CosmWasm/cosmwasm/tree/master/packages/storage), which provides convenient high-level abstractions for data containers such as a "singleton" and "bucket", which automatically provide serialization and deserialization for commonly-used types such as structs and Rust numbers.
 
@@ -276,7 +276,7 @@ pub struct CountResponse {
 
 ### Logic
 
-The logic for `query()` should be similar to that of `execute()`, except that, since `query()` is called without the end-user making a transaction, the `env` argument is ommitted as there is no information.
+The logic for `query()` should be similar to that of `execute()`, except that, since `query()` is called without the end-user making a transaction, the `env` argument is omitted as there is no information.
 
 ```rust
 // src/contract.rs
