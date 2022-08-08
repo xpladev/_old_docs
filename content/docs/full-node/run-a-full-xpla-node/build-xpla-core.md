@@ -1,19 +1,19 @@
 ---
-weight: 10
-title: Build Core
+weight: 20
+title: Build Xpla Core
 ---
 
-# Build Xpla core
+# Build Xpla Core
 
 Xpla core is the official Golang reference implementation of the Xpla node software. Use this guide to install Xpla core and `xplad`, the command-line interface and daemon that connects to Xpla and enables you to interact with the Xpla blockchain.
 
-## Get the Xpla core source code
+## Get the Xpla Core Source Code
 
-1. Use `git` to retrieve [Xpla core](https://github.com/c2xdev/core/), and check out the `main` branch, which contains the latest stable release. You can find the latest tag on the [tags page](https://github.com/c2xdev/core/tags) or via autocomplete in your terminal: type `git checkout v` and press `<TAB>`.
+1. Use `git` to retrieve [Xpla core](https://github.com/c2xdev/xpla/), and check out the `main` branch, which contains the latest stable release. You can find the latest tag on the [tags page](https://github.com/c2xdev/xpla/tags) or via autocomplete in your terminal: type `git checkout v` and press `<TAB>`.
 
-   ```
-   git clone https://github.com/c2xdev/core
-   cd core
+   ```sh
+   git clone https://github.com/c2xdev/xpla
+   cd xpla
    git checkout [latest version]
    ```
 
@@ -41,11 +41,11 @@ Xpla core is the official Golang reference implementation of the Xpla node softw
    # ...followed by a lot of dependencies
    ```
 
-::: {tip}
+{{< hint info >}}
+**Note**  
 If the `xplad: command not found` error message is returned, confirm that the Go binary path is correctly configured by running the following command:
 
 ```bash
 export PATH=$PATH:$(go env GOPATH)/bin
 ```
-
-:::
+{{< /hint >}}

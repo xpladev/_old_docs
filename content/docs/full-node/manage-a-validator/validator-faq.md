@@ -1,27 +1,28 @@
 ---
 weight: 20
-title: FAQ
+title: Validator FAQ
 ---
 
 # Validator FAQ
 
-::: {important}
+{{< hint warning >}}
+**Important**  
 Read this document thoroughly before becoming a validator.
-:::
+{{< /hint >}}
 
-## General concepts
+## General Concepts
 
-### What is a validator?
+### What Is a Validator?
 
 The Xpla Core is powered by the Tendermint consensus. Validators run full nodes, participate in consensus by broadcasting votes, commit new blocks to the blockchain, and participate in governance of the blockchain. Validators are able to cast votes on behalf of their delegators. A validator's voting power is weighted according to their total stake.
 
-### What is a full node?
+### What Is a Full Node?
 
 A full node is a program that validates the transactions and blocks of a blockchain. Validators must run full nodes. Full nodes require more resources than light nodes,  which only processes block headers and a small subset of transactions. Running a full node means you are running a non-compromised and up-to-date version of the Xpla Core software with low network latency and no downtime.
 
 It is possible and encouraged for any user to run full nodes even if they do not plan to be validators.
 
-### What is staking?
+### What Is Staking?
 
 When XPLA holders delegate their XPLA to a validator, they are ***staking.*** Staking increases a validator's weight, which helps them, and in return delegators get rewarded.
 
@@ -29,7 +30,7 @@ The Dimension-1 Mainnet is a public Proof of Stake (PoS) blockchain. This means 
 
 The active validator set is made up of 130 validators, who hold the most XPLA. The bottom validator’s stake always forms the barrier for entry into the network. Creating a validator with more stake than the bottom validator is the only way to enter the active set. If validators double-sign, or are frequently offline, they risk their staked XPLA, including XPLA delegated by users, being slashed by the protocol to penalize negligence and misbehavior.
 
-### What is a delegator?
+### What Is a Delegator?
 
 Delegators are XPLA holders who want to receive staking rewards without the responsibility of running a validator. Through Xpla Station, a user can delegate XPLA to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
 
@@ -39,7 +40,7 @@ Delegators play a critical role in the system, as they are responsible for choos
 
 ## Becoming a Validator
 
-### How do I become a validator?
+### How Do I Become a Validator?
 
 Any participant in the network can signal their intent to become a validator by creating a validator and registering its validator profile. The candidate then broadcasts a `create-validator` transaction, which contains the following data:
 
@@ -68,25 +69,25 @@ Any participant in the network can signal their intent to become a validator by 
 ```bash
 xplad tx staking create-validator
     --pubkey xplavalconspub1zcjduepqs5s0vddx5m65h5ntjzwd0x8g3245rgrytpds4ds7vdtlwx06mcesmnkzly
-    --amount "2axpla"
+    --amount "100000000000000000000axpla"
     --from tmp
     --commission-rate="0.20"
     --commission-max-rate="1.00"
     --commission-max-change-rate="0.01"
     --min-self-delegation "1"
-    --moniker "gazua"
-    --chain-id "test-chain-uEe0bV"
+    --moniker [YOUR_MONIKER]
+    --chain-id "test-chain"
     --gas auto
     --node tcp://127.0.0.1:26647
 ```
 
 Once a validator is created and registered, XPLA holders can delegate XPLA to them, effectively adding stake to its pool. The total stake of a validator is the total of their self-bonded XPLA plus the XPLA bonded by external delegators.
 
-**Only the top 130 validators are considered active or *bonded validators***. If a validator's total stake dips below the top 130, the validator loses its validator privileges and no longer serves as part of the active set, entering into **unbonding mode** and eventually becoming **unbonded**, or inactive.
+**Only the top 8 validators are considered active or *bonded validators***. If a validator's total stake dips below the top 8, the validator loses its validator privileges and no longer serves as part of the active set, entering into **unbonding mode** and eventually becoming **unbonded**, or inactive.
 
-## Validator keys and states
+## Validator Keys and States
 
-### What type of key do I need to use?
+### What Type of Key Do I Need to Use?
 
 - **Tendermint Consensus Keypair:** This Consensus Keypair is on the [tendermint](https://docs.tendermint.com/master/nodes/validators.html#validator-keys) layer and consists of a unique Private Key used to sign block hashes associated with a Public Key `xplavalconspub`.
 
@@ -96,11 +97,12 @@ Once a validator is created and registered, XPLA holders can delegate XPLA to th
 
     **Example:** `xplavalconspub1zcjduc3qcyj09qc03elte23zwshdx92jm6ce88fgc90rtqhjx8v0608qh5ssp0w94c`
 
-::: {warning}
+{{< hint warning >}}
+**Warning**  
 A validator requires the above key in order to identify itself on the network, sign blocks, and sign staking/operational transactions such as voting on Governance proposals. It is the validator's sole responsibility to secure these keys and have a contingency backup plan in the event of contingencies.
-:::
+{{< /hint >}}
 
-### What are the different states a validator can be in?
+### What Are the Different States a Validator Can Be in?
 
 After a validator is created with the `create-validator` transaction, it can be in three states:
 
@@ -115,29 +117,29 @@ All Delegators have the same state as their validator.
 Delegations are not necessarily bonded. XPLA can be delegated and bonded, delegated and unbonding, delegated and unbonded, or liquid.
 
 
-### What is "self-bonding"? How can I increase my "self-bond"?
+### What Is "self-bonding"? How Can I Increase My "self-bond"?
 
 A validator operator's "self-bond" refers to the amount of XPLA delegated to itself. You can increase your self-bond by delegating more XPLA to your validator account.
 
-### Can I delegate to a validator outside of the active set?
+### Can I Delegate to a Validator Outside of the Active Set?
 
 You can still delegate to a validator even if they do not appear on Xpla Station. Simply add the xplavaloper address of your desired validator to the end of the following URL:
 
-`https://station.c2x.world/validator/<xplavaloper-address>`
+`https://station.xpla.io/validator/<xplavaloper-address>`
 
 Ask your validator for their xplavaloper address.
 
 Be careful when delegating to validators outside of the active set. Some inactive validators may be jailed or are no longer supported. Station only displays active or recently active validators who are able to participate in consensus.
 
-### Is there a faucet?
+### Is There a Faucet?
 
-Use the [Xpla faucet](https://faucet.c2x.world/) to obtain coins for the testnet.
+Use the [Xpla faucet](https://faucet.xpla.io/) to obtain coins for the testnet.
 
-### Is there a minimum amount of XPLA that must be staked to be an active (bonded) validator?
+### Is There a Minimum Amount of XPLA That Must Be Staked to Be An Active (bonded) Validator?
 
-There is no set minimum. The top 130 validators with the highest total stake (where total stake = self-bonded stake + delegated stake) make up the active validator set. The bottom 130th validator sets the barrier to entry for the active set.
+There is no set minimum. The top 8 validators with the highest total stake (where total stake = self-bonded stake + delegated stake) make up the active validator set. The bottom 8th validator sets the barrier to entry for the active set.
 
-### How will delegators choose their validators?
+### How Will Delegators Choose Their Validators?
 
 Delegators are free to choose validators according to their own criteria. This may include:
 
@@ -153,11 +155,11 @@ Validators can also provide a website address to complete their resume. Validato
 
 ## Responsibilities
 
-### Do validators need to be publicly identified?
+### Do Validators Need to Be Publicly Identified?
 
 No, they do not. Each delegator will value validators based on their own criteria. Validators are typically advised to register a website address when they nominate themselves so they can advertise their operation as they see fit.
 
-### What are the responsibilities of a validator?
+### What Are the Responsibilities of a Validator?
 
 A validator must:
 
@@ -167,23 +169,24 @@ A validator must:
 
 - **Be active members of the community:** Validators should always be up-to-date with the current state of the ecosystem so that they can easily adapt to any change.
 
-### What does staking imply?
+### What Does Staking Imply?
 
 Think of staked XPLA as a safety deposit on a validator's activities. When a validator or a delegator wants to retrieve part or all of their deposit, they send an unbonding transaction. The staked XPLA then undergoes a _three weeks unbonding period,_ during which it is vulnerable to slashing risks for potential misbehavior committed by the validator before the start of the unbonding process.
 
 Validators receive block provisions, block rewards, and fee rewards and share these with their delegators. If a validator misbehaves, a certain portion of their total stake is slashed (the severity of the penalty depends on the type of misbehavior). This means that every user that bonds XPLA to a slashed validator gets penalized in proportion to their stake. Delegators are incentivized to delegate to validators that function safely.
 
-### Can a validator run away with a delegators' XPLA?
+### Can a Validator Run Away with a Delegators' XPLA?
 
 **No.** By delegating to a validator, users delegate staking power. The more staking power a validator has, the more weight it has in the consensus and processes. This does not mean that the validator has custody of its delegators' XPLA.
 
-::: {important}
+{{< hint warning >}}
+**Important**  
 It is impossible for a validator to run away with a delegator's funds.
-:::
+{{< /hint >}}
 
 Although delegated funds cannot be stolen by validators, delegators are still liable if a validator misbehaves. When this happens, a delegator's stake will be partially slashed in proportion to their relative stake.
 
-### How often will a validator be chosen to propose the next block? Does it go up with the quantity of XPLA staked?
+### How Often Will a Validator Be Chosen to Propose the Next Block? Does It Go Up with the Quantity of XPLA Staked?
 
 The validator that is selected to mine the next block is called the **proposer**, or the "leader" in the consensus for the round. Each proposer is selected deterministically, and the frequency of being chosen is equal to the relative total stake of the validator (Total stake = self-bonded stake + delegators stake). For example, if the total bonded stake across all validators is 100 XPLA, and a validator's total stake is 10 XPLA, then this validator will be chosen 10% of the time as the proposer.
 
@@ -191,7 +194,7 @@ To understand more about the proposer selection process in Tendermint BFT consen
 
 ## Incentives
 
-### What are the incentives to stake?
+### What Are the Incentives to Stake?
 
 Each member of a validator's staking pool earns revenue:
 
@@ -199,19 +202,19 @@ Each member of a validator's staking pool earns revenue:
 
 This total revenue is divided among a validator's staking pool according to each validator's weight. The revenue is then divided among delegators in proportion to each delegator's stake. Note that a commission on delegators' revenue is applied by the validator before it is distributed.
 
-### What is the incentive to run a validator?
+### What Is the Incentive to Run a Validator?
 
 Validators earn more revenue than their delegators through commission. 
 
-### What is a validator's commission?
+### What Is a Validator's Commission?
 
 The revenue received by a validator's pool is split between a validator and their delegators. A validator can apply a commission on the part of the revenue that goes to its delegators. This commission is set as a percentage. Each validator is free to set its initial commission, maximum daily commission change rate, and maximum commission. The mainnet enforces the parameters that each validator sets. These parameters can only be defined when initially declaring candidacy, and may only be constrained further after being declared.
 
-### How are block provisions distributed?
+### How Are Block Provisions Distributed?
 
 Block provisions are distributed proportionally to each validator relative to their total stake. This means that even though each validator gains rewards with each provision, all validators will still maintain equal weight.
 
-### How are fees distributed?
+### How Are Fees Distributed?
 
 Fees are distributed to validators in the same way as commission: proportionally to each validator relative to their total stake. A Block proposer can also get a bonus if the proposer includes more than the minimum of required precommits.
 
@@ -219,25 +222,27 @@ Fees are distributed to validators in the same way as commission: proportionally
 
 When a validator is selected to propose the next block, they must include at least two thirds of the precommits for the previous block in the form of validator signatures. Proposers who include more than two thirds receive a bonus proportional to the amount of additional precomits. This reward ranges from 1% if the proposer includes two thirds of the precommits to 5% if the proposer includes 100% of the precommits. If a proposer waits too long however, other validators may timeout and move on to the next proposer. This is why validators have to find a balance between wait time to get the most signatures and the risk of losing out on proposing the next block. This feature aims to incentivize non-empty block proposals, better networking between validators, and to mitigate censorship.
 
-**Example:** There are 10 validators with equal stake. Each has a 1% commission and 20% self-bonded XPLA. If a successful block collects 1005 SDT in fees, and the proposer includes 100% of the signatures in their block, they will receive the full 5% bonus.
+**Example:** There are 10 validators with equal stake. Each has a 1% commission and 20% self-bonded XPLA. If a successful block collects 1005 XPLA in fees, and the proposer includes 100% of the signatures in their block, they will receive the full 5% bonus.
 
-Use this simple equation to find the reward $R$ for each validator:
+Use this simple equation to find the reward {{< katex >}}R{{< /katex >}} for each validator:
 
-$$9R ~ + ~ R ~ + ~ 5\%(R) ~ = ~ 1005 ~ \Leftrightarrow ~ R ~ = ~ 1005 ~/ ~10.05 ~ = ~ 100$$
+{{< katex display >}}
+9R ~ + ~ R ~ + ~ 5\%(R) ~ = ~ 1005 ~ \Leftrightarrow ~ R ~ = ~ 1005 ~/ ~10.05 ~ = ~ 100
+{{< /katex >}}
 
 - For the validator that proposes a block:
-  - The pool obtains $R ~ + ~ 5\%(R)$: 105 SDT
-  - Commission: 105 SDT ~ * ~ 80\% ~ * ~ 1\%$ = 0.84 SDT
-  - Validator's reward: 105 SDT ~ * ~ 20\% ~ + ~ Commission$ = 21.84 SDT
-  - Delegators' rewards: 105 SDT ~ * ~ 80\% ~ - ~ Commission$ = 83.16 SDT \(each delegator will be able to claim its portion of these rewards in proportion to their stake\)
+  - The pool obtains {{< katex >}}R ~ + ~ 5\%(R) = 105 XPLA{{< /katex >}}
+  - Commission: {{< katex >}}105 XPLA ~ * ~ 80\% ~ * ~ 1\% = 0.84 XPLA{{< /katex >}}
+  - Validator's reward: {{< katex >}}105 XPLA ~ * ~ 20\% ~ + ~ Commission = 21.84 XPLA{{< /katex >}}
+  - Delegators' rewards: {{< katex >}}105 XPLA ~ * ~ 80\% ~ - ~ Commission = 83.16 XPLA{{< /katex >}} (each delegator will be able to claim its portion of these rewards in proportion to their stake)
 
 - For all other validators:
-  - The pool obtains $R$: 100 SDT
-  - Commission: 100 SDT ~ * ~ 80\% ~ * ~ 1\%$ = 0.8 SDT
-  - Validator's reward: 100 SDT ~ * ~ 20\% ~ + ~ Commission$ = 20.8 SDT
-  - Delegators' rewards: 100 SDT ~ * ~ 80\% ~ - ~ Commission$ = 79.2 SDT \(each delegator will be able to claim its portion of these rewards in proportion to their stake\)
+  - The pool obtains {{< katex >}}R = 100 XPLA{{< /katex >}}
+  - Commission: {{< katex >}}100 XPLA ~ * ~ 80\% ~ * ~ 1\% = 0.8 XPLA{{< /katex >}}
+  - Validator's reward: {{< katex >}}100 XPLA ~ * ~ 20\% ~ + ~ Commission = 20.8 XPLA{{< /katex >}}
+  - Delegators' rewards: {{< katex >}}100 XPLA ~ * ~ 80\% ~ - ~ Commission = 79.2 XPLA{{< /katex >}}(each delegator will be able to claim its portion of these rewards in proportion to their stake)
 
-### What are the slashing conditions?
+### What Are the Slashing Conditions?
 
 If a validator misbehaves, their bonded stake along with their delegators' stake will be slashed. The severity of the punishment depends on the type of fault. There are main faults that can result in slashing of funds:
 
@@ -245,9 +250,10 @@ If a validator misbehaves, their bonded stake along with their delegators' stake
 
 - **Unavailability:** If a validator's signature has not been included in the last X blocks, the validator will get slashed by a marginal amount proportional to X. If X is above a certain limit, then the validator will get unbonded.
 
-::: {warning}
- Even if a validator does not intentionally misbehave, it can still be slashed if its node crashes, loses connectivity, gets DDoSed, or if its private key is compromised.
-:::
+{{< hint warning >}}
+**Warning**  
+Even if a validator does not intentionally misbehave, it can still be slashed if its node crashes, loses connectivity, gets DDoSed, or if its private key is compromised.
+{{< /hint >}}
 
 ### Are validators required to self-bond XPLA?
 
@@ -260,7 +266,7 @@ In order for delegators to have some guarantee about how much `skin-in-the-game`
 
 ## Technical Requirements
 
-### What are the hardware requirements?
+### What Are the Hardware Requirements?
 
 The following requirements are recommended for running Xpla Core:
 
@@ -270,19 +276,19 @@ At least 300 mbps of network bandwidth
 - 2TB NVME storage
 - At least 300mbps network bandwidth
 
-### What are the software requirements?
+### What Are the Software Requirements?
 
 In addition to running a Xpla Core node, validators should develop monitoring, alerting and management solutions.
 
 Validators should expect to perform regular software updates to accommodate upgrades and bug fixes. There will inevitably be issues with the network, and this requires vigilance.
 
-### What are the personnel requirements?
+### What Are the Personnel Requirements?
 
 A successful validator operation will require the efforts of multiple highly skilled individuals and continuous operational attention. Running a validator is considerably more involved than mining bitcoin.
 
 Running an effective operation is critical to avoiding unexpected unbonding or being slashed. This includes being able to respond to attacks, outages, as well as to maintain security and isolation in your data center.
 
-### How can validators protect themselves from Denial-of-Service attacks?
+### How Can Validators Protect Themselves from Denial-of-Service Attacks?
 
 Denial-of-service attacks occur when an attacker sends a flood of internet traffic to a validator's IP address. This can prevent a validator's server from connecting to the internet.
 

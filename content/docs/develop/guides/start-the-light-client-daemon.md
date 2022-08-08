@@ -36,4 +36,4 @@ Once restarted, the LCD will be available.
 
 For more information about the Xpla REST API endpoints, see the [Swagger documentation](https://lcd.xpla.dev/swagger/).
 
-For more information on configuring `app.toml`, see [Configure General Settings]({{< ref "/docs/full-node/run-a-full-node/configure-general-settings" >}}).
+For more information on configuring `app.toml`, see [Configure General Settings]({{< ref "configure-general-settings" >}}).

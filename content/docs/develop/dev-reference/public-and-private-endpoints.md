@@ -13,7 +13,7 @@ title: Public and Private Endpoints
 
 {{< hint warning >}}
 **Public endpoint warning**  
-Public RPC endpoints should only be used in development. For live dApps, use a private RPC endpoint from the list above or [set up your own endpoint]({{< ref "system-config" >}}).
+Public RPC endpoints should only be used in development. For live dApps, use a private RPC endpoint from the list above or [set up your own endpoint]({{< ref "system-configuration" >}}).
 {{< /hint >}}
 
 ### Public LCD

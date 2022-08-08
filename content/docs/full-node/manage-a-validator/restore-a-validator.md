@@ -1,6 +1,6 @@
 ---
-weight: 40
-title: Restore
+weight: 60
+title: Restore A Validator
 ---
 
 # Restore a Validator
@@ -10,9 +10,10 @@ A validator can be completely restored on a new Xpla node with the following set
 - The Consensus key, stored in `~/.xpla/config/priv_validator.json`
 - The mnemonic to the validator wallet
 
-::: {danger}
+{{< hint danger >}}
+**Danger**  
 Before proceeding, ensure that the existing validator is not active. Double voting has severe slashing consequences.
-:::
+{{< /hint >}}
 
 To Restore a Validator:
 

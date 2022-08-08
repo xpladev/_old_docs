@@ -1,11 +1,11 @@
 ---
 bookCollapseSection: true
 bookFlatSection: false
-weight: 10
-title: Manage Validator
+weight: 20
+title: Manage a Validator
 ---
 
-# Manage a Validator <img src="/img/Build_a_validator.svg" height="40px">
+# Manage a Validator
 
 The tasks in this section describe how to set up a Xpla validator. While setting up a rudimentary validating node is easy, running a production-quality validator node with a robust architecture and security features requires an extensive setup.
 
@@ -13,16 +13,16 @@ The Xpla core is powered by the Tendermint consensus. Validators run full nodes,
 
 Validators and their delegators earn the following rewards:
 
-- [Gas](../../learn/fees.md#gas): Fees added on to each transaction to avoid spamming and pay for computing power. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
+- [Gas]({{< ref "/docs/learn/fees#gas" >}}): Fees added on to each transaction to avoid spamming and pay for computing power. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- [Inflation rewards](../../develop/module-specifications/spec-mint.md): Every block, new XPLA is minted and released to validators and delegators as staking rewards. The rate for the minting of this new XPLA is fixed at 7% per year. 
+- [FIXME!! Inflation rewards]({{< ref "/docs/develop/core-modules/mint" >}}): Every block, new XPLA is minted and released to validators and delegators as staking rewards. The rate for the minting of this new XPLA is fixed at 7% per year. 
 
 Validators can set commissions on the fees they receive as an additional incentive.
 
 If validators double sign, are frequently offline, or do not participate in governance, their staked XPLA (including XPLA of users that delegated to them) can be slashed. Penalties can vary depending on the severity of the violation.
 
-For more general information on validators, visit the [validator section](../../learn/protocol.md#validators) of the concepts page.
+For more general information on validators, visit the [validator section]({{< ref "about-xpla#validators" >}}) of the concepts page.
 
 ## Additional Resources
 
-- [The validator FAQ](faq.md)
+- [The validator FAQ]({{< ref "validator-faq" >}})

@@ -1,15 +1,15 @@
 ---
-weight: 80
-title: Updates and Additional
+weight: 70
+title: Updates and Additional Settings
 ---
 
-# Updates and additional settings
+# Updates and Additional Settings
 
-## Upgrade the testnet
+## Upgrade the Testnet
 
 These instructions are for full nodes running older testnets that would like to upgrade to the latest testnet.
 
-### 1. Reset data
+### 1. Reset Data
 
 Remove the outdated files and reset the data:
 
@@ -21,11 +21,12 @@ xplad unsafe-reset-all
 
 Your node is now in a pristine state, keeping the original `priv_validator.json` and `config.toml`. If you had any sentry nodes or full nodes set up before, your node will still try to connect to them but may fail if they haven't also been upgraded.
 
-::: {danger}
+{{< hint danger >}}
+**Danger**  
 Make sure that every node has a unique `priv_validator.json`. Do not copy the `priv_validator.json` from an old node to multiple new nodes. Running two nodes with the same `priv_validator.json` will cause you to double sign.  
-:::
+{{< /hint >}}
 
-### 2. Software upgrade
+### 2. Software Upgrade
 
 Now it is time to upgrade the software. Go to the project directory and run:
 
@@ -34,15 +35,16 @@ git checkout master && git pull
 make
 ```
 
-::: {tip}
+{{< hint info >}}
+**Note**  
 If you have issues at this step, please check that you have a compatible version of GO installed (v1.18+).
-:::
+{{< /hint >}}
 
-The previous command uses `master` as it contains the latest stable release. See the [testnet repo](https://github.com/c2xdev/testnet) for details on which version is needed for which testnet, and the [Xpla Core release page](https://github.com/c2xdev/core/releases) for details on each release.
+The previous command uses `master` as it contains the latest stable release. See the [testnet repo](https://github.com/c2xdev/testnets) for details on which version is needed for which testnet, and the [Xpla Core release page](https://github.com/c2xdev/xpla/releases) for details on each release.
 
 Your full node is now cleanly upgraded!
 
-## Exporting state
+## Exporting State
 
 Xpla can export the entire application state to a JSON file. You can use this file for manual analysis or as the genesis file of a new network.
 
@@ -64,11 +66,10 @@ If you plan to start a new network from the exported state, export with the `--f
 xplad export --height [height] --for-zero-height > [filename].json
 ```
 
-::: {tip}
-
+{{< hint info >}}
+**Note**  
 For more information on seeds and peers, visit the [Tendermint documentation](https://github.com/tendermint/tendermint/blob/master/docs/tendermint-core/using-tendermint.md#peers).
-
-:::
+{{< /hint >}}
 
 ## Additional Settings
 

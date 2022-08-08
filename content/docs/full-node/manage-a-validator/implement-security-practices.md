@@ -1,6 +1,6 @@
 ---
 weight: 30
-title: Implement Security
+title: Implement Security Practices
 ---
 
 # Implement Security Practices
@@ -47,9 +47,10 @@ Learn more about [sentry-node architecture](https://forum.cosmos.network/t/sentr
    private_peer_ids = "nodeid of the validator"
    ```
 
-::: {tip}
+{{< hint info >}}
+**Note**  
 A node address has the following format: `nodeid@ip:port`, you can get the nodeid by running `xplad tendermint show-node-id`, the default port is 26656.
-:::
+{{< /hint >}}
 
 ## Environment Variables
 

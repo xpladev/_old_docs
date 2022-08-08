@@ -1,16 +1,16 @@
 ---
-weight: 60
+weight: 10
 title: System Configuration
 ---
 
 # System Configuration
 
-:::{admonition} Recommended operating systems
-:class: caution  
+{{< hint warning >}}
+**Recommended operation systems**  
 This guide has been tested against Linux distributions only. To ensure a successful production environment setup, consider using a Linux system.
-:::
+{{< /hint >}}
 
-Running a full Xpla node is a resource-intensive process that requires a persistent server. If you want to use Xpla without downloading the entire blockchain, use [Xpla Station](https://station.c2x.world/).
+Running a full Xpla node is a resource-intensive process that requires a persistent server. If you want to use Xpla without downloading the entire blockchain, use [Xpla Station](https://station.xpla.io/).
 
 ## Hardware Requirements
 
@@ -22,17 +22,16 @@ The the minimum requirements for running a Xpla full node are:
 | [`tesseract-1`](join-a-network.md#join-a-public-network)                  | 2 (+2 threads)| 16 GB   | 500 GB (SSD 1000 MB/s R/W) | 150 Mbps  |
 | [`private-network`](join-a-network.html#set-up-a-local-private-network) | 1             | 2 GB    | 20 GB (SSD 500 MB/s R/W)   |  N/A      |
 
-:::{admonition} Storage requirements
-:class: warning
+{{< hint warning >}}
+**Storage requirements**  
 As the network grows, the minimum hardware requirements will also grow. It is recommended that you monitor the system so you can prevent it from running out of resources.
-:::
+{{< /hint >}}
 
 ## Prerequisites
 
 - [Golang v1.18+ linux/amd64](https://go.dev/dl/)
 
-  ::: {dropdown} Installing Go for MacOS & Linux
-
+  {{< expand "Installing Go for MacOS & Linux" >}}
   Go releases can be found here: [ https://go.dev/dl/ ](https://go.dev/dl/)
 
   In your browser, you can right-click the correct release (V1.18) and `Copy link`.
@@ -62,27 +61,27 @@ As the network grows, the minimum hardware requirements will also grow. It is re
   # go version go1.18.2 linux/amd64
 
   ```
-
-  :::
+  {{< /expand >}}
 
 - Linux users: `sudo apt-get install -y build-essential`
 
-## Commonly used ports
+## Commonly Used Ports
 
 `xplad` uses the following TCP ports. Toggle their settings to match your environment.
 
 Most validators will only need to open the following port:
 
-- `26656`: The default port for the P2P protocol. This port is used to communicate with other nodes and must be open to join a network. However, it does not have to be open to the public. For validator nodes, [configuring `persistent_peers`](updates-and-additional.md#additional-settings) and closing this port to the public are recommended.
+- `26656`: The default port for the P2P protocol. This port is used to communicate with other nodes and must be open to join a network. However, it does not have to be open to the public. For validator nodes, [configuring `persistent_peers`]({{< ref "updates-and-additional-settings#additional-settings" >}}) and closing this port to the public are recommended.
 
 Additional ports:
 
-- `1317`: The default port for the [Lite Client Daemon](../../develop/guides/start-lcd.md) (LCD), which can be executed by `xplad rest-server`. The LCD provides an HTTP RESTful API layer to allow applications and services to interact with your `xplad` instance through RPC. For usage examples, see [Xpla REST API](https://lcd.xpla.dev/swagger/). You don't need to open this port unless you have use for it.
+- `1317`: The default port for the [Light Client Daemon]({{< ref "start-the-Light-Client-Daemon" >}}) (LCD), which can be executed by `xplad rest-server`. The LCD provides an HTTP RESTful API layer to allow applications and services to interact with your `xplad` instance through RPC. For usage examples, see [Xpla REST API](https://lcd.xpla.io/swagger/). You don't need to open this port unless you have use for it.
 
 - `26660`: The default port for interacting with the [Prometheus](https://prometheus.io) database, which can be used to monitor the environment. In the default configuration, this port is not open.
 
 - `26657`: The default port for the RPC protocol. Because this port is used for querying and sending transactions, it must be open for serving queries from `xplad`.
 
-::: {warning}
+{{< hint warning >}}
+**Warning**  
 Do not open port `26657` to the public unless you plan to run a public node.
-:::
+{{< /hint >}}
