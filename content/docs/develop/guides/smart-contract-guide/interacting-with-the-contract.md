@@ -7,7 +7,7 @@ title: Interacting with the Contract
 
 {{< hint info >}}
 **Note**  
-You can also follow these steps in the official desktop wallet for Xpla, [Xpla Station](https://station.c2x.world).
+You can also follow these steps in the official web wallet for Xpla, [Xpla wallet](https://wallet.xpla.io).
 {{< /hint >}}
 
 ## Requirements

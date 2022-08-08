@@ -7,15 +7,14 @@ title: Developer Resources
 
 ## Developer Links
 
-- [Xpla docs](http://docs.c2x.world) - Official documentation for Xpla
-- [xpla.js](https://docs.c2x.world/docs/develop/sdks/xpla-js/README.html) - xpla.js seeks to provide a compatible way to work with the Xpla blockchain within JavaScript runtimes, such as Node.js and the browser.
-- [Agora developer forum](https://agora.c2x.world/c/developer/20)
+- [Xpla docs]({{< ref "/docs" >}}) - Official documentation for Xpla
+- [xpla.js]({{< ref "xpla-js" >}}) - xpla.js seeks to provide a compatible way to work with the Xpla blockchain within JavaScript runtimes, such as Node.js and the browser.
+- [Agora developer forum](https://agora.xpla.io/)
 
 ## Developer Support
     
-Find developer support on [Discord](https://discord.com/invite/) or [Telegram](https://t.me/).
+Find developer support on [Discord](https://discord.com/invite/).
 
-    
 ### Discord Instructions
     
 1. Join the [Xpla Discord server](https://discord.com/invite/).
@@ -27,4 +26,4 @@ Find developer support on [Discord](https://discord.com/invite/) or [Telegram](h
 
 ### Developer Forum
     
-Join the [Agora developer forum](https://agora.c2x.world/c/developer/20), a community-managed forum to address commonly asked questions by developers. 
+Join the [Agora developer forum](https://agora.xpla.io/), a community-managed forum to address commonly asked questions by developers. 

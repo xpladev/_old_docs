@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: Getting Started
+title: Get Started with xpla.js
 ---
 
 # Get Started with xpla.js
@@ -20,7 +20,7 @@ By the end of this guide, you'll be able to execute a token swap from your appli
 ## Prerequisites
 
 - [npm and node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- Xpla Station browser extension
+- Xpla extension wallet
 
 ## 1. Set-up Your Project
 
@@ -59,7 +59,7 @@ By the end of this guide, you'll be able to execute a token swap from your appli
 
 Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, make queries, create wallets, and submit transactions. It's the main workhorse behind `xpla.js`.
 
-1. Install a fetch library to make HTTP requests and dynamically pull recommended gas prices. You can use the one referenced below or choose your favorite.
+1. Install a fetch library to make HTTP requests and dynamically pull recommended gas prices. You can use the one wallet referenced below or choose your favorite.
 
    ```sh
    npm install --save isomorphic-fetch
@@ -92,7 +92,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 
 ## 3. Create a Tesseract Testnet Wallet
 
-1. You'll need a wallet to sign and submit transactions. [Create a new wallet](../../learn/station/download/xpla-station-extension.md) using the Xpla Station extension. Be sure to save your mnemonic key!
+1. You'll need a wallet to sign and submit transactions. [Create a new wallet]({{< ref "/docs/learn/wallet/download/extension-wallet" >}}) using the Xpla extension wallet. Be sure to save your mnemonic key!
 
 2. After creating your wallet, you’ll need to set it to use the testnet. Click the gear icon in the extension and change the network from `mainnet` to `testnet`.
 
@@ -112,7 +112,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
    For security reasons, it's better to store your mnemonic key data in your environment by using `process.env.SECRET_MNEMONIC` or `process.env.SECRET_PRIV_KEY`. This practice is more secure than a hard-coded string.
    {{< /hint >}}
 
-4. Request testnet funds for your wallet by navigating to the [Xpla faucet](https://faucet.c2x.world) and inputting your wallet address. You'll need these funds to perform swaps and pay for gas fees. Once the funds are in your wallet, you’re ready to move on to the next step.
+4. Request testnet funds for your wallet by navigating to the [Xpla faucet](https://faucet.xpla.io) and inputting your wallet address. You'll need these funds to perform swaps and pay for gas fees. Once the funds are in your wallet, you’re ready to move on to the next step.
 
 ## 4. Find a Contract Address
 

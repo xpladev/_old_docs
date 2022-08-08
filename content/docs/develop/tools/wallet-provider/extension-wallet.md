@@ -1,19 +1,19 @@
 ---
 weight: 30
-title: Station Extension
+title: Extension Wallet
 ---
 
-# Station Extension
+# Extension Wallet
 
-The API for the Xpla Station extension gets updated periodically. If you are developing a dApp, please check regularly for updates as breaking changes may be introduced frequently.
+The API for the Xpla extension wallet gets updated periodically. If you are developing a dApp, please check regularly for updates as breaking changes may be introduced frequently.
 
-## What Is the Xpla Station Extension?
+## What Is the Xpla Extension Wallet?
 
-The Xpla Station extension is a web-wallet extension for Chrome that enables webpages to create requests for signing and broadcasting transactions. The webpage can detect the presence of Station Extension and generate a prompt whereby the user can confirm the transaction to be signed.
+The Xpla extension wallet is a web-wallet extension for Chrome that enables webpages to create requests for signing and broadcasting transactions. The webpage can detect the presence of Xpla extension wallet and generate a prompt whereby the user can confirm the transaction to be signed.
 
 ## Wallet Provider
 
-Wallet Provider is a library that simplifies the development of React dApps that use Xpla Station extension or Xpla Station mobile.
+Wallet Provider is a library that simplifies the development of React dApps that use Xpla extension wallet or Xpla mobile wallet.
 
 Use one of the following templates to get quickly get started using Wallet Provider:
 

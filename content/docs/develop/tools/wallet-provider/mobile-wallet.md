@@ -1,13 +1,13 @@
 ---
 weight: 40
-title: Station Mobile
+title: Mobile Wallet
 ---
 
-# Station Mobile
+# Mobile Wallet
 
-Xpla Station Mobile is an application that enables users to interact with Xpla Core.
+Xpla mobile wallet is an application that enables users to interact with Xpla Core.
 
-Xpla Station Mobile allows users to:
+Xpla mobile wallet allows users to:
 
 - Create wallets and send tokens
 - Get involved with staking by browsing through validator information and delegating XPLA tokens.
@@ -15,7 +15,7 @@ Xpla Station Mobile allows users to:
 
 ## URL Scheme
 
-Xpla Station Mobile includes a custom [URL Scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app) that lets developers trigger different actions in the app.
+Xpla mobile wallet includes a custom [URL Scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app) that lets developers trigger different actions in the app.
 
 These URL handlers can be opened by scanning a QR code or opening the link directly.
 
@@ -26,7 +26,7 @@ The send function allows a user to send a specified amount of funds to a recipie
 #### URL
 
 ```
-xplastation://send/?payload=${base64 json}
+xplawallet://send/?payload=${base64 json}
 ```
 
 #### Payload Format
@@ -60,11 +60,11 @@ ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4
 **Full URL with encoded payload:**
 
 ```
-xplastation://send/?payload=ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4IiwKICAidG9rZW4iOiAidXVzZCIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
+xplawallet://send/?payload=ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4IiwKICAidG9rZW4iOiAidXVzZCIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
 ```
 
 **Full URL in QR code:**
 
 TODO
 
-**Find out more on [GitHub](https://github.com/c2xdev/station-mobile/#app-scheme).**
+**Find out more on [GitHub](https://github.com/c2xdev/mobile-wallet/#app-scheme).**

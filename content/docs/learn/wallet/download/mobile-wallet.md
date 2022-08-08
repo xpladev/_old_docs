@@ -1,24 +1,24 @@
 ---
 weight: 30
-title: Station Mobile
+title: Mobile Wallet
 ---
 
-# Station Mobile
+# Mobile Wallet
 
-Complete this tutorial to get started with the Station mobile app.
+Complete this tutorial to get started with the Xpla mobile wallet.
 
-## Download the Station App
+## Download the Xpla Wallet App
 
 1. Tap the download link for your operating system. Your device’s app store will open.
 
-   - [Station for iOS](https://apps.apple.com/app/id1548434735)
-   - [Station for Android](https://play.google.com/store/apps/details?id=world.c2x.station)
+   - [Xpla wallet for iOS](https://apps.apple.com/app/...)
+   - [Xpla wallet for Android](https://play.google.com/store/apps/details?id=io.xpla.wallet)
 
-1. Install the Station app on your phone.
+1. Install the Xpla mobile wallet on your phone.
 
 ## Create a New Wallet
 
-1. Launch the Station app and select **New wallet**
+1. Launch the Xpla mobile wallet and select **New wallet**
 
    ```
    TODO: image
@@ -65,11 +65,11 @@ Congratulations, you have just created a wallet!
 
 1. Withdraw any token supported by the Xpla network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
 
-   1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Station Desktop app near your wallet name. Your wallet address will look like this: `xpla<random-numbers-and-letters>`
+   1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Xpla web wallet near your wallet name. Your wallet address will look like this: `xpla<random-numbers-and-letters>`
 
    1. Double-check your wallet address is correct before sending.
 
-   1. Send the tokens from the exchange to your Station wallet address.
+   1. Send the tokens from the exchange to your wallet address.
 
    {{< hint warning >}}
    **Waiting times for transfers**  
@@ -80,7 +80,7 @@ Now you have tokens on Xpla!
 
 ## Send Tokens
 
-1. Open the Station app extension and connect to your wallet.
+1. Open the Xpla extension wallet and connect to your wallet.
 
 1. Tap on the token in your available balance that you want to send.  
 
@@ -101,7 +101,7 @@ Now you have tokens on Xpla!
 
 ## Stake XPLA
 
-1. Open the Station app extension and connect to your wallet. Make sure you have XPLA in your wallet to stake.
+1. Open the Xpla extension wallet and connect to your wallet. Make sure you have XPLA in your wallet to stake.
 
 1. Tap **Staking**.
 
@@ -124,9 +124,9 @@ Your XPLA is now staked to a validator.
 
 ## Withdraw Staking Rewards
 
-Rewards start accruing the moment you stake XPLA. Monitor your rewards in the staking section of Station. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake XPLA. Monitor your rewards in the staking section of Xpla wallet. Once you have sufficient rewards, follow these steps to withdraw them:
 
-1. Open the Station app. Connect to a wallet and tap **Staking**.
+1. Open the Xpla wallet. Connect to a wallet and tap **Staking**.
 
 1. To claim all rewards, tap **Withdraw all rewards** at the top of the staking page.
 
@@ -138,13 +138,13 @@ Congratulations, you've just withdrawn your staking rewards!
 
 ## Connect to a DApp
 
-1. Open the Station app and connect to your wallet.
+1. Open the Xpla wallet and connect to your wallet.
 
 1. In your browser, navigate to the dApp of your choice. 
 
 1. Tap the wallet icon at the top of the page.
 
-1. Wallet connect will open your Station app.
+1. Wallet connect will open your Xpla wallet.
 
 1. When prompted, tap **Allow**.
 
@@ -152,4 +152,4 @@ You can now make transactions on different dApps in the Xpla ecosystem from your
 
 ## Next Steps
 
-To use Station on your computer, visit the [Station desktop tutorial](station-desktop.md). To learn how to use other Station features, visit the [Station guides]({{< ref "station" >}}).
+To use Xpla wallet on your computer, visit the [Web wallet tutorial]({{< ref "extension-wallet" >}} ). To learn how to use other wallet features, visit the [Xpla wallet guides]({{< ref "/docs/learn/wallet" >}}).
