@@ -1,13 +1,13 @@
 ---
-weight: 30
+weight: 50
 title: Join a Network
 ---
 
 # Join a Network
 
-It is highly recommended that you set up a private local network before joining a public network. This will help you get familiar with the setup process, and provide an environment for testing. The following sections outline this process. If you want to join a public network without setting up a private network, you can skip to [join a public network ](#join-a-public-network).
+It is highly recommended that you set up a private local network before joining a public network. This will help you get familiar with the setup process, and provide an environment for testing. The following sections outline this process. If you want to join a public network without setting up a private network, you can skip to [join a public network ]({{< ref "#join-a-public-network" >}}).
 
-### Create a single node
+### Create a Single Node
 
 The simplest Xpla network you can set up is a local testnet with just a single node. In a single-node environment, you have one account and are the only validator signing blocks for your private network.
 
@@ -17,28 +17,28 @@ The simplest Xpla network you can set up is a local testnet with just a single n
      xplad init --chain-id=<testnet-name> <node-moniker>
    ```
 
-2. Generate a Xpla account. Replace the variable with your account name:
+1. Generate a Xpla account. Replace the variable with your account name:
 
    ```bash
    xplad keys add <account-name>
    ```
 
-:::{admonition} Get tokens
-:class: tip
-In order for xplad to recognize a wallet address, it must contain tokens. For the testnet, use [the faucet](https://faucet.c2x.world/) to send XPLA to your wallet. If you are on mainnet, send funds from an existing wallet. 1-3 XPLA are sufficient for most setup processes.
-:::
+{{< hint info >}}
+**Get tokens**  
+In order for xplad to recognize a wallet address, it must contain tokens. For the testnet, use [the faucet](https://faucet.xpla.io/) to send XPLA to your wallet. If you are on mainnet, send funds from an existing wallet. 1-3 XPLA are sufficient for most setup processes.
+{{< /hint >}}
 
-### Add your account to the genesis
+### Add Your Account to the Genesis
 
 Run the following commands to add your account and set the initial balance:
 
 ```bash
-xplad add-genesis-account $(xplad keys show <account-name> -a) 100000000axpla
-xplad gentx <my-account> 10000000axpla --chain-id=<testnet-name>
+xplad add-genesis-account $(xplad keys show <account-name> -a) 100000000000000000000axpla
+xplad gentx <my-account> 10000000000000000000axpla --chain-id=<testnet-name>
 xplad collect-gentxs
 ```
 
-### Start your private Xpla network
+### Start Your Private Xpla Network
 
 Run the following command to start your private network:
 
@@ -61,11 +61,10 @@ Specify the network you want to join by choosing the corresponding **genesis fil
 | `dimension-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json)                   | Community maintained [Polkachu](https://polkachu.com/addrbooks/xpla) | [not available yet] |
 | `tesseract-1`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/c2xdev/testnet/master/tesseract-1/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
 
-:::{admonition} Selecting a network
-:class: tip
-Note that the versions of the network listed above are the [latest versions ](https://github.com/c2xdev/testnet/tree/master#latest-networks). To find earlier versions, please consult the [networks repo](https://github.com/c2xdev/testnet).
-
-:::
+{{< hint info >}}
+**Selecting a network**  
+Note that the versions of the network listed above are the [latest versions](https://github.com/c2xdev/testnets/tree/master#latest-networks). To find earlier versions, please consult the [networks repo](https://github.com/c2xdev/testnets).
+{{< /hint >}}
 
 ### 2. Download genesis file and address book
 
@@ -73,7 +72,7 @@ Note that the versions of the network listed above are the [latest versions ](ht
 
 **Addressbook** lists a selection of peers for your node to dial to in order to discover other nodes in the network. Public address books of peers are made available by the Xpla community.
 
-Choose a `testnet` or `mainnet` address type and download the appropriate genesis-transaction and addressbook. Links to these are posted in [Select-a-network](#1-select-a-network).
+Choose a `testnet` or `mainnet` address type and download the appropriate genesis-transaction and addressbook. Links to these are posted in [Select-a-network]({{< ref "#1-select-a-network" >}}).
 
 - For default `xplad` configurations, the `genesis` and `addressbook` files should be placed under `~/.xpla/config/genesis.json` and `~/.xpla/config/addrbook.json` respectively.
 
@@ -97,8 +96,7 @@ xplad status
 # It will take a few seconds for xplad to start.
 ```
 
-:::{dropdown} Healthy Node Status Example
-
+{{< expand "Healthy Node Status Example" >}}
 ```json
 {
   "NodeInfo": {
@@ -139,15 +137,13 @@ xplad status
   }
 }
 ```
-
-:::
+{{< /expand >}}
 
 Your node is now syncing. This process will take a long time. Make sure you've set it up on a stable connection so this process is not interrupted.
 
-::: {admonition} Sync start times
-:class: caution
-
+{{< hint warning >}}
+**Sync start times**  
 Nodes take at least an hour to start syncing. This wait time is normal. Before troubleshooting a sync, please wait an hour for the sync to start.
-:::
+{{< /hint >}}
 
-Continue to the [Sync](sync.md) page to find out more about syncing your node.
+Continue to the [Sync]({{< ref "sync" >}}) page to find out more about syncing your node.

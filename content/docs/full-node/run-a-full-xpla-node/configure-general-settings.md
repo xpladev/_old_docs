@@ -1,14 +1,13 @@
 ---
-weight: 20
+weight: 40
 title: Configure General Settings
 ---
 
-# Configure general settings
+# Configure General Settings
 
 The following information describes the most important node configuration settings found in the `~/.xpla/config/` directory. It is recommended that you update these settings with your own information.
 
-:::{dropdown} Structure of .xpla/config
-
+{{< expand "Structure of .xpla/config" >}}
 ```bash
 ~/.xpla/config
 │-- addrbook.json                       # a registry of peers to connect to
@@ -19,10 +18,9 @@ The following information describes the most important node configuration settin
 │-- node_key.json                       # private key used for node authentication in the p2p protocol (its corresponding public key is the nodeid)
 └-- priv_validator_key.json             # key used by the validator on the node to sign blocks
 ```
+{{< /expand >}}
 
-:::
-
-## Initialize and configure moniker
+## Initialize and Configure Moniker
 
 Initialize the node with a human-readable name:
 
@@ -30,21 +28,21 @@ Initialize the node with a human-readable name:
 xplad init <your_custom_moniker> # ex., xplad init validator-joes-node
 ```
 
-::: {admonition} Moniker characters
-:class: caution
+{{< hint warning >}}
+**Moniker characters**  
 Monikers can only contain ASCII characters; using Unicode characters will render your node unreachable by other peers in the network.
-:::
+{{< /hint >}}
 
 You can update your node's moniker by editing the `moniker` field in `~/.xpla/config/config.toml`
 
-## Update minimum gas prices
+## Update Minimum Gas Prices
 
 1. Open `~/.xpla/config/app.toml`.
 
 2. Modify `minimum-gas-prices` and set the minimum price of gas a validator will accept to validate a transaction and to prevent spam.
 
 Recommended setting is:
-`minimum-gas-prices = "0.15axpla"`
+`minimum-gas-prices = "15axpla"`
 
 **Example**:
 
@@ -52,9 +50,10 @@ Recommended setting is:
 # The minimum gas prices a validator is willing to accept for processing a
 # transaction. A transaction's fees must meet the minimum of any denomination
 # specified in this config (e.g. 0.25token1;0.0001token2).
-minimum-gas-prices = "0.01133axpla"
+minimum-gas-prices = "15axpla"
+````
 
-## Start the light client daemon (LCD)
+## Start the Light Client Daemon (LCD)
 
 For information about the available Xpla REST API endpoints, see the [Swagger documentation](https://lcd.xpla.dev/swagger/). To enable the REST API and Swagger, and to start the LCD, complete the following steps:
 
@@ -67,7 +66,6 @@ For information about the available Xpla REST API endpoints, see the [Swagger do
    ```toml
    # Enable defines if the API server should be enabled.
    enable = true
-````
 
 4. Optional: Swagger defines if swagger documentation should automatically be registered. To enable Swagger, change `swagger = false` to `swagger = true`.
 
@@ -77,7 +75,7 @@ For information about the available Xpla REST API endpoints, see the [Swagger do
 
 5. Restart the service via `systemctl restart xplad`. Once restarted, the LCD will be available (by default on port `127.0.0.1:1317`)
 
-## Set up `external_address` in `config.toml`
+## Set-up `external_address` in `config.toml`
 
 In order to be added to the address book in seed nodes, you need to configure `external_address` in `config.toml`. This addition will prevent continuous reconnections. The default P2P_PORT is `26656`.
 

@@ -9,7 +9,7 @@ As a smart contract developer, you will need to write, compile, upload, and test
 
 ## Install Xpla Core Locally
 
-Visit [build Xpla core]({{< ref "build-core" >}}) to install the latest version of Xpla Core to obtain a working version of `xplad`. You will need this to connect to your local Xpla test network to work with smart contracts.
+Visit [build Xpla core]({{< ref "build-xpla-core" >}}) to install the latest version of Xpla Core to obtain a working version of `xplad`. You will need this to connect to your local Xpla test network to work with smart contracts.
 
 ## Install Rust
 

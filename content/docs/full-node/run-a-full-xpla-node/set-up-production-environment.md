@@ -1,19 +1,19 @@
 ---
-weight: 40
-title: Set-up Production
+weight: 30
+title: Set-up Production Environment
 ---
 
-# Set-up a production environment
+# Set-up a Production Environment
 
 Use the following information to set up and manage your production-level Xpla full node.
 
-For information about running a validator node, visit the [validator guide](../manage-a-validator/_index.md).
+For information about running a validator node, visit the [validator guide]({{< ref "manage-a-validator" >}}).
 
-## Create a dedicated user
+## Create a Dedicated User
 
 Although `xplad` does not require a super user account, during the setup process you'll need super user permission to create and modify some files. It is strongly recommended using a normal user when running `xplad`.
 
-## Increase the maximum files `xplad` can open
+## Increase the Maximum Files `xplad` Can Open
 
 `xplad` is set to open 1024 files by default. It is recommended that you increase this amount.
 
@@ -27,11 +27,11 @@ Modify `/etc/security/limits.conf`[\*](https://linux.die.net/man/5/limits.conf) 
 # ...
 ```
 
-# Run the server as a daemon
+# Run the Server as a Daemon
 
 `xplad` must be running at all times. It is recommended that you register `xplad` as a `systemd` service so that it will be started automatically when the system reboots.
 
-## Register `xplad` as a service
+## Register `xplad` as a Service
 
 1. Create a service definition file in `/etc/systemd/system/xplad.service`.
 
@@ -44,8 +44,8 @@ Modify `/etc/security/limits.conf`[\*](https://linux.die.net/man/5/limits.conf) 
 
    [Service]
    Type=simple
-   User=<Xpla_USER>
-   ExecStart=<PATH_TO_XplaD>/xplad start
+   User=<XPLA_USER>
+   ExecStart=<PATH_TO_XPLAD>/xplad start
    Restart=on-abort
 
    [Install]
@@ -58,14 +58,14 @@ Modify `/etc/security/limits.conf`[\*](https://linux.die.net/man/5/limits.conf) 
 2. Modify the `Service` section according to your environment:
 
    - Enter the user (likely your username, unless you created a user specifically for `xplad`)
-   - Enter the path to the `xplad` executable. `<PATH_TO_XplaD>` is likely `/home/<YOUR_USER>/go/bin/xplad` or `/usr/go/bin`. Confirm this with `whereis xplad`
+   - Enter the path to the `xplad` executable. `<PATH_TO_XPLAD>` is likely `/home/<YOUR_USER>/go/bin/xplad` or `/usr/go/bin`. Confirm this with `whereis xplad`
    - Make sure you made the correct edits to /etc/security/limits.conf
 
 3. Run `systemctl daemon-reload` followed by `systemctl enable xplad`. This will register `xplad` as a system service and turn it on upon startup.
 
 4. Now start the service with `systemctl start xplad`.
 
-### Controlling the service
+### Controlling the Service
 
 Use `systemctl` to start, stop, and restart the service:
 
@@ -80,7 +80,7 @@ systemctl stop xplad
 systemctl restart xplad
 ```
 
-### Access logs
+### Access Logs
 
 Use `journalctl -t` to access entire logs, entire logs in reverse, and the latest and continuous log.
 

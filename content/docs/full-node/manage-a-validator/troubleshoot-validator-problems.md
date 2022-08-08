@@ -1,7 +1,5 @@
 ---
-bookCollapseSection: true
-bookFlatSection: false
-weight: 60
+weight: 50
 title: Troubleshoot Validator Problems
 ---
 
@@ -21,7 +19,7 @@ To return the voting power back to your validator:
    xplad start
    ```
 
-2. Wait for your full node to reach the latest block, and run:
+1. Wait for your full node to reach the latest block, and run:
 
    ```bash
    xplad tx slashing unjail <xpla> --chain-id=<chain_id> --from=<from>
@@ -30,11 +28,12 @@ To return the voting power back to your validator:
    - `<xpla>` is the address of your validator account.
    - `<name>` is the name of the validator account. To find this information, run `xplad keys list`.
 
-   ::: {warning}
+   {{< hint warning >}}
+   **Warning**  
    If you don't wait for `xplad` to sync before running `unjail`, an error message will inform you that your validator is still jailed.
-   :::
+   {{< /hint >}}
 
-3.  Check your validator again to see if your voting power is back:
+1. Check your validator again to see if your voting power is back:
 
    ```bash
    xplad status
@@ -55,7 +54,7 @@ The default number of files Linux can open per process is `1024`. `xplad` is kno
    ```systemd
    # /etc/systemd/system/xplad.service
    [Unit]
-   Description=Xpla Dimension Node
+   Description=Xpla Node Daemon
    After=network.target
 
    [Service]
@@ -65,25 +64,17 @@ The default number of files Linux can open per process is `1024`. `xplad` is kno
    ExecStart=/home/ubuntu/go/bin/xplad start
    Restart=on-failure
    RestartSec=3
-   LimitNOFILE=4096
+   LimitNOFILE=65536
 
    [Install]
    WantedBy=multi-user.target
    ```
 ## `xplad` Crashes Because of Memory Fragmentation
 
-As described in [this issue](https://github.com/c2xdev/core/issues/592), huge memory allocation can cause memory fragmentation issue. Temporal solution is just using small wasm cache size like 50~100MB.
-
-`v0.5.10+`:
+Huge memory allocation can cause memory fragmentation issue. Temporal solution is just using small wasm cache size like 50~100MB.
 
 ```toml
 contract-memory-cache-size = 100
-```
-
-`v0.5.7~v0.5.9`:
-
-```toml
-write-vm-memory-cache-size = 100
 ```
 
 ## The Validator is Not Active
@@ -92,4 +83,4 @@ write-vm-memory-cache-size = 100
 
     `xplad tx slashing unjail <xpla> --chain-id=<chain_id> --from=<from>`
 
-- The validator is not in the [active validator set](../../learn/glossary.md#active-set). Only the top 130 validators are in this set. To fix this problem, increase your total stake to be larger than the 130th validator.
+- The validator is not in the [active validator set]({{< ref "glossary#active-set" >}}). Only the top 8 validators are in this set. To fix this problem, increase your total stake to be larger than the 8th validator.

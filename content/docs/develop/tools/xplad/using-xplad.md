@@ -13,7 +13,7 @@ To query the state and send transactions, you must connect to a node, which is t
 
 ### Running Your Own Full Node
 
-Running your own full node is the most secure option, but it comes with relatively high resource requirements. For more information about the requirements to run your own full node and a tutorial for installing `xplad`, see [installation]({{< ref "build-core" >}}). For a tutorial that explains how to connect to an existing Xpla network, see [joining a network]({{< ref "join-a-network" >}}).
+Running your own full node is the most secure option, but it comes with relatively high resource requirements. For more information about the requirements to run your own full node and a tutorial for installing `xplad`, see [installation]({{< ref "build-xpla-core" >}}). For a tutorial that explains how to connect to an existing Xpla network, see [joining a network]({{< ref "join-a-network" >}}).
 
 ### Connecting to a Remote Full Node
 

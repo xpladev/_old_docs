@@ -14,7 +14,7 @@ Also, XPLA, all capital letters of the protocol name, is the Xpla protocol’s n
 
 Validators are the miners of the Xpla [blockchain]({{< ref "glossary#blockchain" >}}). They are responsible for securing the Xpla blockchain and ensuring its accuracy. Validators run programs called full nodes which allow them to verify each transaction made on the Xpla network. Validators propose blocks, vote on their validity, and add each new block to the chain in exchange for staking rewards from transaction fees. Users can stake their XPLA to validators in exchange for staking rewards. Validators also play an important role in the governance of the Xpla protocol.
 
-For more information on validators, visit the [Validator FAQ]({{< ref "/docs/full-node/manage-a-validator/faq" >}}).
+For more information on validators, visit the [Validator FAQ]({{< ref "/docs/full-node/manage-a-validator/validator-faq" >}}).
 
 ### Consensus
 
@@ -42,7 +42,7 @@ Delegators are users who want to receive rewards from consensus without running 
 
 {{< hint warning >}}
 **Who owns staked XPLA?**  
-Staked XPLA never leaves the possession of the delegator. Even though it can’t be traded freely, staked XPLA is never owned by a validator. For more information, visit the [Validator FAQ]({{< ref "/docs/full-node/manage-a-validator/faq#can-a-validator-run-away-with-a-delegators-xpla" >}})
+Staked XPLA never leaves the possession of the delegator. Even though it can’t be traded freely, staked XPLA is never owned by a validator. For more information, visit the [Validator FAQ]({{< ref "/docs/full-node/manage-a-validator/validator-faq#can-a-validator-run-away-with-a-delegators-xpla" >}})
 {{< /hint >}}
 
 ### Phases of XPLA
