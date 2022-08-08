@@ -32,8 +32,8 @@ Xpla's JavaScript SDK.
 
 Interact with a Xpla node. 
 {{< /tab >}}
-{{< tab "Finder" >}}
-# Finder
+{{< tab "Archive" >}}
+# Archive
 
 Explore the blockchain.
 {{< /tab >}}

@@ -103,4 +103,4 @@ export function SignBytesSample() {
 ```
 You can find this code used in context in [GitHub](https://github.com/c2xdev/wallet-provider/blob/main/templates/create-react-app/src/components/SignBytesSample.tsx).
 
-You can view a working sandbox example of bytes signing with Station on [codesandbox.io](https://codesandbox.io/s/github/c2xdev/wallet-provider/tree/main/templates/create-react-app).
+You can view a working sandbox example of bytes signing with Xpla wallet on [codesandbox.io](https://codesandbox.io/s/github/c2xdev/wallet-provider/tree/main/templates/create-react-app).

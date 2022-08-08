@@ -32,7 +32,7 @@ The active validator set is made up of 130 validators, who hold the most XPLA. T
 
 ### What Is a Delegator?
 
-Delegators are XPLA holders who want to receive staking rewards without the responsibility of running a validator. Through Xpla Station, a user can delegate XPLA to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
+Delegators are XPLA holders who want to receive staking rewards without the responsibility of running a validator. Through Xpla wallet, a user can delegate XPLA to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
 
 Delegators share the benefits and rewards of staking with their Validator. If a Validator is successful, its delegators will consistently share in the rewards structure. If a Validator is slashed, the delegator’s stake will also be slashed. This is why delegators should perform due-diligence on validators before delegating. Delegators can also diversify by spreading their stake over multiple validators.
 
@@ -123,13 +123,13 @@ A validator operator's "self-bond" refers to the amount of XPLA delegated to its
 
 ### Can I Delegate to a Validator Outside of the Active Set?
 
-You can still delegate to a validator even if they do not appear on Xpla Station. Simply add the xplavaloper address of your desired validator to the end of the following URL:
+You can still delegate to a validator even if they do not appear on Xpla wallet. Simply add the xplavaloper address of your desired validator to the end of the following URL:
 
-`https://station.xpla.io/validator/<xplavaloper-address>`
+`https://wallet.xpla.io/validator/<xplavaloper-address>`
 
 Ask your validator for their xplavaloper address.
 
-Be careful when delegating to validators outside of the active set. Some inactive validators may be jailed or are no longer supported. Station only displays active or recently active validators who are able to participate in consensus.
+Be careful when delegating to validators outside of the active set. Some inactive validators may be jailed or are no longer supported. Xpla wallet only displays active or recently active validators who are able to participate in consensus.
 
 ### Is There a Faucet?
 
