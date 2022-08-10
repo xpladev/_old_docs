@@ -17,12 +17,12 @@ Join the [Xpla Validators Discord](https://discord.com/invite/ERczeGeMEa) channe
 
 ## Submit a Validator Profile
 
-Submit a [Validator Profile](https://github.com/c2xdev/validator-profiles) to make it official.
+Submit a [Validator Profile](https://github.com/xpladev/validator-profiles) to make it official.
 
 ## Put a Thumbnail on Xpla wallet 
 
 Create a [Keybase Account](https://keybase.io/) follow the Keybase instructions to set up a PGP key, and upload a profile picture.
-For best continuity use the same GitHub account to verify your Keybase, and your [Validator Profile](https://github.com/c2xdev/validator-profiles)
+For best continuity use the same GitHub account to verify your Keybase, and your [Validator Profile](https://github.com/xpladev/validator-profiles)
 
 Now link your Keybase profile to your validator. Open your validator terminal and execute this command:
 

@@ -155,7 +155,7 @@ type Params struct {
 }
 ```
 
-The genesis parameters for the staking module outlined in the [Genesis Builder Script](https://github.com/c2xdev/genesis-tools/blob/main/src/genesis_builder.py#L132) are as follows:
+The genesis parameters for the staking module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L132) are as follows:
 
 ```py
     # Staking: change bond_denom to axpla and max validators to 130

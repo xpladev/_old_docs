@@ -67,4 +67,4 @@ xplawallet://send/?payload=ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4e
 
 TODO
 
-**Find out more on [GitHub](https://github.com/c2xdev/mobile-wallet/#app-scheme).**
+**Find out more on [GitHub](https://github.com/xpladev/mobile-wallet/#app-scheme).**

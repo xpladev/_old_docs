@@ -22,16 +22,16 @@ If you are using a Mac, follow the [`xplad` Mac installation guide]({{< ref "xpl
 
 ## From Binary
 
-The easiest way to install `xplad` and Xpla core is by downloading a pre-built binary for your operating system. You can find the latest binaries on the [releases](https://github.com/c2xdev/core/releases) page. If you have a Mac, follow the [Mac installation instructions]({{< ref "xplad-mac" >}}).
+The easiest way to install `xplad` and Xpla core is by downloading a pre-built binary for your operating system. You can find the latest binaries on the [releases](https://github.com/xpladev/core/releases) page. If you have a Mac, follow the [Mac installation instructions]({{< ref "xplad-mac" >}}).
 
 ## From Source
 
 ### 1. Get the Xpla core source code
 
-Use `git` to retrieve [Xpla core](https://github.com/c2xdev/core/), and check out the `main` branch, which contains the latest stable release.
+Use `git` to retrieve [Xpla core](https://github.com/xpladev/core/), and check out the `main` branch, which contains the latest stable release.
 
 ```
-git clone https://github.com/c2xdev/core
+git clone https://github.com/xpladev/core
 cd core
 git checkout [latest version]
 ```

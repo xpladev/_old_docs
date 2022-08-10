@@ -221,4 +221,4 @@ Excellent! Congratulations, you've created your first smart contract, and now kn
 
 So far you've walked through a simple example of a smart contract, that modifies a simple balance within its internal state. Although this is enough to make a simple dApp, you can power more interesting applications by **emitting messages**, which will enable you to interact with other contracts as well as the rest of the blockchain's module.
 
-Check out a couple more examples of smart contracts using Xpla's smart contract [repo](https://github.com/c2xdev/cosmwasm-contracts).
+Check out a couple more examples of smart contracts using Xpla's smart contract [repo](https://github.com/xpladev/cosmwasm-contracts).

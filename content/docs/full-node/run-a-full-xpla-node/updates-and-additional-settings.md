@@ -40,7 +40,7 @@ make
 If you have issues at this step, please check that you have a compatible version of GO installed (v1.18+).
 {{< /hint >}}
 
-The previous command uses `master` as it contains the latest stable release. See the [testnet repo](https://github.com/c2xdev/testnets) for details on which version is needed for which testnet, and the [Xpla Core release page](https://github.com/c2xdev/xpla/releases) for details on each release.
+The previous command uses `master` as it contains the latest stable release. See the [testnet repo](https://github.com/xpladev/testnets) for details on which version is needed for which testnet, and the [Xpla Core release page](https://github.com/xpladev/xpla/releases) for details on each release.
 
 Your full node is now cleanly upgraded!
 

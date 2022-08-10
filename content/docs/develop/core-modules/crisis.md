@@ -18,7 +18,7 @@ Because the gas cost of verifying an invariant is high, the crisis module utiliz
 
 ## Genesis Parameters
 
-The genesis parameters for the crisis module outlined in the [Genesis Builder Script](https://github.com/c2xdev/genesis-tools/blob/main/src/genesis_builder.py#L141) are as follows:
+The genesis parameters for the crisis module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L141) are as follows:
 
 ```py
     # Crisis: change constant fee to 512 XPLA

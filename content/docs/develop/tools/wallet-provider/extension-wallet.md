@@ -20,29 +20,29 @@ Use one of the following templates to get quickly get started using Wallet Provi
 ### Create React App
 
 ```sh
-npx copy-github-directory https://github.com/c2xdev/wallet-provider/tree/main/templates/create-react-app your-app-name
+npx copy-github-directory https://github.com/xpladev/wallet-provider/tree/main/templates/create-react-app your-app-name
 cd your-app-name
 yarn install
 yarn start
 ```
 
-[Learn more](https://github.com/c2xdev/wallet-provider/tree/main/templates/create-react-app)
+[Learn more](https://github.com/xpladev/wallet-provider/tree/main/templates/create-react-app)
 
 ### Next.js
 
 ```sh
-npx copy-github-directory https://github.com/c2xdev/wallet-provider/tree/main/templates/next your-app-name
+npx copy-github-directory https://github.com/xpladev/wallet-provider/tree/main/templates/next your-app-name
 cd your-app-name
 yarn install
 yarn run dev
 ```
 
-[Learn more](https://github.com/c2xdev/wallet-provider/tree/main/templates/next)
+[Learn more](https://github.com/xpladev/wallet-provider/tree/main/templates/next)
 
 ### Experimental Templates
 
-- [Wallet Provider + Vite.js](https://github.com/c2xdev/wallet-provider/tree/main/templates/vite)
-- [Wallet Controller](https://github.com/c2xdev/wallet-provider/tree/main/templates/wallet-controller)
+- [Wallet Provider + Vite.js](https://github.com/xpladev/wallet-provider/tree/main/templates/vite)
+- [Wallet Controller](https://github.com/xpladev/wallet-provider/tree/main/templates/wallet-controller)
 
 {{< hint info >}}
 **Tip**  
@@ -53,4 +53,4 @@ The Wallet Controller template is an example of how WalletController behaves und
 
 Visit the Wallet Provider GitHub for more details on using the APIs provided:
 
-[https://github.com/c2xdev/wallet-provider](https://github.com/c2xdev/wallet-provider#basic-usage)
+[https://github.com/xpladev/wallet-provider](https://github.com/xpladev/wallet-provider#basic-usage)

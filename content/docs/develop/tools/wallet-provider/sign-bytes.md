@@ -5,11 +5,11 @@ title: Sign Bytes
 
 # Signing Bytes
 
-You can sign arbitrary bytes with [Wallet Provider](https://www.npmjs.com/package/@c2xdev/wallet-provider) in a React-based web application. This action is useful for verifying account ownership without having to post a transaction to the chain, and is commonly used as a form of simple user authentication.
+You can sign arbitrary bytes with [Wallet Provider](https://www.npmjs.com/package/@xpladev/wallet-provider) in a React-based web application. This action is useful for verifying account ownership without having to post a transaction to the chain, and is commonly used as a form of simple user authentication.
 
 {{< hint info >}}
 **Tip**  
-Not using React? Use the [wallet-controller](https://www.npmjs.com/package/@c2xdev/wallet-controller) instead.
+Not using React? Use the [wallet-controller](https://www.npmjs.com/package/@xpladev/wallet-controller) instead.
 {{< /hint >}}
 
 The Wallet Provider comes with a `useConnectedWallet` hook, which lets you trigger actions from a Xpla wallet that's connected to the web page. The `connectedWallet` object includes a `.signBytes()` method, which prompts the user to sign the data and then returns an object of type `SignBytesResult`. The returned `SignBytesResult` object contains the address of the signer and the signed data.
@@ -18,7 +18,7 @@ The `verifyBytes` function then compares the original `TEST_BYTES` against the s
 
 {{< hint info >}}
 **Tip**  
-You can see how the `verifyBytes` function works [here](https://github.com/c2xdev/wallet-provider/blob/4e601c2dece7bec92c9ce95991d2314220a2c954/packages/src/%40c2xdev/wallet-controller/verifyBytes.ts#L1).
+You can see how the `verifyBytes` function works [here](https://github.com/xpladev/wallet-provider/blob/4e601c2dece7bec92c9ce95991d2314220a2c954/packages/src/%40xpladev/wallet-controller/verifyBytes.ts#L1).
 {{< /hint >}}
 
 Wallet Provider also supplies useful error types that can be used with a `catch` statement notify the user whether the signing was successful:
@@ -31,7 +31,7 @@ Wallet Provider also supplies useful error types that can be used with a `catch`
   useConnectedWallet,
   UserDenied,
   verifyBytes,
-} from '@c2xdev/wallet-provider';
+} from '@xpladev/wallet-provider';
 import React, { useCallback, useState } from 'react';
 
 const TEST_BYTES = Buffer.from('hello'); // resolves to <Buffer 68 65 6c 6c 6f>
@@ -101,6 +101,6 @@ export function SignBytesSample() {
   );
 }
 ```
-You can find this code used in context in [GitHub](https://github.com/c2xdev/wallet-provider/blob/main/templates/create-react-app/src/components/SignBytesSample.tsx).
+You can find this code used in context in [GitHub](https://github.com/xpladev/wallet-provider/blob/main/templates/create-react-app/src/components/SignBytesSample.tsx).
 
-You can view a working sandbox example of bytes signing with Xpla wallet on [codesandbox.io](https://codesandbox.io/s/github/c2xdev/wallet-provider/tree/main/templates/create-react-app).
+You can view a working sandbox example of bytes signing with Xpla wallet on [codesandbox.io](https://codesandbox.io/s/github/xpladev/wallet-provider/tree/main/templates/create-react-app).
