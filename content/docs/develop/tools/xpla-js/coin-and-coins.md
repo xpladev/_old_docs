@@ -8,7 +8,7 @@ title: Coin and Coins
 A `Coin` represents a single coin, which is a pair consisting of a denomination and an amount. `Coins` represents a collection of `Coin` objects, that many operators use to group tokens in one construct.
 
 ```ts
-import { Coin, Coins } from "@c2xdev/xpla.js";
+import { Coin, Coins } from "@xpladev/xpla.js";
 
 const c = new Coin("axpla", 1500000000000000000); // 1.5 XPLA
 const c2 = new Coin("axpla", 3000000000000000000); // 3 XPLA

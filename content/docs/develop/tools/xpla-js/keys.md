@@ -5,13 +5,13 @@ title: Keys
 
 # Keys
 
-To perform actions using an account and private-public key pairs with xpla.js, you need an implementation of the [ *Key* ](https://github.com/c2xdev/xpla.js/blob/main/src/key/Key.ts) class, which provides an abstraction around the signing functions of an account. There are multiple implementations available: 
+To perform actions using an account and private-public key pairs with xpla.js, you need an implementation of the [ *Key* ](https://github.com/xpladev/xpla.js/blob/main/src/key/Key.ts) class, which provides an abstraction around the signing functions of an account. There are multiple implementations available: 
 
-[ *RawKey* ](https://github.com/c2xdev/xpla.js/blob/main/src/key/RawKey.ts)
-[ *MnemonicKey* ](https://github.com/c2xdev/xpla.js/blob/main/src/key/MnemonicKey.ts) 
-[ *CLIKey* ](https://github.com/c2xdev/xpla.js/blob/main/src/key/CLIKey.ts) 
+[ *RawKey* ](https://github.com/xpladev/xpla.js/blob/main/src/key/RawKey.ts)
+[ *MnemonicKey* ](https://github.com/xpladev/xpla.js/blob/main/src/key/MnemonicKey.ts) 
+[ *CLIKey* ](https://github.com/xpladev/xpla.js/blob/main/src/key/CLIKey.ts) 
 
-You can also create a custom signing solution by extending the base [ *Key* ](https://github.com/c2xdev/xpla.js/blob/main/src/key/Key.ts) class.
+You can also create a custom signing solution by extending the base [ *Key* ](https://github.com/xpladev/xpla.js/blob/main/src/key/Key.ts) class.
 
 
 ## `RawKey`
@@ -19,7 +19,7 @@ You can also create a custom signing solution by extending the base [ *Key* ](ht
 The most basic implementation of a `Key` is a `RawKey`, which is created using a plain private key. `RawKey`  wraps the 32 bytes of a private key and supplies a corresponding public key:
 
 ```ts
-import { RawKey } from '@c2xdev/xpla.js';
+import { RawKey } from '@xpladev/xpla.js';
 import {randomBytes} from 'crypto'
 let see = console.log;
 
@@ -40,7 +40,7 @@ A `MnemonicKey` has various levels of definition:
 - Supply a full HD path (using either a  random or particular mnenomic).
 
 ```ts
-import { MnemonicKey } from '@c2xdev/xpla.js';
+import { MnemonicKey } from '@xpladev/xpla.js';
 const see = console.log;
 
 const MNE_KEY_RANDOM = new MnemonicKey();
@@ -105,7 +105,7 @@ The following code listing is close to the implementation of `RawKey`, which ill
 ```ts
 import SHA256 from 'crypto-js/sha256';
 import * as secp256k1 from 'secp256k1';
-import { Key } from '@c2xdev/xpla.js';
+import { Key } from '@xpladev/xpla.js';
 
 /**
  * An implementation of the Key interfaces that uses a raw private key.

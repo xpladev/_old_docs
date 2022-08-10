@@ -59,11 +59,11 @@ Specify the network you want to join by choosing the corresponding **genesis fil
 | Network     | Type    | Genesis                                                                                           | Addressbook                     | Seeds                     |
 | :---------- | :------ | :------------------------------------------------------------------------------------------------ | :------------------------------ | :------------------------------ |
 | `dimension-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json)                   | Community maintained [Polkachu](https://polkachu.com/addrbooks/xpla) | [not available yet] |
-| `tesseract-1`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/c2xdev/testnet/master/tesseract-1/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
+| `tesseract-1`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/tesseract-1/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
 
 {{< hint info >}}
 **Selecting a network**  
-Note that the versions of the network listed above are the [latest versions](https://github.com/c2xdev/testnets/tree/master#latest-networks). To find earlier versions, please consult the [networks repo](https://github.com/c2xdev/testnets).
+Note that the versions of the network listed above are the [latest versions](https://github.com/xpladev/testnets/tree/master#latest-networks). To find earlier versions, please consult the [networks repo](https://github.com/xpladev/testnets).
 {{< /hint >}}
 
 ### 2. Download genesis file and address book

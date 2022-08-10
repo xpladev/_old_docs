@@ -12,7 +12,7 @@ import {
   MsgMultiSend,
   StdTx,
   Account,
-} from "@c2xdev/xpla.js";
+} from "@xpladev/xpla.js";
 
 const {
   TESTNET_LCD_URL = "http://localhost:1317",

@@ -53,7 +53,7 @@ To send multiple transactions at once, use `MsgMultiSend`. For each transaction,
 
 ## Parameters
 
-The genesis parameters outlined in the [Genesis Builder Script](https://github.com/c2xdev/genesis-tools/blob/main/src/genesis_builder.py#L92) are as follows:
+The genesis parameters outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L92) are as follows:
 
 ```py
 

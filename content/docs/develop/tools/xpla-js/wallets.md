@@ -10,7 +10,7 @@ title: Wallets
 Use `LCDClient.wallet()` to create a `Wallet` from a `Key`.
 
 ```ts
-import { LCDClient, MnemonicKey } from "@c2xdev/xpla.js";
+import { LCDClient, MnemonicKey } from "@xpladev/xpla.js";
 
 const xpla = new LCDClient({
   URL: "https://dimension-lcd.xpla.dev",

@@ -9,10 +9,10 @@ Xpla core is the official Golang reference implementation of the Xpla node softw
 
 ## Get the Xpla Core Source Code
 
-1. Use `git` to retrieve [Xpla core](https://github.com/c2xdev/xpla/), and check out the `main` branch, which contains the latest stable release. You can find the latest tag on the [tags page](https://github.com/c2xdev/xpla/tags) or via autocomplete in your terminal: type `git checkout v` and press `<TAB>`.
+1. Use `git` to retrieve [Xpla core](https://github.com/xpladev/xpla/), and check out the `main` branch, which contains the latest stable release. You can find the latest tag on the [tags page](https://github.com/xpladev/xpla/tags) or via autocomplete in your terminal: type `git checkout v` and press `<TAB>`.
 
    ```sh
-   git clone https://github.com/c2xdev/xpla
+   git clone https://github.com/xpladev/xpla
    cd xpla
    git checkout [latest version]
    ```

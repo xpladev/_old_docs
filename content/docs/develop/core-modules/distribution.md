@@ -163,7 +163,7 @@ type GenesisState struct {
 
 # Genesis Parameters
 
-The genesis parameters for the crisis module outlined in the [Genesis Builder Script](https://github.com/c2xdev/genesis-tools/blob/main/src/genesis_builder.py#L277) are as follows:
+The genesis parameters for the crisis module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L277) are as follows:
 
 
 ```py

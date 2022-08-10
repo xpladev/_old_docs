@@ -18,7 +18,7 @@ The following code example shows how to initialize the LCDClient. The rest of th
 
 ```ts
 import fetch from "isomorphic-fetch";
-import { MsgSend, MnemonicKey, Coins, LCDClient } from "@c2xdev/xpla.js";
+import { MsgSend, MnemonicKey, Coins, LCDClient } from "@xpladev/xpla.js";
 
 // Fetch gas prices and convert to `Coin` format.
 const gasPrices = await (
@@ -141,7 +141,7 @@ https://archive.xpla.io/tesseract-1/address/xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 The following code example shows how to send native tokens:
 
 ```ts
-import { LCDClient, MnemonicKey, MsgSend } from "@c2xdev/xpla.js";
+import { LCDClient, MnemonicKey, MsgSend } from "@xpladev/xpla.js";
 
 // const lcd = new LCDClient(...);
 
@@ -174,7 +174,7 @@ import {
   LCDClient,
   MnemonicKey,
   MsgExecuteContract,
-} from "@c2xdev/xpla.js";
+} from "@xpladev/xpla.js";
 
 // const lcd = new LCDClient(...);
 
@@ -214,7 +214,7 @@ import {
   MnemonicKey,
   Coins,
   LCDClient,
-} from "@c2xdev/xpla.js";
+} from "@xpladev/xpla.js";
 
 // const lcd = new LCDClient(...);
 
@@ -266,7 +266,7 @@ console.log(result);
 The following code example shows how to decode messages that have been encoded using Protobuf:
 
 ```ts
-import { LCDClient, Tx } from "@c2xdev/xpla.js";
+import { LCDClient, Tx } from "@xpladev/xpla.js";
 
 // const lcd = new LCDClient(...);
 

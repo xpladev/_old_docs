@@ -10,7 +10,7 @@ title: Websockets
 xpla.js comes with `WebSocketClient`, which abstracts a subscription to Tendermint RPC's WebSocket endpoint. This requires access to a Xpla node's RPC server, which may require privileged access as it exposes functions that can kill a node's operation.
 
 ```ts
-import { WebSocketClient } from '@c2xdev/xpla.js';
+import { WebSocketClient } from '@xpladev/xpla.js';
 
 const wsclient = new WebSocketClient('ws://localhost:26657/websocket');
 

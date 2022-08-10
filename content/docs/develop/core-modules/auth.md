@@ -32,7 +32,7 @@ type Params struct {
 
 ### Genesis Parameters
 
-The genesis parameters outlined in the [Genesis Builder Script](https://github.com/c2xdev/genesis-tools/blob/6ec96530820f7055cce6dd767a1d8c321d702fab/src/genesis_builder.py#L75) are as follows:
+The genesis parameters outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/6ec96530820f7055cce6dd767a1d8c321d702fab/src/genesis_builder.py#L75) are as follows:
 
 ``` py
     # Auth: set max memo characters to 512

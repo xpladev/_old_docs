@@ -5,16 +5,16 @@ title: Get Started with Wallet Provider
 
 # Get Started with Wallet Provider
 
-[Wallet Provider](https://github.com/c2xdev/wallet-provider) makes it easy to build Xpla wallet (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.
+[Wallet Provider](https://github.com/xpladev/wallet-provider) makes it easy to build Xpla wallet (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.
 
 This guide will cover how to set up a React app, integrate Wallet Provider, check the balance of the connected account, and call a token swap. If you want to integrate Xpla wallet into an existing React app you can skip past the `Project Setup` section.
 
 {{< hint info >}}
 **Just want to dive in?**  
-Check out the getting started section for the premade templates [in GitHub](https://github.com/c2xdev/wallet-provider/).
+Check out the getting started section for the premade templates [in GitHub](https://github.com/xpladev/wallet-provider/).
 {{< /hint >}}
 
-If you're using a frontend framework other than React you'll need to use [Wallet Controller](https://www.npmjs.com/package/@c2xdev/wallet-controller) instead. Controller provides the sub-structure of Provider. You can see an example of how Wallet Controller works in the [Vue.js template example](https://githubbox.com/c2xdev/wallet-provider/tree/main/templates/vue).
+If you're using a frontend framework other than React you'll need to use [Wallet Controller](https://www.npmjs.com/package/@xpladev/wallet-controller) instead. Controller provides the sub-structure of Provider. You can see an example of how Wallet Controller works in the [Vue.js template example](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/vue).
 
 ## Prerequisites
 
@@ -31,10 +31,10 @@ If you're using a frontend framework other than React you'll need to use [Wallet
    cd my-xpla-app
    ```
 
-2. Then, install the `@c2xdev/wallet-provider` package:
+2. Then, install the `@xpladev/wallet-provider` package:
 
    ```sh
-   npm install @c2xdev/wallet-provider
+   npm install @xpladev/wallet-provider
    ```
 
 ## 2. Wrap Your App in `WalletProvider`
@@ -51,7 +51,7 @@ Next, you'll wrap your `App` with `<WalletProvider>` to give all your components
    import {
      getChainOptions,
      WalletProvider,
-   } from "@c2xdev/wallet-provider";
+   } from "@xpladev/wallet-provider";
 
    getChainOptions().then((chainOptions) => {
      ReactDOM.render(
@@ -98,7 +98,7 @@ To solve these errors, can downgrade `react-scripts`: `4.0.3` in your `package.j
     npm start
     ```
 
-Alternatively, you can configure your webpack to include the necessary fallbacks. Here's an [example](https://github.com/c2xdev/wallet-provider/blob/main/templates/create-react-app/config-overrides.js) that uses [react-app-rewired](https://www.npmjs.com/package/react-app-rewired).
+Alternatively, you can configure your webpack to include the necessary fallbacks. Here's an [example](https://github.com/xpladev/wallet-provider/blob/main/templates/create-react-app/config-overrides.js) that uses [react-app-rewired](https://www.npmjs.com/package/react-app-rewired).
 {{< /expand >}}
 
 3.  Create a new directory called `components` in the `source` directory. This directory will house components to trigger different actions from our connected wallet.
@@ -112,7 +112,7 @@ Now that `App.js` has inherited the context of `WalletProvider`, you can start p
 2. Populate the `Connect.js` file with the following:
 
    ```js
-   import { useWallet, WalletStatus } from "@c2xdev/wallet-provider";
+   import { useWallet, WalletStatus } from "@xpladev/wallet-provider";
    import React from "react";
    export default function Connect() {
      const {
@@ -187,7 +187,7 @@ Note that if your wallet is empty you won't see any tokens.
    import {
      useConnectedWallet,
      useLCDClient,
-   } from "@c2xdev/wallet-provider";
+   } from "@xpladev/wallet-provider";
    import React, { useEffect, useState } from "react";
 
    export default function Query() {
@@ -242,7 +242,7 @@ Note that if your wallet is empty you won't see any tokens.
 WalletProvider also helps create and send transactions to the Xpla network. You'll also need `xpla.js` to help generate the sample transaction:
 
 ```sh
-npm install @c2xdev/xpla.js
+npm install @xpladev/xpla.js
 ```
 
 Before broadcasting this example transaction, ensure you're on the Xpla testnet. To change networks click the gear icon in your Xpla wallet and select `testnet`.
@@ -253,7 +253,7 @@ A XPLA transfer transaction needs a fee and a message containing the sender addr
 
 {{< hint info >}}
 **What happens if something goes wrong?**
-Wallet provider also supplies useful error types. This example will handle the `UserDenied` error case. You can find other cases to handle on [GitHub](https://github.com/c2xdev/wallet-provider/blob/4e601c2dece7bec92c9ce95991d2314220a2c954/packages/src/%40c2xdev/wallet-controller/exception/mapExtensionTxError.ts#L23).
+Wallet provider also supplies useful error types. This example will handle the `UserDenied` error case. You can find other cases to handle on [GitHub](https://github.com/xpladev/wallet-provider/blob/4e601c2dece7bec92c9ce95991d2314220a2c954/packages/src/%40xpladev/wallet-controller/exception/mapExtensionTxError.ts#L23).
 {{< /hint >}}
 
 1. Create a file in your `Components` folder named `Tx.js`.
@@ -261,11 +261,11 @@ Wallet provider also supplies useful error types. This example will handle the `
 2. Populate `Tx.js` with the following:
 
    ```js
-   import { Fee, MsgSend } from "@c2xdev/xpla.js";
+   import { Fee, MsgSend } from "@xpladev/xpla.js";
    import {
      useConnectedWallet,
      UserDenied,
-   } from "@c2xdev/wallet-provider";
+   } from "@xpladev/wallet-provider";
    import React, { useCallback, useState } from "react";
 
    const TEST_TO_ADDRESS = "xpla12hnhh5vtyg5juqnzm43970nh4fw42pt27nw9g9";
@@ -358,9 +358,9 @@ Because all coins are denominated in micro-units, you will need to multiply any 
 
 That's all! You can find more examples of `WalletProvider` capabilities in the following example templates:
 
-- [Wallet Provider + Create-React-App](https://githubbox.com/c2xdev/wallet-provider/tree/main/templates/create-react-app)
-- [Wallet Provider + Next.js](https://githubbox.com/c2xdev/wallet-provider/tree/main/templates/next)
-- [Wallet Provider + Vite.js](https://githubbox.com/c2xdev/wallet-provider/tree/main/templates/vite)
-- [Wallet Controller + Lit](https://githubbox.com/c2xdev/wallet-provider/tree/main/templates/lit)
-- [Wallet Controller + Vue.js](https://githubbox.com/c2xdev/wallet-provider/tree/main/templates/vue)
-- [Wallet Controller + Svelte](https://githubbox.com/c2xdev/wallet-provider/tree/main/templates/svelte)
+- [Wallet Provider + Create-React-App](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/create-react-app)
+- [Wallet Provider + Next.js](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/next)
+- [Wallet Provider + Vite.js](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/vite)
+- [Wallet Controller + Lit](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/lit)
+- [Wallet Controller + Vue.js](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/vue)
+- [Wallet Controller + Svelte](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/svelte)
