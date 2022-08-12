@@ -7,4 +7,4 @@ title: Wallet Provider
 
 # Wallet Provider
 
-[Wallet Provider](https://github.com/xpladev/wallet-provider) makes it easy to build Xpla wallet (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.
+[Wallet Provider](https://github.com/xpladev/wallet-provider) makes it easy to build Xpla Vault (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.

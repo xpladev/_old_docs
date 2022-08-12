@@ -34,7 +34,7 @@ Staking is the process of bonding XPLA to a validator in exchange for staking re
 
 The Xpla protocol only allows the top 130 validators to participate in consensus. A validator's rank is determined by their stake or the total amount of XPLA bonded to them. Although validators can bond XPLA to themselves, they mainly amass larger stakes from delegators. Validators with larger stakes get chosen more often to propose new blocks and earn proportionally more rewards.
 
-To learn how to stake your XPLA and earn staking rewards, visit the [Xpla wallet staking guide]({{< ref "wallet/manage-staking" >}})
+To learn how to stake your XPLA and earn staking rewards, visit the [Xpla Vault staking guide]({{< ref "xpla-vault/manage-staking" >}})
 
 ### Delegators
 Delegators are users who want to receive rewards from consensus without running a full node. Any user that stakes XPLA is a delegator. Delegators stake their XPLA to a validator, adding to a validator’s weight, or total stake. In return, delegators receive a portion of transaction fees as staking rewards.
@@ -51,18 +51,18 @@ To start receiving rewards, delegators bond their XPLA to a validator. The bondi
 XPLA exists in the following three phases:
 
 - **Unbonded**: XPLA that can be freely traded and is not staked to a validator.
-- **Bonded**: XPLA that is staked to a validator. Bonded XPLA accrues staking rewards. XPLA bonded to validators in Xpla wallet can’t be traded freely.
+- **Bonded**: XPLA that is staked to a validator. Bonded XPLA accrues staking rewards. XPLA bonded to validators in Xpla Vault can’t be traded freely.
 - **Unbonding**: XPLA that is in the process of becoming unbonded from a validator and does not accrue rewards. This process takes 21 days to complete.
 
 ### Bonding, staking, and delegating
 
 Generally, the terms bonding, staking, and delegating can be used interchangeably, as they happen in the same step. A delegator delegates XPLA to a validator, the XPLA gets bonded to the validator, and the bonded XPLA gets added to the validator's stake.
 
-Delegators can bond XPLA to any validator in the [active set]({{< ref "glossary#active-set" >}}) using the delegate function in Xpla wallet. Delegators start earning staking rewards the moment they bond or stake to a validator.
+Delegators can bond XPLA to any validator in the [active set]({{< ref "glossary#active-set" >}}) using the delegate function in Xpla Vault. Delegators start earning staking rewards the moment they bond or stake to a validator.
 
 ### Unbonding
 
-Delegators can unbond or unstake their XPLA using the undelegate function in Xpla wallet. The unbonding process takes 21 days to complete. During this period, the unbonding XPLA can't be traded, and no staking rewards accrue.
+Delegators can unbond or unstake their XPLA using the undelegate function in Xpla Vault. The unbonding process takes 21 days to complete. During this period, the unbonding XPLA can't be traded, and no staking rewards accrue.
 
 {{< hint warning >}}
 **Warning**  
@@ -74,7 +74,7 @@ The 21-day unbonding process helps the long-term stability of the Xpla protocol.
 
 ### Redelegation
 
-Redelegating instantly sends staked XPLA from one validator to another. Instead of waiting for the 21-day unstaking period, a user can redelegate their staked XPLA at any time using Xpla wallet's redelegate function. Validators receiving redelegations are barred from further redelegating any amount of XPLA to any validator for 21 days.
+Redelegating instantly sends staked XPLA from one validator to another. Instead of waiting for the 21-day unstaking period, a user can redelegate their staked XPLA at any time using Xpla Vault's redelegate function. Validators receiving redelegations are barred from further redelegating any amount of XPLA to any validator for 21 days.
 
 {{< hint warning >}}
 **Warning**  
@@ -116,7 +116,7 @@ For more information on slashing, visit the [slashing module]({{< ref "/docs/dev
 
 The Xpla protocol is a decentralized public [blockchain]({{< ref "glossary#blockchain" >}}) governed by community members. Governance is the democratic process that allows users and validators to make changes to the Xpla protocol. Community members submit, vote, and implement proposals.
 
-To learn how to vote with your staked XPLA or submit proposals, visit the [Xpla wallet governance guide]({{< ref "wallet/governance" >}}).
+To learn how to vote with your staked XPLA or submit proposals, visit the [Xpla Vault governance guide]({{< ref "xpla-vault/governance" >}}).
 
 ### Proposals
 

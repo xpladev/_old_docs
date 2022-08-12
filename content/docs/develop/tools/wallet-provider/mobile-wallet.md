@@ -5,9 +5,9 @@ title: Mobile Wallet
 
 # Mobile Wallet
 
-Xpla mobile wallet is an application that enables users to interact with Xpla Core.
+Xpla mobile vault is an application that enables users to interact with Xpla Core.
 
-Xpla mobile wallet allows users to:
+Xpla mobile vault allows users to:
 
 - Create wallets and send tokens
 - Get involved with staking by browsing through validator information and delegating XPLA tokens.
@@ -15,7 +15,7 @@ Xpla mobile wallet allows users to:
 
 ## URL Scheme
 
-Xpla mobile wallet includes a custom [URL Scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app) that lets developers trigger different actions in the app.
+Xpla mobile vault includes a custom [URL Scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app) that lets developers trigger different actions in the app.
 
 These URL handlers can be opened by scanning a QR code or opening the link directly.
 
@@ -26,7 +26,7 @@ The send function allows a user to send a specified amount of funds to a recipie
 #### URL
 
 ```
-xplawallet://send/?payload=${base64 json}
+xplavault://send/?payload=${base64 json}
 ```
 
 #### Payload Format
@@ -60,7 +60,7 @@ ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4
 **Full URL with encoded payload:**
 
 ```
-xplawallet://send/?payload=ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4IiwKICAidG9rZW4iOiAidXVzZCIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
+xplavault://send/?payload=ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4IiwKICAidG9rZW4iOiAidXVzZCIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
 ```
 
 **Full URL in QR code:**

@@ -10,7 +10,7 @@ title: System Configuration
 This guide has been tested against Linux distributions only. To ensure a successful production environment setup, consider using a Linux system.
 {{< /hint >}}
 
-Running a full Xpla node is a resource-intensive process that requires a persistent server. If you want to use Xpla without downloading the entire blockchain, use [Xpla web wallet](https://wallet.xpla.io/).
+Running a full Xpla node is a resource-intensive process that requires a persistent server. If you want to use Xpla without downloading the entire blockchain, use [Xpla web wallet](https://vault.xpla.io/).
 
 ## Hardware Requirements
 
