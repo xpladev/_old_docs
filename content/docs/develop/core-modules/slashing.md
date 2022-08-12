@@ -217,29 +217,6 @@ type Params struct {
 }
 ```
 
-## Genesis Parameters
-
-The genesis parameters for the crisis module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L168) are as follows:
-
-``` py
-    # Slashing: slash window setup
-    genesis['app_state']['slashing']['params'] = {
-        'downtime_jail_duration': '600s',
-        'min_signed_per_window': '0.05',
-        'signed_blocks_window': '10000',
-        'slash_fraction_double_sign': '0.05',  # 5%
-        'slash_fraction_downtime': '0.0001'    # 0.01%
-```
-```py
-    # Consensus Params: Evidence
-    genesis['consensus_params']['evidence'] = {
-        'max_age_num_blocks': '100000',
-        'max_age_duration': '172800000000000',
-        'max_bytes': '1000000'
-    }
-
-```
-
 ### SignedBlocksWindow
 
 - type: `int64`

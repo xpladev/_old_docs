@@ -53,24 +53,3 @@ type Params struct {
 	BlocksPerYear uint64 `protobuf:"varint,6,opt,name=blocks_per_year,json=blocksPerYear,proto3" json:"blocks_per_year,omitempty" yaml:"blocks_per_year"`
 }
 ```
-### Genesis Parameters
-
-The genesis parameters for the mint module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L112) are as follows:
-
-```py
-    # Mint: set mint params
-    genesis['app_state']['mint'] = {
-        'minter': {
-            'inflation': '0.070000000000000000',
-            'annual_provisions': '0.000000000000000000'
-        },
-        'params': {
-            'mint_denom': DENOM_XPLA,
-            'inflation_rate_change': '0.000000000000000000',
-            'inflation_max': '0.070000000000000000',
-            'inflation_min': '0.070000000000000000',
-            'goal_bonded': '0.670000000000000000',
-            'blocks_per_year': '4360000'
-        }
-    }
-```

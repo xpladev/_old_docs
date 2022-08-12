@@ -22,6 +22,4 @@ The params module provides a base parameter store for all other Xpla modules. St
 
 `Subspace` is a unique namespace for a paramstore, where keys are configured with a certain prefix. `Subspace` are used by individual keepers, which require an unmodifiable private parameter store.
 
-## Parameters
-
-The genesis parameters for the mint module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L112) are as follows:
+#### If you're interested in learning more, check out [Cosmos Params Docs](https://docs.cosmos.network/master/modules/params/).

@@ -155,18 +155,6 @@ type Params struct {
 }
 ```
 
-The genesis parameters for the staking module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L132) are as follows:
-
-```py
-    # Staking: change bond_denom to axpla and max validators to 130
-    genesis['app_state']['staking']['params'] = {
-        'unbonding_time': '1814400s',  # 21 days
-        'max_validators': 130,
-        'max_entries': 7,
-        'historical_entries': 10000,
-        'bond_denom': DENOM_XPLA
-```
-
 ### `unbonding_time`
 
 - type: `time.Duration`

@@ -161,37 +161,6 @@ type GenesisState struct {
 }
 ```
 
-# Genesis Parameters
-
-The genesis parameters for the crisis module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L277) are as follows:
-
-
-```py
-    community_pool_allocation = TOTAL_ALLOCATION - pre_attack_allocation - \
-        post_attack_allocation - validator_allocation - emergency_allocation
-
-   # Distribution: community pool
-    genesis['app_state']['distribution']['fee_pool']['community_pool'] = [{
-        'denom': DENOM_XPLA,
-        'amount': str(community_pool_allocation)
-    }]
-
-    # Distribution: set community tax to 0
-    genesis['app_state']['distribution']['params'] = {
-        'community_tax': '0.000000000000000000',
-        'base_proposer_reward': '0.010000000000000000',
-        'bonus_proposer_reward': '0.040000000000000000',
-        'withdraw_addr_enabled': True
-    }
-
-    # Distribution: module account registration
-    add_module_account(
-        genesis, 'distribution',
-        'xpla1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8pm7utl',
-        str(community_pool_allocation), [])
-
-```
-
 ### CommunityTax
 
 - type: `Dec`

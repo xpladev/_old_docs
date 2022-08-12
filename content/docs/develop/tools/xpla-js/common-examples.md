@@ -14,7 +14,7 @@ If you are new to Xpla and don't know where to start, visit the [getting started
 
 ## Configuring LCDClient
 
-The following code example shows how to initialize the LCDClient. The rest of the examples assume you initialized it by using this example or similar code. The LCDCClient configuration accepts a boolean `legacy` value that is false by default.
+The following code example shows how to initialize the LCDClient. The rest of the examples assume you initialized it by using this example or similar code.
 
 ```ts
 import fetch from "isomorphic-fetch";
@@ -32,7 +32,6 @@ const lcd = new LCDClient({
   gasPrices: gasPricesCoins,
   gasAdjustment: "1.5",
   gas: 10000000,
-  isClassic: false, // optional parameter, false by default
 });
 ```
 
