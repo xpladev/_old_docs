@@ -1,27 +1,27 @@
 ---
 weight: 20 
-title: Extension Wallet
+title: Extension Vault
 ---
 
-# Extension Wallet
+# Extension Vault
 
 ## Chrome Extension
 
-Complete this tutorial to install the Xpla extension wallet for the Google Chrome browser.
+Complete this tutorial to install the Xpla extension vault for the Google Chrome browser.
 
 ### Prerequisites
 
 - Download [Google Chrome](https://www.google.com/chrome/).
 
-### Install the Xpla wallet Extension
+### Install the Xpla Vault Extension
 
-1. Open your Chrome browser and visit the [Xpla extension wallet](https://chrome.google.com/webstore/detail/xpla-wallet/...).
+1. Open your Chrome browser and visit the [Xpla extension vault](https://chrome.google.com/webstore/detail/xpla-wallet/...).
 
 1. Install the extension and add it to your browser.
 
 ### Create a Wallet
 
-Use this tutorial to create a new wallet. To connect to an existing wallet, visit [how to connect to a wallet]({{< ref "/docs/learn/wallet#connect-to-a-wallet-using-a-private-key" >}}).
+Use this tutorial to create a new wallet. To connect to an existing wallet, visit [how to connect to a wallet]({{< ref "/docs/learn/xpla-vault/wallet#connect-to-a-wallet-using-a-private-key" >}}).
 
 1. Open the browser extension and click **New wallet**.
 
@@ -66,7 +66,7 @@ Use this tutorial to create a new wallet. To connect to an existing wallet, visi
    TODO: image
    ```
 
-Congratulations! You have just created a Xpla wallet.
+Congratulations! You have just created a Xpla Vault.
 
 ### Receive Tokens from an Exchange
 
@@ -84,11 +84,11 @@ Congratulations! You have just created a Xpla wallet.
 
 1. Withdraw any token supported by the Xpla network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
 
-    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Xpla wallet near your wallet name. Your wallet address will look like this: `xpla<random-numbers-and-letters>`
+    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Xpla Vault near your wallet name. Your wallet address will look like this: `xpla<random-numbers-and-letters>`
 
     1. Double-check your wallet address is correct before sending.
 
-    1. Send the tokens from the exchange to your Xpla wallet address.
+    1. Send the tokens from the exchange to your Xpla Vault address.
 
    {{< hint warning >}}
    **Waiting times for transfers**  
@@ -99,7 +99,7 @@ Now you have tokens on Xpla!
 
 ### Send Tokens
 
-1. Open the Xpla extension wallet and connect to your wallet.
+1. Open the Xpla extension vault and connect to your wallet.
 
 1. Click **Send** next to the token you want to send.
 
@@ -119,16 +119,16 @@ After a few moments, the tokens will appear in the receiver's wallet.
 
 ### Connect to a DApp
 
-1. Open the Xpla extension wallet and connect to your wallet.
+1. Open the Xpla extension vault and connect to your wallet.
 
 1. Navigate to the dApp of your choice. Most dApps use a similar process.
 
 1. To connect your wallet, click **Connect Wallet** at the top of the page.
 
-1. **Allow** the connection in the Xpla extension wallet. 
+1. **Allow** the connection in the Xpla extension vault. 
 
 You can now make transactions on different dApps in the Xpla ecosystem.
 
 ## Next Steps
 
-For on-the-go transactions, check out the [Xpla mobile wallet app]({{< ref "mobile-wallet" >}}). To learn how to use other Xpla wallet features, visit the [Xpla wallet guides]({{< ref "/docs/learn/wallet" >}}).
+For on-the-go transactions, check out the [Xpla mobile vault app]({{< ref "mobile-wallet" >}}). To learn how to use other Xpla Vault features, visit the [Xpla Vault guides]({{< ref "xpla-vault" >}}).

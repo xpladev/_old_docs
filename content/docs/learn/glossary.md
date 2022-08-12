@@ -167,13 +167,13 @@ For more information on the Xpla core, see [Xpla Core Modules]({{< ref "core-mod
 
 The Xpla protocol's blockchain network where all transactions take place.
 
-## Xpla wallet
+## Xpla Vault
 
-Xpla's native wallet and platform for swaps, governance, and staking. In Xpla wallet, you can send, receive, and stake Xpla coins. You can also participate in governance and vote on proposals.
+Xpla's native wallet and platform for swaps, governance, and staking. In Xpla Vault, you can send, receive, and stake Xpla coins. You can also participate in governance and vote on proposals.
 
-To learn how to install and get started using Xpla wallet, visit the [Xpla wallet tutorial]({{< ref "wallet/download" >}}).
+To learn how to install and get started using Xpla Vault, visit the [Xpla Vault tutorial]({{< ref "xpla-vault/download" >}}).
 
-To learn how to use the advanced features of Xpla wallet, visit the [Xpla wallet how-to guide]({{< ref "wallet/advanced-features" >}}).
+To learn how to use the advanced features of Xpla Vault, visit the [Xpla Vault how-to guide]({{< ref "xpla-vault/wallet" >}}).
 
 ## xplad
 

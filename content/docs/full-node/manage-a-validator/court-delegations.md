@@ -19,7 +19,7 @@ Join the [Xpla Validators Discord](https://discord.com/invite/ERczeGeMEa) channe
 
 Submit a [Validator Profile](https://github.com/xpladev/validator-profiles) to make it official.
 
-## Put a Thumbnail on Xpla wallet 
+## Put a Thumbnail on Xpla Vault 
 
 Create a [Keybase Account](https://keybase.io/) follow the Keybase instructions to set up a PGP key, and upload a profile picture.
 For best continuity use the same GitHub account to verify your Keybase, and your [Validator Profile](https://github.com/xpladev/validator-profiles)

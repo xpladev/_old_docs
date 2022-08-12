@@ -5,15 +5,15 @@ title: Governance
 
 # Governance
 
-If this is your first time using Xpla wallet, follow the [Xpla wallet tutorial]({{< ref "wallet" >}}).
+If this is your first time using Xpla Vault, follow the [Xpla Vault tutorial]({{< ref "xpla-vault" >}}).
 
-Governance is an important part of being involved in the Xpla community. Use the following information to learn how to vote on and submit governance proposals in Xpla wallet. For more information on governance and voting options, visit [the governance overview]({{< ref "about-xpla#governance" >}}).
+Governance is an important part of being involved in the Xpla community. Use the following information to learn how to vote on and submit governance proposals in Xpla Vault. For more information on governance and voting options, visit [the governance overview]({{< ref "about-xpla#governance" >}}).
 
 ## Vote on a Proposal
 
 Voting is an important way for community members to help the Xpla protocol evolve. Follow these steps to vote with your staked XPLA.
 
-1. Open Xpla wallet and connect your wallet. In the sidebar, click **Governance**.
+1. Open Xpla Vault and connect your wallet. In the sidebar, click **Governance**.
 
 2. Click on **Voting** to view the active proposals.
 
@@ -36,7 +36,7 @@ Users can vote on a proposal after a minimum deposit of 50 XPLA is reached. To h
 While most deposits get refunded, some deposits get burned. For more information on which deposits get burned, visit the [governance section]({{< ref "about-xpla#governance" >}}) of the concepts page.
 {{< /hint >}}
 
-1. Open Xpla wallet and connect your wallet. In the sidebar, click **Governance**.
+1. Open Xpla Vault and connect your wallet. In the sidebar, click **Governance**.
 
 2. Click on **Deposit** to view the proposals still in the deposit period.
 
@@ -57,7 +57,7 @@ Your deposit will be added to the proposal.
 To prevent unnecessary proposals or abuse of the system, all governance proposals must obtain a minimum deposit of 50 XPLA. If 33.4% of the total vote is `NoWithVeto`, `quorum` is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded. For more information on deposits and refunds, visit the [governance overview]({{< ref "about-xpla#governance" >}}).
 {{< /hint >}}
 
-1. Open Xpla wallet and connect your wallet. In the sidebar, click **Governance**.
+1. Open Xpla Vault and connect your wallet. In the sidebar, click **Governance**.
 
 2. Click on **New proposal**.
 

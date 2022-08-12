@@ -24,7 +24,7 @@ Use xpla.js to create bots, power NFT mints, and for all-purpose back end servic
 
 ### Wallet Provider and Templates
 
-If you have a back end for your app and want a front end to connect to Xpla wallet, use Wallet provider and Xpla Templates. Follow the [Wallet Provider Tutorial]({{< ref "get-started-with-wallet-provider" >}}) to get started. 
+If you have a back end for your app and want a front end to connect to Xpla Vault, use Wallet provider and Xpla Templates. Follow the [Wallet Provider Tutorial]({{< ref "get-started-with-wallet-provider" >}}) to get started. 
 
 ### Other Tools
 

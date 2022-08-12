@@ -19,6 +19,6 @@ The following table maps commonly-used Ethereum developer tools to their Xpla co
 |                   | Xpla                                         | Ethereum        |
 | ----------------- |----------------------------------------------| --------------- |
 | Frontend SDK      | [xpla.js](https://xpladev.github.io/xpla.js/) | Web3.js |
-| Browser Extension | Xpla wallet CX                               | MetaMask, MEW   |
+| Browser Extension | Xpla Vault CX                               | MetaMask, MEW   |
 | Contract Language | [Rust](https://www.rust-lang.org/)           | Solidity, Vyper |
 

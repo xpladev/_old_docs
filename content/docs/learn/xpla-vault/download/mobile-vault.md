@@ -1,24 +1,24 @@
 ---
 weight: 30
-title: Mobile Wallet
+title: Mobile Vault
 ---
 
-# Mobile Wallet
+# Mobile Vault
 
-Complete this tutorial to get started with the Xpla mobile wallet.
+Complete this tutorial to get started with the Xpla mobile vault.
 
-## Download the Xpla Wallet App
+## Download the Xpla Mobile Vault
 
 1. Tap the download link for your operating system. Your device’s app store will open.
 
-   - [Xpla wallet for iOS](https://apps.apple.com/app/...)
-   - [Xpla wallet for Android](https://play.google.com/store/apps/details?id=io.xpla.wallet)
+   - [Xpla Vault for iOS](https://apps.apple.com/app/...)
+   - [Xpla Vault for Android](https://play.google.com/store/apps/details?id=io.xpla.vault)
 
-1. Install the Xpla mobile wallet on your phone.
+1. Install the Xpla mobile vault on your phone.
 
 ## Create a New Wallet
 
-1. Launch the Xpla mobile wallet and select **New wallet**
+1. Launch the Xpla mobile vault and select **New wallet**
 
    ```
    TODO: image
@@ -80,7 +80,7 @@ Now you have tokens on Xpla!
 
 ## Send Tokens
 
-1. Open the Xpla extension wallet and connect to your wallet.
+1. Open the Xpla extension vault and connect to your wallet.
 
 1. Tap on the token in your available balance that you want to send.  
 
@@ -101,7 +101,7 @@ Now you have tokens on Xpla!
 
 ## Stake XPLA
 
-1. Open the Xpla extension wallet and connect to your wallet. Make sure you have XPLA in your wallet to stake.
+1. Open the Xpla extension vault and connect to your wallet. Make sure you have XPLA in your wallet to stake.
 
 1. Tap **Staking**.
 
@@ -124,9 +124,9 @@ Your XPLA is now staked to a validator.
 
 ## Withdraw Staking Rewards
 
-Rewards start accruing the moment you stake XPLA. Monitor your rewards in the staking section of Xpla wallet. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake XPLA. Monitor your rewards in the staking section of Xpla Vault. Once you have sufficient rewards, follow these steps to withdraw them:
 
-1. Open the Xpla wallet. Connect to a wallet and tap **Staking**.
+1. Open the Xpla Vault. Connect to a wallet and tap **Staking**.
 
 1. To claim all rewards, tap **Withdraw all rewards** at the top of the staking page.
 
@@ -138,13 +138,13 @@ Congratulations, you've just withdrawn your staking rewards!
 
 ## Connect to a DApp
 
-1. Open the Xpla wallet and connect to your wallet.
+1. Open the Xpla Vault and connect to your wallet.
 
 1. In your browser, navigate to the dApp of your choice. 
 
 1. Tap the wallet icon at the top of the page.
 
-1. Wallet connect will open your Xpla wallet.
+1. Wallet connect will open your Xpla Vault.
 
 1. When prompted, tap **Allow**.
 
@@ -152,4 +152,4 @@ You can now make transactions on different dApps in the Xpla ecosystem from your
 
 ## Next Steps
 
-To use Xpla wallet on your computer, visit the [Web wallet tutorial]({{< ref "extension-wallet" >}} ). To learn how to use other wallet features, visit the [Xpla wallet guides]({{< ref "/docs/learn/wallet" >}}).
+To use Xpla Vault on your computer, visit the [Web wallet tutorial]({{< ref "extension-wallet" >}} ). To learn how to use other wallet features, visit the [Xpla Vault guides]({{< ref "xpla-vault" >}}).

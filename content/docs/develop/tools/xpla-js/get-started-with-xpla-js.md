@@ -20,7 +20,7 @@ By the end of this guide, you'll be able to execute a token swap from your appli
 ## Prerequisites
 
 - [npm and node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- Xpla extension wallet
+- Xpla extension vault
 
 ## 1. Set-up Your Project
 
@@ -92,7 +92,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 
 ## 3. Create a Tesseract Testnet Wallet
 
-1. You'll need a wallet to sign and submit transactions. [Create a new wallet]({{< ref "/docs/learn/wallet/download/extension-wallet" >}}) using the Xpla extension wallet. Be sure to save your mnemonic key!
+1. You'll need a wallet to sign and submit transactions. [Create a new wallet]({{< ref "/docs/learn/xpla-vault/download/extension-vault" >}}) using the Xpla extension vault. Be sure to save your mnemonic key!
 
 2. After creating your wallet, you’ll need to set it to use the testnet. Click the gear icon in the extension and change the network from `mainnet` to `testnet`.
 
