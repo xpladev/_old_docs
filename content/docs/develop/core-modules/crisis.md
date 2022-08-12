@@ -14,16 +14,4 @@ The crisis module stops block production by halting the blockchain when an invar
 
 ## Constant Fee
 
-Because the gas cost of verifying an invariant is high, the crisis module utilizes a constant fee instead of the typical gas calculation method. 
-
-## Genesis Parameters
-
-The genesis parameters for the crisis module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L141) are as follows:
-
-```py
-    # Crisis: change constant fee to 512 XPLA
-    genesis['app_state']['crisis']['constant_fee'] = {
-        'denom': DENOM_XPLA,
-        'amount': '512000000000000000000',
-    }
-```
+Because the gas cost of verifying an invariant is high, the crisis module utilizes a constant fee instead of the typical gas calculation method.

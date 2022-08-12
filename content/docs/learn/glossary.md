@@ -195,7 +195,7 @@ A quickly expanding network of decentralized applications built on the Xpla prot
 
 ## Tombstone
 
-To block a validator from participating in consensus or oracle voting. Tombstoned validators cannot rejoin the active set.
+To block a validator from participating in consensus. Tombstoned validators cannot rejoin the active set.
 
 ## Total Stake
 

@@ -50,31 +50,3 @@ type MsgMultiSend struct {
 ```
 
 To send multiple transactions at once, use `MsgMultiSend`. For each transaction, `Inputs` contains the incoming transactions, and `Outputs` contains the outgoing transactions. The `Inputs` coin balance must exactly match the `Outputs` coin balance. Batching transactions via `MsgMultiSend` conserves gas fees and network bandwidth. Fees already paid through failed transactions are not refunded.
-
-## Parameters
-
-The genesis parameters outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L92) are as follows:
-
-```py
-
-    # Bank: setup supply
-    genesis['app_state']['bank']['supply'] = [{
-        'denom': DENOM_XPLA,
-        'amount': str(TOTAL_ALLOCATION),
-    }]
-
-    # Bank: set denom meta
-    genesis['app_state']['bank']['denom_metadata'] = [{
-        'description': 'The native staking token of Xpla',
-        'denom_units': [
-            {'denom': 'axpla', 'exponent': 0, 'aliases': ['attoxpla']},
-            {'denom': 'uxpla', 'exponent': 6, 'aliases': ['microxpla']},
-            {'denom': 'xpla', 'exponent': 12, 'aliases': []},
-        ],
-        'base':    'axpla',
-        'display': 'xpla',
-        'name':    'XPLA',
-        'symbol':  'XPLA',
-    }]
-
-    ```

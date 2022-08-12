@@ -261,40 +261,12 @@ type VotingParams struct {
 }
 ```
 
-## Genesis Parameters
-
-The genesis parameters for the governance module outlined in the [Genesis Builder Script](https://github.com/xpladev/genesis-tools/blob/main/src/genesis_builder.py#L147) are as follows:
-
-
-```py
-    # Gov: change min deposit to 512 XPLA and deposit period to 7 days
-    genesis['app_state']['gov']['deposit_params'] = {
-        'max_deposit_period': '604800s',  # 7days
-        'min_deposit': [{
-            'denom': DENOM_XPLA,
-            'amount': '512000000000000000000'
-        }],
-    }
-
-    # Gov: set tally params quorum to 10%
-    genesis['app_state']['gov']['tally_params'] = {
-        'quorum': '0.100000000000000000',
-        'threshold': '0.500000000000000000',
-        'veto_threshold': '0.334000000000000000'
-    }
-
-    # Gov: set voting period to 7 days
-    genesis['app_state']['gov']['voting_params'] = {
-        'voting_period': '604800s'
-    }
-```
-
 
 ### MinDeposit
 
 - type: `Coins`
 - denom: `axpla`
-- amount: `512000000`
+- amount: `512000000000000000000`
 
 
 The minimum deposit amount for a proposal to enter a voting period. Currently 512 XPLA.
