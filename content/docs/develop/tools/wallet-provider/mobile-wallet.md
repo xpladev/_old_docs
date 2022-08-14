@@ -54,13 +54,13 @@ xplavault://send/?payload=${base64 json}
 **Base64 encoded payload:**
 
 ```
-ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4IiwKICAidG9rZW4iOiAidXVzZCIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
+ewogICJhZGRyZXNzIjogInhwbGExZGNlZ3lyZWtsdHN3dnl5MHh5Njl5ZGd4bjl4OHgzMnpkdGFwZDgiLAogICJ0b2tlbiI6ICJheHBsYSIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
 ```
 
 **Full URL with encoded payload:**
 
 ```
-xplavault://send/?payload=ewogICJhZGRyZXNzIjogInRlcnJhMWRjZWd5cmVrbHRzd3Z5eTB4eTY5eWRneG45eDh4MzJ6ZHRhcGQ4IiwKICAidG9rZW4iOiAidXVzZCIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
+xplavault://send/?payload=ewogICJhZGRyZXNzIjogInhwbGExZGNlZ3lyZWtsdHN3dnl5MHh5Njl5ZGd4bjl4OHgzMnpkdGFwZDgiLAogICJ0b2tlbiI6ICJheHBsYSIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
 ```
 
 **Full URL in QR code:**

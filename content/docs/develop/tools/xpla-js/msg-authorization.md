@@ -59,10 +59,17 @@ function sendAuthorized(
 }
 
 async function main() {
+  const gasPrices = await(
+    await fetch("https://tesseract-api.xpla.dev/gas-prices", {
+      redirect: "follow",
+    })
+  ).json();
+  const gasPricesCoins = new Coins(gasPrices);
   const client = new LCDClient({
-    URL: "http://localhost:1317/",
+    URL: "https://tesseract-lcd.xpla.dev",
     chainID: "tesseract_37-1",
-    gasPrices: "169.77axpla",
+    gasPrices: gasPricesCoins,
+    gasAdjustment: "1.5",
   });
 
   // Granter (xpla1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v)

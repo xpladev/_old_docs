@@ -9,7 +9,7 @@ title: "'xplad' Mac"
 
 This guide is for developers who want to install `xplad` and interact with Xpla core without running a full node. If you want to run a full node or join a network, visit [Run a Full Xpla Node]({{< ref "run-a-full-xpla-node" >}}).
 
-1. Navigate to [https://github.com/xpladev/core/tags](https://github.com/xpladev/core/tags) and click on the latest release. 
+1. Navigate to [https://github.com/xpladev/xpla/tags](https://github.com/xpladev/xpla/tags) and click on the latest release. 
 
 2. Download the `xpla_<latest-version-here>_Darwin_x86_64.tar.gz` file.
 

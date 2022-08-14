@@ -20,7 +20,7 @@ const mk = new MnemonicKey({
 })
 
 const xpla = new LCDClient({
-  URL: 'http://localhost:1317',
+  URL: 'https://tesseract-lcd.xpla.dev',
   chainID: 'tesseract_37-1'
 });
 
