@@ -105,7 +105,7 @@ When a vote fails to be included in consensus.
 
 A section of the Xpla core that represents a particular function of the Xpla protocol. Visit the [Xpla core module specifications]({{< ref "core-modules" >}}) for more information.
 
-## Dimension-1
+## dimension_37-1
 
 The latest version of the [mainnet]({{< ref "#mainnet" >}})
 
@@ -187,7 +187,7 @@ A validator's public address beginning with `xplavaloper` followed by a string o
 
 ## Testnet
 
-A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions. The current testnet for Xpla is [`tesseract-1`]({{< ref "public-and-private-endpoints" >}})
+A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions. The current testnet for Xpla is [`tesseract_37-1`]({{< ref "public-and-private-endpoints" >}})
 
 ## The Xpla Ecosystem
 

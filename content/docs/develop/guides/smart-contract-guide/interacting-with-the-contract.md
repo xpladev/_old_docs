@@ -31,12 +31,12 @@ satisfy adjust timber high purchase tuition stool faith fine install that you un
 Make sure that the **optimized build** of `my_first_contract.wasm` that you created in the last section is in your current working directory.
 
 ```sh
-xplad tx wasm store artifacts/my_first_contract.wasm --from test1 --chain-id=tesseract-1 --gas=auto --fees=100000axpla --broadcast-mode=block
+xplad tx wasm store artifacts/my_first_contract.wasm --from test1 --chain-id=tesseract_37-1 --gas=auto --fees=100000axpla --broadcast-mode=block
 ```
 Or, if you are on an arm64 machine:
 
 ```sh
-xplad tx wasm store artifacts/my_first_contract-aarch64.wasm --from test1 --chain-id=tesseract-1 --gas=auto --fees=100000axpla --broadcast-mode=block
+xplad tx wasm store artifacts/my_first_contract-aarch64.wasm --from test1 --chain-id=tesseract_37-1 --gas=auto --fees=100000axpla --broadcast-mode=block
 ```
 
 You should see output similar to the following:
@@ -95,7 +95,7 @@ You have now uploaded the code for your contract, but still don't have a contrac
 You can compress the JSON into 1 line with [this online tool](https://goonlinetools.com/json-minifier/).
 
 ```sh
-xplad tx wasm instantiate 1 '{"count":0}' --from test1 --chain-id=tesseract-1 --fees=10000axpla --gas=auto --broadcast-mode=block
+xplad tx wasm instantiate 1 '{"count":0}' --from test1 --chain-id=tesseract_37-1 --fees=10000axpla --gas=auto --broadcast-mode=block
 ```
 
 You should get a response like the following:
@@ -179,7 +179,7 @@ First, to burn:
 ```
 
 ```sh
-xplad tx wasm execute xpla18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5 '{"reset":{"count":5}}' --from test1 --chain-id=tesseract-1 --fees=1000000axpla --gas=auto --broadcast-mode=block
+xplad tx wasm execute xpla18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5 '{"reset":{"count":5}}' --from test1 --chain-id=tesseract_37-1 --fees=1000000axpla --gas=auto --broadcast-mode=block
 ```
 
 #### Incrementing
@@ -191,7 +191,7 @@ xplad tx wasm execute xpla18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5 '{"reset":{"co
 ```
 
 ```sh
-xplad tx wasm execute xpla18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5 '{"increment":{}}' --from test1 --chain-id=tesseract-1 --gas=auto --fees=1000000axpla --broadcast-mode=block
+xplad tx wasm execute xpla18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5 '{"increment":{}}' --from test1 --chain-id=tesseract_37-1 --gas=auto --fees=1000000axpla --broadcast-mode=block
 ```
 
 #### Querying count

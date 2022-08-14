@@ -19,6 +19,6 @@ import { LCDClient } from "@xpladev/xpla.js";
 
 const xpla = new LCDClient({
   URL: "https://dimension-lcd.xpla.dev",
-  chainID: "dimension-1",
+  chainID: "dimension_37-1",
 });
 ```

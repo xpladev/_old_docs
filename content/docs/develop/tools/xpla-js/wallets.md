@@ -14,7 +14,7 @@ import { LCDClient, MnemonicKey } from "@xpladev/xpla.js";
 
 const xpla = new LCDClient({
   URL: "https://dimension-lcd.xpla.dev",
-  chainId: "dimension-1",
+  chainId: "dimension_37-1",
 });
 
 const mk = new MnemonicKey();

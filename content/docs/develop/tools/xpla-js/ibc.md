@@ -15,7 +15,7 @@ xpla.js exports a `MsgTransfer` class that can be used to construct IBC transfer
 new MsgTransfer(
   "transfer", // IBC port
   "channel-1", // Outbound channel (Osmosis)
-  new Coin("axpla", "1000000000000"), // 1 XPLA
+  new Coin("axpla", "1000000000000000000"), // 1 XPLA
   "xpla1cvw8sundusurqajhurpcfk7yvuzlh92cvkpy28", // Source Address on Xpla
   "osmo1cl4qw7u35uf77l4scjtv0qej8ycevu4mrdpvmg", // Destination address on Osmosis
   undefined, // Timeout block height (optional)
@@ -27,7 +27,7 @@ new MsgTransfer(
 
 Channels are defined when a relayer is set up between Xpla and an external chain. For each new connected chain the channel ID is incremented.
 
-You can use [Map of Zones](https://mapofzones.com/zone?period=24&source=dimension-1&tableOrderBy=success&tableOrderSort=desc&testnet=false) to find the available channels and their IDs.
+You can use [Map of Zones](https://mapofzones.com/zone?period=24&source=dimension_37-1&tableOrderBy=success&tableOrderSort=desc&testnet=false) to find the available channels and their IDs.
 
 ## Derive Cosmos Chain Addresses from a Xpla Address
 

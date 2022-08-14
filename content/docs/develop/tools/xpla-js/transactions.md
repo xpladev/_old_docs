@@ -28,7 +28,7 @@ import { MnemonicKey, LCDClient } from "@xpladev/xpla.js";
 const mk = new MnemonicKey();
 const xpla = new LCDClient({
   URL: "https://tesseract-lcd.xpla.dev",
-  chainID: "tesseract-1",
+  chainID: "tesseract_37-1",
 });
 const wallet = xpla.wallet(mk);
 ```
