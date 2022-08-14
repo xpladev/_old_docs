@@ -61,7 +61,7 @@ function sendAuthorized(
 async function main() {
   const client = new LCDClient({
     URL: "http://localhost:1317/",
-    chainID: "tesseract-1",
+    chainID: "tesseract_37-1",
     gasPrices: "169.77axpla",
   });
 

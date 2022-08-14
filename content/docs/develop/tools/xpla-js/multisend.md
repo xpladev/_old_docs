@@ -16,7 +16,7 @@ import {
 
 const {
   TESTNET_LCD_URL = "http://localhost:1317",
-  TESTNET_CHAIN_ID = "tesseract-1",
+  TESTNET_CHAIN_ID = "tesseract_37-1",
 } = process.env;
 
 async function main() {

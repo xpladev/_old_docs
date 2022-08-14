@@ -58,8 +58,8 @@ Specify the network you want to join by choosing the corresponding **genesis fil
 
 | Network     | Type    | Genesis                                                                                           | Addressbook                     | Seeds                     |
 | :---------- | :------ | :------------------------------------------------------------------------------------------------ | :------------------------------ | :------------------------------ |
-| `dimension-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json)                   | Community maintained [Polkachu](https://polkachu.com/addrbooks/xpla) | [not available yet] |
-| `tesseract-1`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/tesseract-1/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
+| `dimension_37-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json)                   | Community maintained [Polkachu](https://polkachu.com/addrbooks/xpla) | [not available yet] |
+| `tesseract_37-1`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/tesseract_37-1/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
 
 {{< hint info >}}
 **Selecting a network**  
@@ -79,10 +79,10 @@ Choose a `testnet` or `mainnet` address type and download the appropriate genesi
 **Example**:
 
 ```bash
-# Obtain the genesis for dimension-1:
+# Obtain the genesis for dimension_37-1:
 wget hhttps://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json -I ~/.xpla/config/genesis.json
 
-# Obtain the addressbook for the dimension-1 from Polkachu:
+# Obtain the addressbook for the dimension_37-1 from Polkachu:
 wget https://snapshots1.polkachu.com/addrbook/xpla/addrbook.json -O ~/.xpla/config/addrbook.json
 ```
 
@@ -107,7 +107,7 @@ xplad status
     },
     "id": "821dc1401fd0270487b3e615c652181b4d4566dd",
     "listen_addr": "18.157.84.154:26656",
-    "network": "tesseract-1",
+    "network": "tesseract_37-1",
     "version": "v0.34.19-xpla.2",
     "channels": "40202122233038606100",
     "moniker": "xpladocs",

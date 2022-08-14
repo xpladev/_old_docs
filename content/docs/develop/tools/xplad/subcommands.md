@@ -1017,7 +1017,7 @@ xplad tx gov deposit <proposal-id> "<deposit-amount>" \
 ```bash
 xplad tx gov deposit 15 "10000000laxpla" \
     --from=xpla13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
-    --chain-id=dimension-1
+    --chain-id=dimension_37-1
 ```
 
 {{< hint warning >}}
@@ -1050,9 +1050,9 @@ xplad tx gov submit-proposal \
     --title=Funding for NFT platform \
     --description=Information about the NFT platform \
     --type="Text" \
-    --deposit="100000axpla" \
+    --deposit="100000000000000000axpla" \
     --from=xpla13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
-    --chain-id=dimension-1
+    --chain-id=dimension_37-1
 ```
 
 ### Parameter-change Proposals
@@ -1074,7 +1074,7 @@ xplad tx gov submit-proposal \
 xplad tx gov submit-proposal \
     param-change /proposals/proposal.json \
     --from=xpla13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
-    --chain-id=dimension-1
+    --chain-id=dimension_37-1
 ```
 
 where `proposal.json` contains the following information:
@@ -1123,7 +1123,7 @@ xplad tx gov submit-proposal \
 xplad tx gov submit-proposal \
     community-pool-spend /proposals/proposal.json \
     --from=xpla13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
-    --chain-id=dimension-1
+    --chain-id=dimension_37-1
 ```
 
 where `proposal.json` contains the following information:
@@ -1175,9 +1175,9 @@ xplad tx gov submit-proposal software-upgrade v0.5.0-beta3 \
     --upgrade-height=20 \
     --upgrade-info='{"binaries":{"darwin/amd64":"/Workspace/xpla/core/build/xplad?checksum=sha256:2032356fe0899dec0cdd559f1c649bc81e53a9b4063b333059135e3a2aae8728"}}' \
     --type="Text" \
-    --deposit="50000000axpla" \
+    --deposit="50000000000000000000axpla" \
     --from=xpla13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
-    --chain-id=dimension-1
+    --chain-id=dimension_37-1
 ```
 
 To cancel a software upgrade:
@@ -1213,7 +1213,7 @@ xplad tx gov vote \
 xplad tx gov vote \
     7 yes \
     --from=xpla13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
-    --chain-id=dimension-1
+    --chain-id=dimension_37-1
 ```
 
 ## `tx slashing unjail`
@@ -1374,7 +1374,7 @@ xplad tx wasm migrate xpla... 10 '{"verifier": "xpla..."}'
 
 ## `tx wasm store`
 
-Uploads a new WASM binary or migrates to existing binary to the dimension-1 release.
+Uploads a new WASM binary or migrates to existing binary to the dimension_37-1 release.
 
 **Syntax for a new WASM binary**
 

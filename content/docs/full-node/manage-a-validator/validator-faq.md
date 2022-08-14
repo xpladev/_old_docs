@@ -26,7 +26,7 @@ It is possible and encouraged for any user to run full nodes even if they do not
 
 When XPLA holders delegate their XPLA to a validator, they are ***staking.*** Staking increases a validator's weight, which helps them, and in return delegators get rewarded.
 
-The Dimension-1 Mainnet is a public Proof of Stake (PoS) blockchain. This means a validator's weight (total stake) is determined by the amount of staking tokens (XPLA) they delegate to themselves plus the XPLA bonded to them by external delegators. The weight of a validator determines whether or not they are an active validator and how frequently they can propose a block. Validators with a higher weight will propose more blocks, and in turn make more revenue.
+The **dimension** Mainnet is a public Proof of Stake (PoS) blockchain. This means a validator's weight (total stake) is determined by the amount of staking tokens (XPLA) they delegate to themselves plus the XPLA bonded to them by external delegators. The weight of a validator determines whether or not they are an active validator and how frequently they can propose a block. Validators with a higher weight will propose more blocks, and in turn make more revenue.
 
 The active validator set is made up of 130 validators, who hold the most XPLA. The bottom validator’s stake always forms the barrier for entry into the network. Creating a validator with more stake than the bottom validator is the only way to enter the active set. If validators double-sign, or are frequently offline, they risk their staked XPLA, including XPLA delegated by users, being slashed by the protocol to penalize negligence and misbehavior.
 

@@ -21,7 +21,7 @@ const mk = new MnemonicKey({
 
 const xpla = new LCDClient({
   URL: 'http://localhost:1317',
-  chainID: 'tesseract-1'
+  chainID: 'tesseract_37-1'
 });
 
 const wallet = xpla.wallet(mk);

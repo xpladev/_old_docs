@@ -77,7 +77,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
    const gasPricesCoins = new Coins(gasPricesJson);
    const lcd = new LCDClient({
      URL: "https://tesseract-lcd.xpla.dev", // Use "https://dimension-lcd.xpla.dev" for prod
-     chainID: "tesseract-1", // Use "dimension-1" for production
+     chainID: "tesseract_37-1", // Use "dimension_37-1" for production
      gasPrices: gasPricesCoins,
      gasAdjustment: "1.5", // Increase gas price slightly so transactions go through smoothly.
      gas: 10000000,
@@ -86,8 +86,8 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 
    {{< hint info >}}
    **Note**  
-   The previous code block shows how to connect to the tesseract testnet. To connect to the dimension-1 mainnet for production, use “`https://dimension-lcd.xpla.dev`”.
-   You will also need to change the `chainID` from `"tesseract-1"` to `"dimension-1"`.
+   The previous code block shows how to connect to the tesseract testnet. To connect to the dimension_37-1 mainnet for production, use “`https://dimension-lcd.xpla.dev`”.
+   You will also need to change the `chainID` from `"tesseract_37-1"` to `"dimension_37-1"`.
    {{< /hint >}}
 
 ## 3. Create a Tesseract Testnet Wallet

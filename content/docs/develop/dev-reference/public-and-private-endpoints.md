@@ -20,12 +20,12 @@ Public RPC endpoints should only be used in development. For live dApps, use a p
 
 | Endpoint                    | Network           |
 | --------------------------- | ----------------- |
-| https://dimension-lcd.xpla.dev       | `dimension-1` mainnet |
-| https://tesseract-lcd.xpla.dev | `tesseract-1` testnet   |
+| https://dimension-lcd.xpla.dev       | `dimension_37-1` mainnet |
+| https://tesseract-lcd.xpla.dev | `tesseract_37-1` testnet   |
 
 ### Public RPC
 
 | endpoint | Network            |
 | -------- | ------------------ |
-| TBD      | `phonenix-1` mainnet |
-| TBD      | `tesseract-1` testnet    |
+| TBD      | `dimension_37-1` mainnet |
+| TBD      | `tesseract_37-1` testnet    |

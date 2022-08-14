@@ -28,7 +28,7 @@ const gasPricesCoins = new Coins(gasPrices);
 
 const lcd = new LCDClient({
   URL: "https://tesseract-lcd.xpla.dev/",
-  chainID: "tesseract-1",
+  chainID: "tesseract_37-1",
   gasPrices: gasPricesCoins,
   gasAdjustment: "1.5",
   gas: 10000000,
@@ -53,7 +53,7 @@ Example response:
 ## Get Wallet Balance (CW20 tokens)
 
 ```js
-// TEST on tesseract-1
+// TEST on tesseract_37-1
 const tokenAddress = "xpla1747mad58h0w4y589y3sk84r5efqdev9q4r02pc";
 const walletAddress = "xpla1f44ddca9awepv2rnudztguq5rmrran2m20zzd6";
 const response = await lcd.wasm.contractQuery(tokenAddress, {
@@ -111,13 +111,13 @@ const getTransactionLink = (hash, chainID) =>
   `https://archive.xpla.io/${chainID}/tx/${hash}`;
 const hash = "CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B";
 
-console.log(getTransactionLink(hash, "tesseract-1"));
+console.log(getTransactionLink(hash, "tesseract_37-1"));
 ```
 
 Example response:
 
 ```
-https://archive.xpla.io/tesseract-1/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B
+https://archive.xpla.io/tesseract_37-1/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B
 ```
 
 ## Get Link to Wallet Address
@@ -126,13 +126,13 @@ https://archive.xpla.io/tesseract-1/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A
 const getWalletLink = (address, chainID) =>
   `https://archive.xpla.io/${chainID}/address/${address}`;
 const address = "xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-console.log(getWalletLink(address, "tesseract-1"));
+console.log(getWalletLink(address, "tesseract_37-1"));
 ```
 
 Example response:
 
 ```
-https://archive.xpla.io/tesseract-1/address/xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+https://archive.xpla.io/tesseract_37-1/address/xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Sending Native Tokens
@@ -184,7 +184,7 @@ const mk = new MnemonicKey({
 
 const wallet = lcd.wallet(mk);
 
-// TEST on tesseract-1
+// TEST on tesseract_37-1
 const tokenAddress = "xpla1747mad58h0w4y589y3sk84r5efqdev9q4r02pc";
 
 // Transfer 1 TEST.

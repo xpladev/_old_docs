@@ -27,7 +27,7 @@ You can define the fee estimation parameters when you create your `LCDClient` in
 ```ts
 const xpla = new LCDClient({
   URL: "https://dimension-lcd.xpla.dev",
-  chainID: "dimension-1",
+  chainID: "dimension_37-1",
   gasPrices: { axpla: 0.015 },
   gasAdjustment: 1.4,
 });
