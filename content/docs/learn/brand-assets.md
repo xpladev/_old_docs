@@ -5,7 +5,4 @@ title: Brand Assets
 
 # Brand Assets
 
-## Logos
-
-- [Network logos (TODO)]()
-- [Coin logos (TODO)]()
+[Xpla brand asset](/Xpla_brand_asset.zip)
