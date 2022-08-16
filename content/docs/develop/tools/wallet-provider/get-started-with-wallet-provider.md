@@ -44,21 +44,22 @@ Next, you'll wrap your `App` with `<WalletProvider>` to give all your components
 1. Navigate to your `Index.js` in a code editor and replace the code with the following:
 
    ```js
-   import ReactDOM from "react-dom";
-   import "./index.css";
-   import App from "./App";
-   import reportWebVitals from "./reportWebVitals";
+   import React from 'react';
+   import ReactDOM from 'react-dom/client';
+   import './index.css';
+   import App from './App';
+   import reportWebVitals from './reportWebVitals';
    import {
      getChainOptions,
      WalletProvider,
    } from "@xpladev/wallet-provider";
 
+   const root = ReactDOM.createRoot(document.getElementById('root'));
    getChainOptions().then((chainOptions) => {
-     ReactDOM.render(
+     root.render(
        <WalletProvider {...chainOptions}>
          <App />
-       </WalletProvider>,
-       document.getElementById("root")
+       </WalletProvider>
      );
    });
 

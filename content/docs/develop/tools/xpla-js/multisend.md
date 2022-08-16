@@ -15,16 +15,23 @@ import {
 } from "@xpladev/xpla.js";
 
 const {
-  TESTNET_LCD_URL = "http://localhost:1317",
+  TESTNET_LCD_URL = "https://tesseract-lcd.xpla.dev",
+  TESTNET_API_GAS_PRICES = "https://tesseract-api.xpla.dev/gas-prices",
   TESTNET_CHAIN_ID = "tesseract_37-1",
 } = process.env;
 
 async function main() {
+  const gasPrices = await(
+    await fetch(TESTNET_API_GAS_PRICES, {
+      redirect: "follow",
+    })
+  ).json();
+  const gasPricesCoins = new Coins(gasPrices);
   const client = new LCDClient({
     URL: TESTNET_LCD_URL,
     chainID: TESTNET_CHAIN_ID,
-    gasPrices: "0.15axpla",
-    gasAdjustment: 1.4,
+    gasPrices: gasPricesCoins,
+    gasAdjustment: 1.5,
   });
 
   const keys = {
