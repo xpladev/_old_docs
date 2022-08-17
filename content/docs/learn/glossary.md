@@ -187,7 +187,7 @@ A validator's public address beginning with `xplavaloper` followed by a string o
 
 ## Testnet
 
-A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions. The current testnet for Xpla is [`tesseract_37-1`]({{< ref "public-and-private-endpoints" >}})
+A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions. The current testnet for Xpla is [`cube_37-1`]({{< ref "public-and-private-endpoints" >}})
 
 ## The Xpla Ecosystem
 

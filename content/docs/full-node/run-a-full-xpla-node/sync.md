@@ -53,15 +53,15 @@ Your node is catching up with the network by replaying all the transactions from
   }
 ```
 
-Compare this height to the **Latest Blocks** by checking the API for latest block heights on [Dimension](https://dimension-lcd.xpla.io/blocks/latest), or [tesseract](https://tesseract-lcd.xpla.io/blocks/latest) to see your progress.
+Compare this height to the **Latest Blocks** by checking the API for latest block heights on [Dimension](https://dimension-lcd.xpla.io/blocks/latest), or [cube](https://cube-lcd.xpla.io/blocks/latest) to see your progress.
 
 ## State Sync
 
-You can significantly accelerate the synchronization process by providing `xplad` with a recent snapshot of the network state. Snapshots are made publicly available by members of the Xpla community one example can be downloaded from [Polkachu - Dimension Mainnet](https://polkachu.com/state_sync/xpla). [Polkachu - tesseract Testnet](https://polkachu.com/testnets/xplaInstructions) are provided by Polkachu, and not maintained as part of this documentation.
+You can significantly accelerate the synchronization process by providing `xplad` with a recent snapshot of the network state. Snapshots are made publicly available by members of the Xpla community one example can be downloaded from [Polkachu - Dimension Mainnet](https://polkachu.com/state_sync/xpla). [Polkachu - cube Testnet](https://polkachu.com/testnets/xplaInstructions) are provided by Polkachu, and not maintained as part of this documentation.
 
 ## Sync Complete
 
-You can tell that your node is in sync with the network when `SyncInfo.catching_up` in the `xplad status` response returns `false` and the `latest_block_height` corresponds to the public network blockheight found on the API for either [Dimension](https://dimension-lcd.xpla.dev/blocks/latest), or [tesseract](https://tesseract-lcd.xpla.dev/blocks/latest).
+You can tell that your node is in sync with the network when `SyncInfo.catching_up` in the `xplad status` response returns `false` and the `latest_block_height` corresponds to the public network blockheight found on the API for either [Dimension](https://dimension-lcd.xpla.dev/blocks/latest), or [cube](https://cube-lcd.xpla.dev/blocks/latest).
 
 ```bash
 xplad status
