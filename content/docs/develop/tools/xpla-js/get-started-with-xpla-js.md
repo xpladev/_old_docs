@@ -12,7 +12,7 @@ In this tutorial, you'll learn how to:
 1. [Set up your project](#1-set-up-your-project)
 2. [Set up a Xpla LCD (light client daemon)](#2-initialize-the-lcd)
 3. [Create and connect a wallet](#3-create-a-cube-testnet-wallet)
-4. [Query a swap contract](#5-query-a-xplaswap-contract-and-set-up-the-transaction)
+4. [Query a swap contract](#5-query-a-contract-and-set-up-the-transaction)
 5. [Create, sign, and broadcast a transaction](#6-broadcast-the-transaction)
 
 By the end of this guide, you'll be able to execute a token swap from your application using xpla.js.
@@ -114,54 +114,51 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 
 4. Request testnet funds for your wallet by navigating to the [Xpla faucet](https://faucet.xpla.io) and inputting your wallet address. You'll need these funds to perform swaps and pay for gas fees. Once the funds are in your wallet, you’re ready to move on to the next step.
 
-## 4. Find a Contract Address
+## 4. Query a Contract and Set-up the Transaction
 
-To find the contract address for a specific Xplaswap pair, visit https://app.xplaswap.io/
-
-## 5. Query a Xplaswap Contract and Set-up the Transaction
-
-Before you can perform a swap, you’ll need a belief price. You can calculate the belief price of one token by querying the proportion of the two pooled tokens. The belief price +/- the `max_spread` is the range of possible acceptable prices for this swap.
+Before you can perform a transaction, you may need to know a configuration of an inserted contract.
 
 1. Add the following code to your `index.js` file. Make sure the contract address is correct.
 
    ```ts
-   const pool = "<INSERT_POOL_ADDRESS>"; // A xplaswap contract address on cube.
-   const { assets } = await lcd.wasm.contractQuery(pool, { pool: {} }); // Fetch the amount of each asset in the pool.
-   const beliefPrice = (assets[0].amount / assets[1].amount).toFixed(18); // Calculate belief price using proportion of pool balances.
+   const contract = "<INSERT_CONTRACT_ADDRESS>"; // A contract address on cube.
+   const { config } = await lcd.wasm.contractQuery(contract, { config: {} }); // Query a configuration of an inserted contract
    ```
 
 2. Next, generate a message to broadcast to the network:
 
    ```ts
    import { MsgExecuteContract } from "@xpladev/xpla.js";
-   const xplaSwap = new MsgExecuteContract(
+   const txMsg = new MsgExecuteContract(
      wallet.key.accAddress,
-     pool,
+     contract,
      {
-       swap: {
-         max_spread: "0.001",
-         offer_asset: {
-           info: {
-             native_token: {
-               denom: "axpla",
-             },
-           },
-           amount: "100000000000",
-         },
-         belief_price: beliefPrice,
-       },
+       // Insert a transaction message to execute
+       // e.g.
+       // swap: {
+       //   max_spread: "0.001",
+       //   offer_asset: {
+       //     info: {
+       //       native_token: {
+       //         denom: "axpla",
+       //       },
+       //     },
+       //     amount: "100000000000",
+       //   },
+       //   belief_price: beliefPrice,
+       // },
      },
      new Coins({ axpla: "100000000000" })
    );
    ```
 
-## 6. Broadcast the Transaction
+## 5. Broadcast the Transaction
 
 1. Add the following code to `index.js` to create, sign, and broadcast the transaction. It's important to specify `axpla` as the fee denomination because XPLA is the only denomination the faucet sends.
 
    ```ts
    const tx = await wallet.createAndSignTx({
-     msgs: [xplaSwap],
+     msgs: [txMsg],
      feeDenoms: ["axpla"],
    });
    const result = await lcd.tx.broadcast(tx);
@@ -174,9 +171,9 @@ Before you can perform a swap, you’ll need a belief price. You can calculate t
    node index.js
    ```
 
-If successful, you'll see a log of the successful transaction and some new tokens in your wallet.
+If successful, you'll see a log of the successful transaction in your wallet and that's it!
 
-And that's it! You can find other pool addresses [here](https://app.xplaswap.io/) to call other swaps. Be sure to use the correct testnet or mainnet contract address.
+Try executing a transaction with other contracts as well for practice. Be sure to use the correct testnet or mainnet contract address.
 
 ## More Examples
 

@@ -201,9 +201,9 @@ const result = await lcd.tx.broadcast(tx);
 console.log(result);
 ```
 
-## Swapping a Native Xpla Asset for a CW20 Token Using Xplaswap (tentatively named)
+## Swapping a Native Xpla Asset for a CW20 Token Using a common swap pair contract
 
-The following code example shows how to swap a native asset for CW20 using Xplaswap.
+The following code example shows how to swap a native asset for CW20 using a common swap pair contract.
 
 Run this example on mainnet.
 
@@ -234,7 +234,7 @@ const { assets } = await lcd.wasm.contractQuery(pool, { pool: {} });
 const beliefPrice = (assets[0].amount / assets[1].amount).toFixed(18);
 
 // Swap 1 XPLA to SCRT with 1% slippage tolerance.
-const xplaSwap = new MsgExecuteContract(
+const swapMsg = new MsgExecuteContract(
   wallet.key.accAddress,
   pool,
   {
@@ -254,7 +254,7 @@ const xplaSwap = new MsgExecuteContract(
   new Coins({ axpla: "1000000000000000000" })
 );
 
-const tx = await wallet.createAndSignTx({ msgs: [xplaSwap] });
+const tx = await wallet.createAndSignTx({ msgs: [swapMsg] });
 const result = await lcd.tx.broadcast(tx);
 
 console.log(result);

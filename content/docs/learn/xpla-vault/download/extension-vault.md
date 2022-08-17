@@ -25,38 +25,38 @@ Use this tutorial to create a new wallet. To connect to an existing wallet, visi
 
 1. Open the browser extension and click **New wallet**.
 
-   {{< figure src="/extension-vault/new_wallet1.png" width="70%" >}}
-
 1. Type in a secure wallet name and password.
+
+   {{< figure src="/extension-vault/new_wallet1.png" width="100%" >}}
 
 1. Confirm your password.
 
-1. Using a pen and paper, write down your 24-word seed phrase exactly as it appears. Number each word to make verifying easier.
+1. Using a pen and paper, write down your 24-word mnemonic exactly as it appears. Number each word to make verifying easier.
 
    {{< hint danger >}}
-   **Protect your seed phrase**  
-   Anyone with your seed phrase can access your money, and there is no recourse for someone stealing your seed phrase. To protect your seed phrase, consider the following tips:
-   - Never save or store your seed phrase as a digital file on any device.
-   - Always write down your seed phrase with a pen and paper.
-   - Store the paper with your seed phrase on it somewhere safe.
-   - Never give your seed phrase to anyone, not even support staff.
+   **Protect your mnemonic keys**  
+   Anyone with your mnemonic phrase can access your money, and there is no recourse for someone stealing your mnemonic phrase. To protect your mnemonic phrase, consider the following tips:
+   - Never save or store your mnemonic phrase as a digital file on any device.
+   - Always write down your mnemonic phrase with a pen and paper.
+   - Store the paper with your mnemonic phrase on it somewhere safe.
+   - Never give your mnemonic phrase to anyone, not even support staff.
    {{< /hint >}}
 
 1. Verify your writing to make sure every word is spelled correctly and in the right order. If you numbered your phrase, it can be helpful to verify it backward.
 
-1. Check the box ensuring you wrote down your seed phrase, and click **Submit**.
+1. Check the box ensuring you wrote down your mnemonic, and click **Submit**.
 
-   {{< figure src="/extension-vault/new_wallet2.png" width="70%" >}}
+   {{< figure src="/extension-vault/new_wallet2.png" width="100%" >}}
 
-1. Confirm your seed phrase by typing or selecting the correct words in each prompt.
+1. Confirm your mnemonic phrase by typing or selecting the correct words in each prompt.
 
-   {{< figure src="/extension-vault/new_wallet3.png" width="70%" >}}
+   {{< figure src="/extension-vault/new_wallet3.png" width="100%" >}}
 
 1. Click **Submit**.
 
 1. Click **Connect** to connect to your new wallet.
 
-   {{< figure src="/extension-vault/new_wallet4.png" width="70%" >}}
+   {{< figure src="/extension-vault/new_wallet4.png" width="100%" >}}
 
 Congratulations! You have just created a Xpla Vault.
 
