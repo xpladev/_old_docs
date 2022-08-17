@@ -19,7 +19,7 @@ Xpla Development Suite
     │
     ├── xplad: Node daemon and CLI.
     │
-    ├── Archive: Block explorer.
+    ├── Xpla Explorer: Block explorer.
     │
     └── Faucet: Get testnet funds.
 ```
@@ -40,9 +40,9 @@ Use these tools to interact with the Xpla network.
 
 The command line interface and node daemon for interacting with the Xpla blockchain. Use `xplad` to run a full node or interact with the chain. Follow the [`xplad` install guide]({{< ref "install-xplad" >}}) to get started.
 
-### Archive 
+### Xpla Explorer
 
-Xpla’s multi-purpose [block explorer](https://archive.xpla.io/).
+Xpla’s multi-purpose [block explorer](https://explorer.xpla.io/).
 
 ### Faucet
 

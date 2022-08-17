@@ -108,7 +108,7 @@ TxInfo {
 
 ```js
 const getTransactionLink = (hash, chainID) =>
-  `https://archive.xpla.io/${chainID}/tx/${hash}`;
+  `https://explorer.xpla.io/${chainID}/tx/${hash}`;
 const hash = "CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B";
 
 console.log(getTransactionLink(hash, "tesseract_37-1"));
@@ -117,14 +117,14 @@ console.log(getTransactionLink(hash, "tesseract_37-1"));
 Example response:
 
 ```
-https://archive.xpla.io/tesseract_37-1/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B
+https://explorer.xpla.io/tesseract_37-1/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B
 ```
 
 ## Get Link to Wallet Address
 
 ```js
 const getWalletLink = (address, chainID) =>
-  `https://archive.xpla.io/${chainID}/address/${address}`;
+  `https://explorer.xpla.io/${chainID}/address/${address}`;
 const address = "xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 console.log(getWalletLink(address, "tesseract_37-1"));
 ```
@@ -132,7 +132,7 @@ console.log(getWalletLink(address, "tesseract_37-1"));
 Example response:
 
 ```
-https://archive.xpla.io/tesseract_37-1/address/xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+https://explorer.xpla.io/tesseract_37-1/address/xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Sending Native Tokens

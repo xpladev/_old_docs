@@ -79,7 +79,7 @@ xplad status
   }
 ```
 
-Validators can view the status of the network using [Xpla Archive](https://archive.xpla.io).
+Validators can view the status of the network using [Xpla Explorer](https://explorer.xpla.io).
 
 ## Sync faster during testing
 
