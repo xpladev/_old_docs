@@ -22,32 +22,32 @@ Complete this tutorial to get started with the Xpla mobile vault.
 
    {{< figure src="/mobile-vault/new_wallet1.jpeg" width="30%" >}}
 
-1. Enter a name for your wallet and a secure password. Confirm your password and tap **Next**
+1. Enter a name for your wallet and a secure password and confirm your password.
 
    {{< figure src="/mobile-vault/new_wallet2.jpeg" width="30%" >}}
 
-1. Using a pen and paper, write down your 24-word seed phrase exactly as it appears. Number each word to make verifying easier.
+1. Using a pen and paper, write down your 24-word mnemonic exactly as it appears. Number each word to make verifying easier.
 
    {{< hint danger >}}
-   **Protect your seed phrase**  
-   Anyone with your seed phrase can access your money, and there is no recourse for someone stealing your seed phrase. To protect your seed phrase, consider the following tips:
-   - Never save or store your seed phrase as a digital file on any device.
-   - Always write down your seed phrase with a pen and paper.
-   - Store the paper with your seed phrase on it somewhere safe.
-   - Never give your seed phrase to anyone, not even support staff.
+   **Protect your mnemonic keys**  
+   Anyone with your mnemonic phrase can access your money, and there is no recourse for someone stealing your mnemonic phrase. To protect your mnemonic phrase, consider the following tips:
+   - Never save or store your mnemonic phrase as a digital file on any device.
+   - Always write down your mnemonic phrase with a pen and paper.
+   - Store the paper with your mnemonic phrase on it somewhere safe.
+   - Never give your mnemonic phrase to anyone, not even support staff.
    {{< /hint >}}
 
 1. Verify your writing to make sure every word is spelled correctly and in the right order. If you numbered your phrase, it can be helpful to verify it backward.
 
-1. Tap **I have written down my seed**.
+1. Tap **I have written down the mnemonic** and tap **Submit**.
 
    {{< figure src="/mobile-vault/new_wallet3.jpeg" width="30%" >}}
 
-1. Confirm your seed phrase by typing or selecting the correct words in each prompt.
+1. Confirm your mnemonic phrase by typing or selecting the correct words in each prompt.
 
    {{< figure src="/mobile-vault/new_wallet4.jpeg" width="30%" >}}
 
-1. Tap **Confirm and finish**.
+1. Tap **Submit** and finish.
 
 Congratulations, you have just created a wallet!
 
@@ -70,7 +70,7 @@ Congratulations, you have just created a wallet!
    Always keep some tokens to pay fees with. Never spend your entire wallet amount. Without money for fees, you can't make any transactions.
    {{< /hint >}}
 
-1.  Enter your password and tap **Confirm**. Wait for the transaction to process. This generally takes a few seconds.
+1.  Enter your password and tap **Submit**. Wait for the transaction to process. This generally takes a few seconds.
 
 ## Stake XPLA
 
@@ -91,7 +91,7 @@ Congratulations, you have just created a wallet!
    Always keep some tokens to pay fees with. Never spend your entire wallet amount. Without money for fees, you can't make any transactions.
    {{< /hint >}}
 
-1. Tap **Confirm** and wait for your transaction to process.
+1. Tap **Submit** and wait for your transaction to process.
 
 Your XPLA is now staked to a validator.
 
@@ -105,7 +105,7 @@ Rewards start accruing the moment you stake XPLA. Monitor your rewards in the st
 
 1. Review the amounts and specify which coin you want to pay fees in.
 
-1. Enter your password and tap **Confirm**.
+1. Enter your password and tap **Submit**.
 
 Congratulations, you've just withdrawn your staking rewards!
 
