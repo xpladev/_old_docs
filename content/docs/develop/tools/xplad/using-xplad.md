@@ -83,7 +83,7 @@ xplad tx bank send \
     xpla1ru2ySENDER-EXAMPLEtf9cva9kp33h0jnsm9ss \
     xpla1rRECIPIENT-EXAMPLEtf9cva9kp33h0jnsm9ss \
     1axpla \
-    --chain-id=tesseract_37-1 \
+    --chain-id=cube_37-1 \
     --dry-run
 ```
 {{< /expand >}}
@@ -112,7 +112,7 @@ xplad tx sign \
 
 ```bash
 xplad tx sign \
-    --chain-id=tesseract_37-1 \
+    --chain-id=cube_37-1 \
     --from=xpla1EXAMPLEy09tEXAMPLEtf9EXAMPLE3h0EXAMPLEss unsignedTx.json
 ```
 

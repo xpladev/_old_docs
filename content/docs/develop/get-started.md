@@ -30,7 +30,7 @@ If you have a back end for your app and want a front end to connect to Xpla Vaul
 
 Xpla also provides other tools for building:
 
-- [Archive](https://archive.xpla.io): Xpla’s multi-purpose block explorer. 
+- [Explorer](https://explorer.xpla.io): Xpla’s multi-purpose block explorer. 
 - [Faucet](https://faucet.xpla.io): Get tokens sent to your testnet address. 
 - [`xplad`]({{< ref "install-xplad" >}}): the node daemon and command line interface that connects to the Xpla network. 
 

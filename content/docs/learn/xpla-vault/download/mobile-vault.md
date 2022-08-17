@@ -20,15 +20,11 @@ Complete this tutorial to get started with the Xpla mobile vault.
 
 1. Launch the Xpla mobile vault and select **New wallet**
 
-   ```
-   TODO: image
-   ```
+   {{< figure src="/mobile-vault/new_wallet1.jpeg" width="30%" >}}
 
 1. Enter a name for your wallet and a secure password. Confirm your password and tap **Next**
 
-   ```
-   TODO: image
-   ```
+   {{< figure src="/mobile-vault/new_wallet2.jpeg" width="30%" >}}
 
 1. Using a pen and paper, write down your 24-word seed phrase exactly as it appears. Number each word to make verifying easier.
 
@@ -43,40 +39,17 @@ Complete this tutorial to get started with the Xpla mobile vault.
 
 1. Verify your writing to make sure every word is spelled correctly and in the right order. If you numbered your phrase, it can be helpful to verify it backward.
 
-   ```
-   TODO: image
-   ```
-
 1. Tap **I have written down my seed**.
+
+   {{< figure src="/mobile-vault/new_wallet3.jpeg" width="30%" >}}
 
 1. Confirm your seed phrase by typing or selecting the correct words in each prompt.
 
-   ```
-   TODO: image
-   ```
+   {{< figure src="/mobile-vault/new_wallet4.jpeg" width="30%" >}}
 
 1. Tap **Confirm and finish**.
 
 Congratulations, you have just created a wallet!
-
-## Receive Tokens from an Exchange
-
-1. Purchase your tokens using any exchange that supports Xpla.
-
-1. Withdraw any token supported by the Xpla network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
-
-   1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Xpla web wallet near your wallet name. Your wallet address will look like this: `xpla<random-numbers-and-letters>`
-
-   1. Double-check your wallet address is correct before sending.
-
-   1. Send the tokens from the exchange to your wallet address.
-
-   {{< hint warning >}}
-   **Waiting times for transfers**  
-   When you transfer tokens from an exchange to Xpla, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
-   {{< /hint >}}
-
-Now you have tokens on Xpla!
 
 ## Send Tokens
 
@@ -135,20 +108,6 @@ Rewards start accruing the moment you stake XPLA. Monitor your rewards in the st
 1. Enter your password and tap **Confirm**.
 
 Congratulations, you've just withdrawn your staking rewards!
-
-## Connect to a DApp
-
-1. Open the Xpla Vault and connect to your wallet.
-
-1. In your browser, navigate to the dApp of your choice. 
-
-1. Tap the wallet icon at the top of the page.
-
-1. Wallet connect will open your Xpla Vault.
-
-1. When prompted, tap **Allow**.
-
-You can now make transactions on different dApps in the Xpla ecosystem from your mobile device. 
 
 ## Next Steps
 

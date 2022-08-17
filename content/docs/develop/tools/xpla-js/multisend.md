@@ -15,9 +15,9 @@ import {
 } from "@xpladev/xpla.js";
 
 const {
-  TESTNET_LCD_URL = "https://tesseract-lcd.xpla.dev",
-  TESTNET_API_GAS_PRICES = "https://tesseract-api.xpla.dev/gas-prices",
-  TESTNET_CHAIN_ID = "tesseract_37-1",
+  TESTNET_LCD_URL = "https://cube-lcd.xpla.dev",
+  TESTNET_API_GAS_PRICES = "https://cube-api.xpla.dev/gas-prices",
+  TESTNET_CHAIN_ID = "cube_37-1",
 } = process.env;
 
 async function main() {

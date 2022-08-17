@@ -60,14 +60,14 @@ function sendAuthorized(
 
 async function main() {
   const gasPrices = await(
-    await fetch("https://tesseract-api.xpla.dev/gas-prices", {
+    await fetch("https://cube-api.xpla.dev/gas-prices", {
       redirect: "follow",
     })
   ).json();
   const gasPricesCoins = new Coins(gasPrices);
   const client = new LCDClient({
-    URL: "https://tesseract-lcd.xpla.dev",
-    chainID: "tesseract_37-1",
+    URL: "https://cube-lcd.xpla.dev",
+    chainID: "cube_37-1",
     gasPrices: gasPricesCoins,
     gasAdjustment: "1.5",
   });

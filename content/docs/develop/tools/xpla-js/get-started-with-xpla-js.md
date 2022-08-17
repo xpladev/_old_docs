@@ -11,7 +11,7 @@ In this tutorial, you'll learn how to:
 
 1. [Set up your project](#1-set-up-your-project)
 2. [Set up a Xpla LCD (light client daemon)](#2-initialize-the-lcd)
-3. [Create and connect a wallet](#3-create-a-tesseract-testnet-wallet)
+3. [Create and connect a wallet](#3-create-a-cube-testnet-wallet)
 4. [Query a swap contract](#5-query-a-xplaswap-contract-and-set-up-the-transaction)
 5. [Create, sign, and broadcast a transaction](#6-broadcast-the-transaction)
 
@@ -71,13 +71,13 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
    import fetch from "isomorphic-fetch";
    import { Coins, LCDClient } from "@xpladev/xpla.js";
    const gasPrices = await fetch(
-     "https://tesseract-api.xpla.dev/gas-prices", { redirect: 'follow' }
+     "https://cube-api.xpla.dev/gas-prices", { redirect: 'follow' }
    );
    const gasPricesJson = await gasPrices.json();
    const gasPricesCoins = new Coins(gasPricesJson);
    const lcd = new LCDClient({
-     URL: "https://tesseract-lcd.xpla.dev", // Use "https://dimension-lcd.xpla.dev" for prod
-     chainID: "tesseract_37-1", // Use "dimension_37-1" for production
+     URL: "https://cube-lcd.xpla.dev", // Use "https://dimension-lcd.xpla.dev" for prod
+     chainID: "cube_37-1", // Use "dimension_37-1" for production
      gasPrices: gasPricesCoins,
      gasAdjustment: "1.5", // Increase gas price slightly so transactions go through smoothly.
      gas: 10000000,
@@ -86,11 +86,11 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 
    {{< hint info >}}
    **Note**  
-   The previous code block shows how to connect to the tesseract testnet. To connect to the dimension_37-1 mainnet for production, use “`https://dimension-lcd.xpla.dev`”.
-   You will also need to change the `chainID` from `"tesseract_37-1"` to `"dimension_37-1"`.
+   The previous code block shows how to connect to the cube testnet. To connect to the dimension_37-1 mainnet for production, use “`https://dimension-lcd.xpla.dev`”.
+   You will also need to change the `chainID` from `"cube_37-1"` to `"dimension_37-1"`.
    {{< /hint >}}
 
-## 3. Create a Tesseract Testnet Wallet
+## 3. Create a Cube Testnet Wallet
 
 1. You'll need a wallet to sign and submit transactions. [Create a new wallet]({{< ref "/docs/learn/xpla-vault/download/extension-vault" >}}) using the Xpla extension vault. Be sure to save your mnemonic key!
 
@@ -125,7 +125,7 @@ Before you can perform a swap, you’ll need a belief price. You can calculate t
 1. Add the following code to your `index.js` file. Make sure the contract address is correct.
 
    ```ts
-   const pool = "<INSERT_POOL_ADDRESS>"; // A xplaswap contract address on tesseract.
+   const pool = "<INSERT_POOL_ADDRESS>"; // A xplaswap contract address on cube.
    const { assets } = await lcd.wasm.contractQuery(pool, { pool: {} }); // Fetch the amount of each asset in the pool.
    const beliefPrice = (assets[0].amount / assets[1].amount).toFixed(18); // Calculate belief price using proportion of pool balances.
    ```
