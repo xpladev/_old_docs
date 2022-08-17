@@ -25,9 +25,7 @@ Use this tutorial to create a new wallet. To connect to an existing wallet, visi
 
 1. Open the browser extension and click **New wallet**.
 
-   ```
-   TODO: image
-   ```
+   {{< figure src="/extension-vault/new_wallet1.png" width="70%" >}}
 
 1. Type in a secure wallet name and password.
 
@@ -48,64 +46,25 @@ Use this tutorial to create a new wallet. To connect to an existing wallet, visi
 
 1. Check the box ensuring you wrote down your seed phrase, and click **Submit**.
 
-   ```
-   TODO: image
-   ```
+   {{< figure src="/extension-vault/new_wallet2.png" width="70%" >}}
 
 1. Confirm your seed phrase by typing or selecting the correct words in each prompt.
 
-   ```
-   TODO: image
-   ```
+   {{< figure src="/extension-vault/new_wallet3.png" width="70%" >}}
 
 1. Click **Submit**.
 
 1. Click **Connect** to connect to your new wallet.
 
-   ```
-   TODO: image
-   ```
+   {{< figure src="/extension-vault/new_wallet4.png" width="70%" >}}
 
 Congratulations! You have just created a Xpla Vault.
-
-### Receive Tokens from an Exchange
-
-1. Connect to your wallet and click **Buy** next to any token. Purchase your tokens using any exchange that supports Xpla.
-
-   ```
-   TODO: image
-   ```
-
-1. Purchase tokens using your preferred exchange.
-
-   ```
-   TODO: image
-   ```
-
-1. Withdraw any token supported by the Xpla network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
-
-    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Xpla Vault near your wallet name. Your wallet address will look like this: `xpla<random-numbers-and-letters>`
-
-    1. Double-check your wallet address is correct before sending.
-
-    1. Send the tokens from the exchange to your Xpla Vault address.
-
-   {{< hint warning >}}
-   **Waiting times for transfers**  
-   When you transfer tokens from an exchange to Xpla, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
-   {{< /hint >}}
-
-Now you have tokens on Xpla!
 
 ### Send Tokens
 
 1. Open the Xpla extension vault and connect to your wallet.
 
 1. Click **Send** next to the token you want to send.
-
-   ```
-   TODO: image
-   ```
 
 1. Enter the address of the wallet you want to send tokens to.
 
@@ -116,18 +75,6 @@ Now you have tokens on Xpla!
 1.  Enter your password and click **Submit**.
 
 After a few moments, the tokens will appear in the receiver's wallet.
-
-### Connect to a DApp
-
-1. Open the Xpla extension vault and connect to your wallet.
-
-1. Navigate to the dApp of your choice. Most dApps use a similar process.
-
-1. To connect your wallet, click **Connect Wallet** at the top of the page.
-
-1. **Allow** the connection in the Xpla extension vault. 
-
-You can now make transactions on different dApps in the Xpla ecosystem.
 
 ## Next Steps
 
