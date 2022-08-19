@@ -17,7 +17,7 @@ import {
 const {
   TESTNET_LCD_URL = "https://cube-lcd.xpla.dev",
   TESTNET_API_GAS_PRICES = "https://cube-api.xpla.dev/gas-prices",
-  TESTNET_CHAIN_ID = "cube_37-1",
+  TESTNET_CHAIN_ID = "cube_47-4",
 } = process.env;
 
 async function main() {

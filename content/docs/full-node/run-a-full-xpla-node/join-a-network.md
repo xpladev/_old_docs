@@ -59,7 +59,7 @@ Specify the network you want to join by choosing the corresponding **genesis fil
 | Network     | Type    | Genesis                                                                                           | Addressbook                     | Seeds                     |
 | :---------- | :------ | :------------------------------------------------------------------------------------------------ | :------------------------------ | :------------------------------ |
 | `dimension_37-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json)                   | Community maintained [Polkachu](https://polkachu.com/addrbooks/xpla) | [not available yet] |
-| `cube_37-1`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/cube_37-1/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
+| `cube_47-4`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/cube_47-4/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
 
 {{< hint info >}}
 **Selecting a network**  
@@ -107,7 +107,7 @@ xplad status
     },
     "id": "821dc1401fd0270487b3e615c652181b4d4566dd",
     "listen_addr": "18.157.84.154:26656",
-    "network": "cube_37-1",
+    "network": "cube_47-4",
     "version": "v0.34.19-xpla.2",
     "channels": "40202122233038606100",
     "moniker": "xpladocs",

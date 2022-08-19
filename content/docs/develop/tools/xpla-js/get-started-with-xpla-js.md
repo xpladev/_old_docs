@@ -77,7 +77,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
    const gasPricesCoins = new Coins(gasPricesJson);
    const lcd = new LCDClient({
      URL: "https://cube-lcd.xpla.dev", // Use "https://dimension-lcd.xpla.dev" for prod
-     chainID: "cube_37-1", // Use "dimension_37-1" for production
+     chainID: "cube_47-4", // Use "dimension_37-1" for production
      gasPrices: gasPricesCoins,
      gasAdjustment: "1.5", // Increase gas price slightly so transactions go through smoothly.
      gas: 10000000,
@@ -87,7 +87,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
    {{< hint info >}}
    **Note**  
    The previous code block shows how to connect to the cube testnet. To connect to the dimension_37-1 mainnet for production, use “`https://dimension-lcd.xpla.dev`”.
-   You will also need to change the `chainID` from `"cube_37-1"` to `"dimension_37-1"`.
+   You will also need to change the `chainID` from `"cube_47-4"` to `"dimension_37-1"`.
    {{< /hint >}}
 
 ## 3. Create a Cube Testnet Wallet

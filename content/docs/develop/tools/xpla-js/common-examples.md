@@ -28,7 +28,7 @@ const gasPricesCoins = new Coins(gasPrices);
 
 const lcd = new LCDClient({
   URL: "https://cube-lcd.xpla.dev/",
-  chainID: "cube_37-1",
+  chainID: "cube_47-4",
   gasPrices: gasPricesCoins,
   gasAdjustment: "1.5",
   gas: 10000000,
@@ -53,7 +53,7 @@ Example response:
 ## Get Wallet Balance (CW20 tokens)
 
 ```js
-// TEST on cube_37-1
+// TEST on cube_47-4
 const tokenAddress = "xpla1747mad58h0w4y589y3sk84r5efqdev9q4r02pc";
 const walletAddress = "xpla1f44ddca9awepv2rnudztguq5rmrran2m20zzd6";
 const response = await lcd.wasm.contractQuery(tokenAddress, {
@@ -111,13 +111,13 @@ const getTransactionLink = (hash, chainID) =>
   `https://explorer.xpla.io/${chainID}/tx/${hash}`;
 const hash = "CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B";
 
-console.log(getTransactionLink(hash, "cube_37-1"));
+console.log(getTransactionLink(hash, "cube_47-4"));
 ```
 
 Example response:
 
 ```
-https://explorer.xpla.io/cube_37-1/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B
+https://explorer.xpla.io/cube_47-4/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A320C1200F9C5EC5F0E7B14B
 ```
 
 ## Get Link to Wallet Address
@@ -126,13 +126,13 @@ https://explorer.xpla.io/cube_37-1/tx/CAB264B3D92FF3DFE209DADE791A866876DE5DD2A3
 const getWalletLink = (address, chainID) =>
   `https://explorer.xpla.io/${chainID}/address/${address}`;
 const address = "xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-console.log(getWalletLink(address, "cube_37-1"));
+console.log(getWalletLink(address, "cube_47-4"));
 ```
 
 Example response:
 
 ```
-https://explorer.xpla.io/cube_37-1/address/xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+https://explorer.xpla.io/cube_47-4/address/xpla1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Sending Native Tokens
@@ -184,7 +184,7 @@ const mk = new MnemonicKey({
 
 const wallet = lcd.wallet(mk);
 
-// TEST on cube_37-1
+// TEST on cube_47-4
 const tokenAddress = "xpla1747mad58h0w4y589y3sk84r5efqdev9q4r02pc";
 
 // Transfer 1 TEST.
