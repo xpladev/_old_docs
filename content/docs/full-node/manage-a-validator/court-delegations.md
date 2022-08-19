@@ -13,7 +13,7 @@ Set up a website so that your delegators can find you. It is recommended that yo
 
 ## Announce Yourself on Discord
 
-Join the [Xpla Validators Discord](https://discord.com/invite/ERczeGeMEa) channel, and introduce yourself.
+Join the [Xpla Validators Discord](https://discord.gg/vUBcwm3r6t) channel, and introduce yourself.
 
 ## Submit a Validator Profile
 

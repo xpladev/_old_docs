@@ -9,10 +9,7 @@ Complete this tutorial to get started with the Xpla mobile vault.
 
 ## Download the Xpla Mobile Vault
 
-1. Tap the download link for your operating system. Your device’s app store will open.
-
-   - [Xpla Vault for iOS](https://apps.apple.com/app/...)
-   - [Xpla Vault for Android](https://play.google.com/store/apps/details?id=io.xpla.vault)
+1. Tap the download link for your operating system. Your device’s app store will open. The download links will be released soon.
 
 1. Install the Xpla mobile vault on your phone.
 
