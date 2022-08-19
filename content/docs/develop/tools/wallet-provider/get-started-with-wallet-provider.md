@@ -14,7 +14,7 @@ This guide will cover how to set up a React app, integrate Wallet Provider, chec
 Check out the getting started section for the premade templates [in GitHub](https://github.com/xpladev/wallet-provider/).
 {{< /hint >}}
 
-If you're using a frontend framework other than React you'll need to use [Wallet Controller](https://www.npmjs.com/package/@xpladev/wallet-controller) instead. Controller provides the sub-structure of Provider. You can see an example of how Wallet Controller works in the [Vue.js template example](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/vue).
+If you're using a frontend framework other than React you'll need to use [Wallet Controller](https://www.npmjs.com/package/@xpladev/wallet-controller) instead. Controller provides the sub-structure of Provider.
 
 ## Prerequisites
 
@@ -356,12 +356,3 @@ Because all coins are denominated in micro-units, you will need to multiply any 
    ```
 
 4. Refresh your browser. You'll see a new **Send** button. Click the button to send your transaction. Your extension wallet will ask you to confirm the transaction.
-
-That's all! You can find more examples of `WalletProvider` capabilities in the following example templates:
-
-- [Wallet Provider + Create-React-App](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/create-react-app)
-- [Wallet Provider + Next.js](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/next)
-- [Wallet Provider + Vite.js](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/vite)
-- [Wallet Controller + Lit](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/lit)
-- [Wallet Controller + Vue.js](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/vue)
-- [Wallet Controller + Svelte](https://githubbox.com/xpladev/wallet-provider/tree/main/templates/svelte)
