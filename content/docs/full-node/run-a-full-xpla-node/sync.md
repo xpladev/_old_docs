@@ -57,7 +57,7 @@ Compare this height to the **Latest Blocks** by checking the API for latest bloc
 
 ## State Sync
 
-You can significantly accelerate the synchronization process by providing `xplad` with a recent snapshot of the network state. Snapshots are made publicly available by members of the Xpla community one example can be downloaded from [Polkachu - Dimension Mainnet](https://polkachu.com/state_sync/xpla). [Polkachu - cube Testnet](https://polkachu.com/testnets/xplaInstructions) are provided by Polkachu, and not maintained as part of this documentation.
+You can significantly accelerate the synchronization process by providing `xplad` with a recent snapshot of the network state. Snapshots are made publicly available by members of the Xpla community, and not maintained as part of this documentation.
 
 ## Sync Complete
 

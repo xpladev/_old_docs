@@ -56,14 +56,14 @@ These instructions are for setting up a brand new full node from scratch. You ca
 
 Specify the network you want to join by choosing the corresponding **genesis file** and **seeds**:
 
-| Network     | Type    | Genesis                                                                                           | Addressbook                     | Seeds                     |
-| :---------- | :------ | :------------------------------------------------------------------------------------------------ | :------------------------------ | :------------------------------ |
-| `dimension_37-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json)                   | Community maintained [Polkachu](https://polkachu.com/addrbooks/xpla) | [not available yet] |
-| `cube_47-4`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/cube_47-4/genesis.json) |  [not available yet]            | Community maintained from [Polkachu](https://polkachu.com/testnets/xpla/peers) |
+| Network     | Type    | Genesis                                                                                           | Addressbook          | Seeds                     |
+| :---------- | :------ | :------------------------------------------------------------------------------------------------ |:---------------------| :------------------------------ |
+| `dimension_37-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json) | [not available yet]  | [not available yet] |
+| `cube_47-4`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/cube_47-4/genesis.json) | [not available yet]  | [not available yet] |
 
 {{< hint info >}}
 **Selecting a network**  
-Note that the versions of the network listed above are the [latest versions](https://github.com/xpladev/testnets/tree/master#latest-networks). To find earlier versions, please consult the [networks repo](https://github.com/xpladev/testnets).
+Note that the versions of the network listed above are the latest versions. To find earlier versions, please consult the [networks repo](https://github.com/xpladev/testnets).
 {{< /hint >}}
 
 ### 2. Download genesis file and address book
@@ -75,16 +75,6 @@ Note that the versions of the network listed above are the [latest versions](htt
 Choose a `testnet` or `mainnet` address type and download the appropriate genesis-transaction and addressbook. Links to these are posted in [Select-a-network]({{< ref "#1-select-a-network" >}}).
 
 - For default `xplad` configurations, the `genesis` and `addressbook` files should be placed under `~/.xpla/config/genesis.json` and `~/.xpla/config/addrbook.json` respectively.
-
-**Example**:
-
-```bash
-# Obtain the genesis for dimension_37-1:
-wget hhttps://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json -I ~/.xpla/config/genesis.json
-
-# Obtain the addressbook for the dimension_37-1 from Polkachu:
-wget https://snapshots1.polkachu.com/addrbook/xpla/addrbook.json -O ~/.xpla/config/addrbook.json
-```
 
 ### 3. `xplad start`
 

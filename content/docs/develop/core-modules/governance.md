@@ -32,7 +32,7 @@ Deposits get refunded if all of the following conditions are met:
 - The total number of `NoWithVeto` votes is less than 33.4% of the total vote.
 - A vote returns a majority of `Yes` or `No` votes.
 
-Deposits are burned under any of the following conditions:
+Deposits are not returned under any of the following conditions:
 - The minimum deposit of 512 XPLA is not reached within the one-week deposit period.
 - `Quorum` is not met: the number of total votes after the one-week voting period is less than 10% of all staked XPLA.
 - the number of `NoWithVeto` votes is above 33.4% of the total vote.

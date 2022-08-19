@@ -102,5 +102,3 @@ export function SignBytesSample() {
 }
 ```
 You can find this code used in context in [GitHub](https://github.com/xpladev/wallet-provider/blob/main/templates/create-react-app/src/components/SignBytesSample.tsx).
-
-You can view a working sandbox example of bytes signing with Xpla Vault on [codesandbox.io](https://codesandbox.io/s/github/xpladev/wallet-provider/tree/main/templates/create-react-app).

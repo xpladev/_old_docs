@@ -63,7 +63,7 @@ To prevent unnecessary proposals or abuse of the system, all governance proposal
 
    {{< hint info >}}
    **Note**  
-   Before uploading any proposal, try to get community feedback on [the Xpla Agora research forum](https://agora.xpla.io/).
+   Before uploading any proposal, try to get community feedback on the Xpla Governance forum. The link will be unveiled in the near future.
    Do not use text proposals to suggest parameter changes. For more information, visit the [Governance module reference page]({{< ref "/docs/develop/core-modules/governance" >}}).
    {{< /hint >}}
 
