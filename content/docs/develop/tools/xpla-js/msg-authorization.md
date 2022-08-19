@@ -67,7 +67,7 @@ async function main() {
   const gasPricesCoins = new Coins(gasPrices);
   const client = new LCDClient({
     URL: "https://cube-lcd.xpla.dev",
-    chainID: "cube_37-1",
+    chainID: "cube_47-4",
     gasPrices: gasPricesCoins,
     gasAdjustment: "1.5",
   });
