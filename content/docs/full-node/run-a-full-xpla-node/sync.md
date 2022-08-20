@@ -61,7 +61,7 @@ You can significantly accelerate the synchronization process by providing `xplad
 
 ## Sync Complete
 
-You can tell that your node is in sync with the network when `SyncInfo.catching_up` in the `xplad status` response returns `false` and the `latest_block_height` corresponds to the public network blockheight found on the API for either [Dimension](https://dimension-lcd.xpla.dev/blocks/latest), or [cube](https://cube-lcd.xpla.dev/blocks/latest).
+You can tell that your node is in sync with the network when `SyncInfo.catching_up` in the `xplad status` response returns `false` and the `latest_block_height` corresponds to the public network blockheight found on the API for either [Dimension](https://dimension-lcd.xpla.io/blocks/latest), or [cube](https://cube-lcd.xpla.io/blocks/latest).
 
 ```bash
 xplad status

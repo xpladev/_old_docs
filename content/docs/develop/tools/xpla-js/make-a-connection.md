@@ -18,7 +18,7 @@ To perform these actions, connect to the blockchain by using an `LCDClient` obje
 import { LCDClient } from "@xpla/xpla.js";
 
 const xpla = new LCDClient({
-  URL: "https://dimension-lcd.xpla.dev",
+  URL: "https://dimension-lcd.xpla.io",
   chainID: "dimension_37-1",
 });
 ```

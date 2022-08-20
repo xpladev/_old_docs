@@ -13,7 +13,7 @@ Use `LCDClient.wallet()` to create a `Wallet` from a `Key`.
 import { LCDClient, MnemonicKey } from "@xpla/xpla.js";
 
 const xpla = new LCDClient({
-  URL: "https://dimension-lcd.xpla.dev",
+  URL: "https://dimension-lcd.xpla.io",
   chainId: "dimension_37-1",
 });
 

@@ -20,7 +20,7 @@ const mk = new MnemonicKey({
 })
 
 const xpla = new LCDClient({
-  URL: 'https://cube-lcd.xpla.dev',
+  URL: 'https://cube-lcd.xpla.io',
   chainID: 'cube_47-4'
 });
 
