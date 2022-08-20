@@ -27,7 +27,7 @@ Your contract is now uploaded, and you received a contract code ID.
 
 ## Instantiate
 
-Use **Create** to initialize your contract after uploading.
+Use **Instantiate** to initialize your contract after uploading.
 
 1. Click **Create**.
 
@@ -43,16 +43,16 @@ Use **Query** to find out contract values. Querying does not cost anything.
 
 1. Click **Query** located under your contract address.
 
-2. Enter your `HandleMsg JSON`. Click **Next**.
+2. Enter your `Input`. Click **Submit**.
 
 Xpla Vault will show your query result.
 
-## Interact
+## Execute
 
-Use **Interact** to use the contract. Interacting will spend gas.
+Use **Execute** to use the contract. Interacting will spend gas.
 
-1. Click **Interact** located under your contract address.
+1. Click **Execute** located under your contract address.
 
-2. Enter your `HandleMsg JSON`. Click **Next**.
+2. Enter your `Msg`.
 
-3. Confirm the fee amounts and enter your password. Click **Interact**.
+3. Confirm the fee amounts and click **Submit**.
