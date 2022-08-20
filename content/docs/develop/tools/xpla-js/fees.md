@@ -6,7 +6,7 @@ title: Fees
 # Fees
 
 ```ts
-import { Fee } from '@xpladev/xpla.js';
+import { Fee } from '@xpla/xpla.js';
 
 const msgs = [ new MsgSend( ... ), new MsgExecuteContract( ... ), ]; // messages
 const fee = new Fee(50000, { axpla: 4500000 });

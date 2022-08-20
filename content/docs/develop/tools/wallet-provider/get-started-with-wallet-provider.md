@@ -14,7 +14,7 @@ This guide will cover how to set up a React app, integrate Wallet Provider, chec
 Check out the getting started section for the premade templates [in GitHub](https://github.com/xpladev/wallet-provider/).
 {{< /hint >}}
 
-If you're using a frontend framework other than React you'll need to use [Wallet Controller](https://www.npmjs.com/package/@xpladev/wallet-controller) instead. Controller provides the sub-structure of Provider.
+If you're using a frontend framework other than React you'll need to use [Wallet Controller](https://www.npmjs.com/package/@xpla/wallet-controller) instead. Controller provides the sub-structure of Provider.
 
 ## Prerequisites
 
@@ -31,10 +31,10 @@ If you're using a frontend framework other than React you'll need to use [Wallet
    cd my-xpla-app
    ```
 
-2. Then, install the `@xpladev/wallet-provider` package:
+2. Then, install the `@xpla/wallet-provider` package:
 
    ```sh
-   npm install @xpladev/wallet-provider
+   npm install @xpla/wallet-provider
    ```
 
 ## 2. Wrap Your App in `WalletProvider`
@@ -52,7 +52,7 @@ Next, you'll wrap your `App` with `<WalletProvider>` to give all your components
    import {
      getChainOptions,
      WalletProvider,
-   } from "@xpladev/wallet-provider";
+   } from "@xpla/wallet-provider";
 
    const root = ReactDOM.createRoot(document.getElementById('root'));
    getChainOptions().then((chainOptions) => {
@@ -113,7 +113,7 @@ Now that `App.js` has inherited the context of `WalletProvider`, you can start p
 2. Populate the `Connect.js` file with the following:
 
    ```js
-   import { useWallet, WalletStatus } from "@xpladev/wallet-provider";
+   import { useWallet, WalletStatus } from "@xpla/wallet-provider";
    import React from "react";
    export default function Connect() {
      const {
@@ -188,7 +188,7 @@ Note that if your wallet is empty you won't see any tokens.
    import {
      useConnectedWallet,
      useLCDClient,
-   } from "@xpladev/wallet-provider";
+   } from "@xpla/wallet-provider";
    import React, { useEffect, useState } from "react";
 
    export default function Query() {
@@ -243,7 +243,7 @@ Note that if your wallet is empty you won't see any tokens.
 WalletProvider also helps create and send transactions to the Xpla network. You'll also need `xpla.js` to help generate the sample transaction:
 
 ```sh
-npm install @xpladev/xpla.js
+npm install @xpla/xpla.js
 ```
 
 Before broadcasting this example transaction, ensure you're on the Xpla testnet. To change networks click the gear icon in your Xpla Vault and select `testnet`.
@@ -262,11 +262,11 @@ Wallet provider also supplies useful error types. This example will handle the `
 2. Populate `Tx.js` with the following:
 
    ```js
-   import { Fee, MsgSend } from "@xpladev/xpla.js";
+   import { Fee, MsgSend } from "@xpla/xpla.js";
    import {
      useConnectedWallet,
      UserDenied,
-   } from "@xpladev/wallet-provider";
+   } from "@xpla/wallet-provider";
    import React, { useCallback, useState } from "react";
 
    const TEST_TO_ADDRESS = "xpla12hnhh5vtyg5juqnzm43970nh4fw42pt27nw9g9";

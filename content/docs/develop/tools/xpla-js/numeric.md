@@ -8,7 +8,7 @@ title: Numeric
 xpla.js includes `Dec` and `Int`, which represent decimal numbers and integer numbers compatible with the Cosmos-SDK. 
 
 ```ts
-import { Dec, Int } from '@xpladev/xpla.js';
+import { Dec, Int } from '@xpla/xpla.js';
 
 // conversion into dec
 const d = new Dec(123.11);

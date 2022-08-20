@@ -12,7 +12,7 @@ import {
   MsgMultiSend,
   StdTx,
   Account,
-} from "@xpladev/xpla.js";
+} from "@xpla/xpla.js";
 
 const {
   TESTNET_LCD_URL = "https://cube-lcd.xpla.dev",

@@ -12,7 +12,7 @@ This document explains how to perform tasks related to working with smart contra
 You will first need a compiled WASM smart contract's binary to upload.
 
 ```ts
-import { LCDClient, MsgStoreCode, MnemonicKey, isTxError } from '@xpladev/xpla.js';
+import { LCDClient, MsgStoreCode, MnemonicKey, isTxError } from '@xpla/xpla.js';
 import * as fs from 'fs';
 
 const mk = new MnemonicKey({
@@ -55,7 +55,7 @@ For Xpla smart contracts, there is a distinction between uploading contract code
 To create or instantiate a smart contract, you must first know the code ID of an uploaded code. You will reference it in a `MsgInstantiateContract` alongside the InitMsg to create the contract. Upon successful creation, your contract will be located at an address that you specify.
 
 ```ts
-import { MsgInstantiateContract } from '@xpladev/xpla.js';
+import { MsgInstantiateContract } from '@xpla/xpla.js';
 
 
 const instantiate = new MsgInstantiateContract(
@@ -91,7 +91,7 @@ const {
 Smart contracts respond to JSON messages called **HandleMsg** which can exist as different types. The smart contract writer should provide any end-users of the smart contract with the expected format of all the varieties of HandleMsg the contract is supposed to understand, in the form of a JSON schema. The schema thus provides an analog to Ethereum contracts' ABI.
 
 ```ts
-import { MsgExecuteContract } from '@xpladev/xpla.js';
+import { MsgExecuteContract } from '@xpla/xpla.js';
 
 const execute = new MsgExecuteContract(
   wallet.key.accAddress, // sender

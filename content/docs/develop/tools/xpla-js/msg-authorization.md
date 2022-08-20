@@ -19,7 +19,7 @@ import {
   Int,
   MsgExecAuthorized,
   Coins,
-} from "@xpladev/xpla.js";
+} from "@xpla/xpla.js";
 
 function grant(
   granter: Wallet,

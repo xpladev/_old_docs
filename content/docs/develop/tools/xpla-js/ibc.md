@@ -53,7 +53,7 @@ import {
   MnemonicKey,
   MsgTransfer,
   Coin,
-} from "@xpladev/xpla.js";
+} from "@xpla/xpla.js";
 
 // const lcd = new LCDClient(...);
 
