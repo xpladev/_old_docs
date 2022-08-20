@@ -15,7 +15,7 @@ Complete this tutorial to install the Xpla extension vault for the Google Chrome
 
 ### Install the Xpla Vault Extension
 
-1. Open your Chrome browser and visit the [Xpla extension vault](https://chrome.google.com/webstore/detail/xpla-wallet/...).
+1. Open your Chrome browser and visit the [Xpla extension vault](https://chrome.google.com/webstore/detail/xpla-vault-wallet/ocjobpilfplciaddcbafabcegbilnbnb).
 
 1. Install the extension and add it to your browser.
 
