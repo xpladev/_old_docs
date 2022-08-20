@@ -16,7 +16,7 @@ The params module provides a base parameter store for all other Xpla modules. St
 
 ### Keeper
 
-`Keeper` has a permission to access all existing subspaces which are mentioned later on in this document. For example, if a proposal passes through the [governance](/docs/develop/module-specifications/spec-governance.md) the `Keeper` can be routed to modified params automatically and according to the proposal.
+`Keeper` has a permission to access all existing subspaces which are mentioned later on in this document. For example, if a proposal passes through the [governance]({{< ref "governance" >}}) the `Keeper` can be routed to modified params automatically and according to the proposal.
 
 ### Subspaces
 
