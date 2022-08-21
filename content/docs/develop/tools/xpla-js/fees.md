@@ -6,7 +6,7 @@ title: Fees
 # Fees
 
 ```ts
-import { Fee } from '@xpladev/xpla.js';
+import { Fee } from '@xpla/xpla.js';
 
 const msgs = [ new MsgSend( ... ), new MsgExecuteContract( ... ), ]; // messages
 const fee = new Fee(50000, { axpla: 4500000 });
@@ -26,7 +26,7 @@ You can define the fee estimation parameters when you create your `LCDClient` in
 
 ```ts
 const xpla = new LCDClient({
-  URL: "https://dimension-lcd.xpla.dev",
+  URL: "https://dimension-lcd.xpla.io",
   chainID: "dimension_37-1",
   gasPrices: { axpla: 0.015 },
   gasAdjustment: 1.4,

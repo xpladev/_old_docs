@@ -63,8 +63,4 @@ ewogICJhZGRyZXNzIjogInhwbGExZGNlZ3lyZWtsdHN3dnl5MHh5Njl5ZGd4bjl4OHgzMnpkdGFwZDgi
 xplavault://send/?payload=ewogICJhZGRyZXNzIjogInhwbGExZGNlZ3lyZWtsdHN3dnl5MHh5Njl5ZGd4bjl4OHgzMnpkdGFwZDgiLAogICJ0b2tlbiI6ICJheHBsYSIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
 ```
 
-**Full URL in QR code:**
-
-TODO
-
 **Find out more on [GitHub](https://github.com/xpladev/mobile-wallet/#app-scheme).**

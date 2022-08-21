@@ -18,9 +18,9 @@ The the minimum requirements for running a Xpla full node are:
 
 | Network                                                               | CPU cores     | RAM     | Disk                       | BANDWIDTH |
 |-----------------------------------------------------------------------|---------------|---------|----------------------------|-----------|
-| [`dimension_37-1`](join-a-network.md#join-a-public-network)                  | 4 (+4 threads)| 32 GB   | 2 TB (SSD 2000 MB/s R/W)   | 300 Mbps  |
-| [`cube_47-4`](join-a-network.md#join-a-public-network)                  | 2 (+2 threads)| 16 GB   | 500 GB (SSD 1000 MB/s R/W) | 150 Mbps  |
-| [`private-network`](join-a-network.html#set-up-a-local-private-network) | 1             | 2 GB    | 20 GB (SSD 500 MB/s R/W)   |  N/A      |
+| [`dimension_37-1`](../join-a-network#join-a-public-network)           | 4 (+4 threads)| 32 GB   | 2 TB (SSD 2000 MB/s R/W)   | 300 Mbps  |
+| [`cube_47-4`](../join-a-network#join-a-public-network)                | 2 (+2 threads)| 16 GB   | 500 GB (SSD 1000 MB/s R/W) | 150 Mbps  |
+| [`private-network`](../join-a-network#start-your-private-xpla-network) | 1             | 2 GB    | 20 GB (SSD 500 MB/s R/W)   |  N/A      |
 
 {{< hint warning >}}
 **Storage requirements**  

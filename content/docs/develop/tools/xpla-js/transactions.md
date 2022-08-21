@@ -23,11 +23,11 @@ The messages included in a transaction contain the information that will be rout
 You will first want to create a wallet which you can use to sign transactions.
 
 ```ts
-import { MnemonicKey, LCDClient } from "@xpladev/xpla.js";
+import { MnemonicKey, LCDClient } from "@xpla/xpla.js";
 
 const mk = new MnemonicKey();
 const xpla = new LCDClient({
-  URL: "https://cube-lcd.xpla.dev",
+  URL: "https://cube-lcd.xpla.io",
   chainID: "cube_47-4",
 });
 const wallet = xpla.wallet(mk);
@@ -36,7 +36,7 @@ const wallet = xpla.wallet(mk);
 ### Create Messages
 
 ```ts
-import { MsgSend } from "@xpladev/xpla.js";
+import { MsgSend } from "@xpla/xpla.js";
 
 const send = new MsgSend(wallet.key.accAddress, "<random-xpla-address>", {
   axpla: 1000,
@@ -72,7 +72,7 @@ You can also use `sync` or `async` broadcast modes.
 If you broadcasted the transaction with `block`, you can get the events emitted by your transaction.
 
 ```ts
-import { isTxError } from "@xpladev/xpla.js";
+import { isTxError } from "@xpla/xpla.js";
 
 const txResult = xpla.tx.broadcast(tx);
 

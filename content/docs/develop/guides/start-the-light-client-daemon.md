@@ -34,6 +34,6 @@ To enable the REST API and Swagger, and to start the LCD, complete the following
 
 Once restarted, the LCD will be available.
 
-For more information about the Xpla REST API endpoints, see the [Swagger documentation](https://lcd.xpla.dev/swagger/).
+For more information about the Xpla REST API endpoints, see the [Swagger documentation](https://lcd.xpla.io/swagger/).
 
 For more information on configuring `app.toml`, see [Configure General Settings]({{< ref "configure-general-settings" >}}).

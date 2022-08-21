@@ -5,11 +5,11 @@ title: Sign Bytes
 
 # Signing Bytes
 
-You can sign arbitrary bytes with [Wallet Provider](https://www.npmjs.com/package/@xpladev/wallet-provider) in a React-based web application. This action is useful for verifying account ownership without having to post a transaction to the chain, and is commonly used as a form of simple user authentication.
+You can sign arbitrary bytes with [Wallet Provider](https://www.npmjs.com/package/@xpla/wallet-provider) in a React-based web application. This action is useful for verifying account ownership without having to post a transaction to the chain, and is commonly used as a form of simple user authentication.
 
 {{< hint info >}}
 **Tip**  
-Not using React? Use the [wallet-controller](https://www.npmjs.com/package/@xpladev/wallet-controller) instead.
+Not using React? Use the [wallet-controller](https://www.npmjs.com/package/@xpla/wallet-controller) instead.
 {{< /hint >}}
 
 The Wallet Provider comes with a `useConnectedWallet` hook, which lets you trigger actions from a Xpla Vault that's connected to the web page. The `connectedWallet` object includes a `.signBytes()` method, which prompts the user to sign the data and then returns an object of type `SignBytesResult`. The returned `SignBytesResult` object contains the address of the signer and the signed data.
@@ -31,7 +31,7 @@ Wallet Provider also supplies useful error types that can be used with a `catch`
   useConnectedWallet,
   UserDenied,
   verifyBytes,
-} from '@xpladev/wallet-provider';
+} from '@xpla/wallet-provider';
 import React, { useCallback, useState } from 'react';
 
 const TEST_BYTES = Buffer.from('hello'); // resolves to <Buffer 68 65 6c 6c 6f>

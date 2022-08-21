@@ -12,10 +12,10 @@ import {
   MsgMultiSend,
   StdTx,
   Account,
-} from "@xpladev/xpla.js";
+} from "@xpla/xpla.js";
 
 const {
-  TESTNET_LCD_URL = "https://cube-lcd.xpla.dev",
+  TESTNET_LCD_URL = "https://cube-lcd.xpla.io",
   TESTNET_API_GAS_PRICES = "https://cube-api.xpla.dev/gas-prices",
   TESTNET_CHAIN_ID = "cube_47-4",
 } = process.env;

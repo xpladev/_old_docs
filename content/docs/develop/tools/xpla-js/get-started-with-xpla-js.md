@@ -41,7 +41,7 @@ By the end of this guide, you'll be able to execute a token swap from your appli
 
    ```sh
    npm init -y
-   npm install @xpladev/xpla.js
+   npm install @xpla/xpla.js
    touch index.js
    ```
 
@@ -69,14 +69,14 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 
    ```ts
    import fetch from "isomorphic-fetch";
-   import { Coins, LCDClient } from "@xpladev/xpla.js";
+   import { Coins, LCDClient } from "@xpla/xpla.js";
    const gasPrices = await fetch(
      "https://cube-api.xpla.dev/gas-prices", { redirect: 'follow' }
    );
    const gasPricesJson = await gasPrices.json();
    const gasPricesCoins = new Coins(gasPricesJson);
    const lcd = new LCDClient({
-     URL: "https://cube-lcd.xpla.dev", // Use "https://dimension-lcd.xpla.dev" for prod
+     URL: "https://cube-lcd.xpla.io", // Use "https://dimension-lcd.xpla.io" for prod
      chainID: "cube_47-4", // Use "dimension_37-1" for production
      gasPrices: gasPricesCoins,
      gasAdjustment: "1.5", // Increase gas price slightly so transactions go through smoothly.
@@ -86,7 +86,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 
    {{< hint info >}}
    **Note**  
-   The previous code block shows how to connect to the cube testnet. To connect to the dimension_37-1 mainnet for production, use “`https://dimension-lcd.xpla.dev`”.
+   The previous code block shows how to connect to the cube testnet. To connect to the dimension_37-1 mainnet for production, use “`https://dimension-lcd.xpla.io`”.
    You will also need to change the `chainID` from `"cube_47-4"` to `"dimension_37-1"`.
    {{< /hint >}}
 
@@ -99,7 +99,7 @@ Xpla’s LCD or Light Client Daemon allows users to connect to the blockchain, m
 3. Add the following code to your `index.js` file and input your mnemonic key:
 
    ```ts
-   import { MnemonicKey } from "@xpladev/xpla.js";
+   import { MnemonicKey } from "@xpla/xpla.js";
    const mk = new MnemonicKey({
      mnemonic: " //Input your 24-word mnemonic key here//",
    });
@@ -128,7 +128,7 @@ Before you can perform a transaction, you may need to know a configuration of an
 2. Next, generate a message to broadcast to the network:
 
    ```ts
-   import { MsgExecuteContract } from "@xpladev/xpla.js";
+   import { MsgExecuteContract } from "@xpla/xpla.js";
    const txMsg = new MsgExecuteContract(
      wallet.key.accAddress,
      contract,
