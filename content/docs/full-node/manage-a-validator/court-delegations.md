@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: Court Delegationss
+title: Court Delegations
 ---
 
 # Court Delegations
