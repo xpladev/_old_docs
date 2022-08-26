@@ -5,21 +5,21 @@ title: Extension Vault
 
 # Extension Vault
 
-## Chrome Extension
+Complete this tutorial to install the Xpla extension vault for the web browser.
 
-Complete this tutorial to install the Xpla extension vault for the Google Chrome browser.
+## Prerequisites
 
-### Prerequisites
+- Download [Google Chrome](https://www.google.com/chrome/) or [Mozilla Firefox](https://www.mozilla.org/firefox/new/).
 
-- Download [Google Chrome](https://www.google.com/chrome/).
+## Install the Xpla Vault Extension
 
-### Install the Xpla Vault Extension
+1. Open your browser and visit the link below corresponding to the browser.
+- [Xpla vault for Chrome Extension](https://chrome.google.com/webstore/detail/xpla-vault-wallet/ocjobpilfplciaddcbafabcegbilnbnb).
+- [Xpla vault for Firefo Add-on](https://addons.mozilla.org/firefox/addon/xpla-vault-wallet/).
 
-1. Open your Chrome browser and visit the [Xpla extension vault](https://chrome.google.com/webstore/detail/xpla-vault-wallet/ocjobpilfplciaddcbafabcegbilnbnb).
+2. Install the extension and add it to your browser.
 
-1. Install the extension and add it to your browser.
-
-### Create a Wallet
+## Create a Wallet
 
 Use this tutorial to create a new wallet. To connect to an existing wallet, visit [how to connect to a wallet]({{< ref "/docs/learn/xpla-vault/wallet#connect-to-a-wallet-using-a-private-key" >}}).
 
@@ -60,7 +60,7 @@ Use this tutorial to create a new wallet. To connect to an existing wallet, visi
 
 Congratulations! You have just created a Xpla Vault.
 
-### Send Tokens
+## Send Tokens
 
 1. Open the Xpla extension vault and connect to your wallet.
 
@@ -76,6 +76,6 @@ Congratulations! You have just created a Xpla Vault.
 
 After a few moments, the tokens will appear in the receiver's wallet.
 
-## Next Steps
+# Next Steps
 
 For on-the-go transactions, check out the [Xpla mobile vault app]({{< ref "mobile-wallet" >}}). To learn how to use other Xpla Vault features, visit the [Xpla Vault guides]({{< ref "xpla-vault" >}}).
