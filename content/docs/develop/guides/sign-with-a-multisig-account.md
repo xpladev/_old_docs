@@ -77,7 +77,7 @@ xplad tx send \
     test1 \
     xpla1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     10000000000000000000axpla \
-    --chain-id=cube_47-4 \
+    --chain-id=cube_47-5 \
     --gas=auto \
     --fees=100000000000000000axpla \
     --broadcast-mode=block
@@ -94,7 +94,7 @@ xplad tx bank send \
     5000000000000000000axpla \
     --gas=200000 \
     --fees=100000000000000000axpla \
-    --chain-id=cube_47-4 \
+    --chain-id=cube_47-5 \
     --generate-only > unsignedTx.json
 ```
 
@@ -134,7 +134,7 @@ xplad tx sign \
     --multisig=xpla1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test1 \
     --output-document=test1sig.json \
-    --chain-id=cube_47-4
+    --chain-id=cube_47-5
 ```
 
 ```sh
@@ -143,7 +143,7 @@ xplad tx sign \
     --multisig=xpla1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test2 \
     --output-document=test2sig.json \
-    --chain-id=cube_47-4
+    --chain-id=cube_47-5
 ```
 
 ### Step 4: Create Multisignature
@@ -155,7 +155,7 @@ xplad tx multisign \
     unsignedTx.json \
     multi \
     test1sig.json test2sig.json \
-    --chain-id=cube_47-4 > signedTx.json
+    --chain-id=cube_47-5 > signedTx.json
 ```
 
 The TX is now signed:
@@ -212,6 +212,6 @@ The TX is now signed:
 
 ```sh
 xplad tx broadcast signedTx.json \
-    --chain-id=cube_47-4 \
+    --chain-id=cube_47-5 \
     --broadcast-mode=block
 ```

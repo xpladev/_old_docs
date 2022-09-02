@@ -55,7 +55,7 @@ minimum-gas-prices = "15axpla"
 
 ## Start the Light Client Daemon (LCD)
 
-For information about the available Xpla REST API endpoints, see the [Swagger documentation](https://lcd.xpla.io/swagger/). To enable the REST API and Swagger, and to start the LCD, complete the following steps:
+For information about the available Xpla REST API endpoints, see the [Swagger documentation](https://cube-lcd.xpla.dev/swagger/). To enable the REST API and Swagger, and to start the LCD, complete the following steps:
 
 1. Open `~/.xpla/config/app.toml`.
 

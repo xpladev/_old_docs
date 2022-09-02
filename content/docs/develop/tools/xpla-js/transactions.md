@@ -27,8 +27,8 @@ import { MnemonicKey, LCDClient } from "@xpla/xpla.js";
 
 const mk = new MnemonicKey();
 const xpla = new LCDClient({
-  URL: "https://cube-lcd.xpla.io",
-  chainID: "cube_47-4",
+  URL: "https://cube-lcd.xpla.dev",
+  chainID: "cube_47-5",
 });
 const wallet = xpla.wallet(mk);
 ```

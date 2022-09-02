@@ -15,9 +15,9 @@ import {
 } from "@xpla/xpla.js";
 
 const {
-  TESTNET_LCD_URL = "https://cube-lcd.xpla.io",
-  TESTNET_API_GAS_PRICES = "https://cube-api.xpla.dev/gas-prices",
-  TESTNET_CHAIN_ID = "cube_47-4",
+  TESTNET_LCD_URL = "https://cube-lcd.xpla.dev",
+  TESTNET_API_GAS_PRICES = "https://cube-fcd.xpla.dev/v1/txs/gas_prices",
+  TESTNET_CHAIN_ID = "cube_47-5",
 } = process.env;
 
 async function main() {
