@@ -20,12 +20,12 @@ Public RPC endpoints should only be used in development. For live dApps, use a p
 
 | Endpoint                    | Network           |
 | --------------------------- | ----------------- |
-| https://dimension-lcd.xpla.io       | `dimension_37-1` mainnet |
-| https://cube-lcd.xpla.io | `cube_47-4` testnet   |
+| https://dimension-lcd.xpla.dev | `dimension_37-1` mainnet |
+| https://cube-lcd.xpla.dev | `cube_47-5` testnet   |
 
 ### Public RPC
 
 | endpoint | Network            |
 | -------- | ------------------ |
-| TBD      | `dimension_37-1` mainnet |
-| TBD      | `cube_47-4` testnet    |
+| https://dimension-rpc.xpla.dev | `dimension_37-1` mainnet |
+| https://cube-rpc.xpla.dev | `cube_47-5` testnet    |

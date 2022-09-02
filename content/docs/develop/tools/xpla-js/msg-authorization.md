@@ -60,14 +60,14 @@ function sendAuthorized(
 
 async function main() {
   const gasPrices = await(
-    await fetch("https://cube-api.xpla.dev/gas-prices", {
+    await fetch("https://cube-fcd.xpla.dev/v1/txs/gas_prices", {
       redirect: "follow",
     })
   ).json();
   const gasPricesCoins = new Coins(gasPrices);
   const client = new LCDClient({
-    URL: "https://cube-lcd.xpla.io",
-    chainID: "cube_47-4",
+    URL: "https://cube-lcd.xpla.dev",
+    chainID: "cube_47-5",
     gasPrices: gasPricesCoins,
     gasAdjustment: "1.5",
   });

@@ -56,14 +56,14 @@ These instructions are for setting up a brand new full node from scratch. You ca
 
 Specify the network you want to join by choosing the corresponding **genesis file** and **seeds**:
 
-| Network     | Type    | Genesis                                                                                           | Addressbook          | Seeds                     |
-| :---------- | :------ | :------------------------------------------------------------------------------------------------ |:---------------------| :------------------------------ |
-| `dimension_37-1` | Mainnet | [Genesis Link](https://dimension-genesis.s3.us-west-1.amazonaws.com/genesis.json) | [not available yet]  | [not available yet] |
-| `cube_47-4`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnet/master/cube_47-4/genesis.json) | [not available yet]  | [not available yet] |
+| Network     | Type    | Genesis                                                                                           | Seed or Known Peers    |
+| :---------- | :------ | :------------------------------------------------------------------------------------------------ | :------------------------------ |
+| `dimension_37-1` | Mainnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/mainnet/main/dimension_37-1/genesis.json) | e7b6016ce5663a69ba71a982072315545eb0d5f6@seed.xpla.delightlabs.io:26656 |
+| `cube_47-5`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnets/main/cube_47-5/genesis.json) | 9ddfac28dc6b28601e3039902ee5a8915dc7891f@3.35.54.221:26656 |
 
 {{< hint info >}}
 **Selecting a network**  
-Note that the versions of the network listed above are the latest versions. To find earlier versions, please consult the [networks repo](https://github.com/xpladev/testnets).
+Note that the versions of the network listed above are the latest versions. To find earlier versions, please consult the [testnets repo](https://github.com/xpladev/testnets) or [mainnet repo](https://github.com/xpladev/mainnet).
 {{< /hint >}}
 
 ### 2. Download genesis file and address book
@@ -97,7 +97,7 @@ xplad status
     },
     "id": "821dc1401fd0270487b3e615c652181b4d4566dd",
     "listen_addr": "18.157.84.154:26656",
-    "network": "cube_47-4",
+    "network": "cube_47-5",
     "version": "v0.34.19-xpla.2",
     "channels": "40202122233038606100",
     "moniker": "xpladocs",
