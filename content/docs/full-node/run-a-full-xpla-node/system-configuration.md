@@ -75,7 +75,7 @@ Most validators will only need to open the following port:
 
 Additional ports:
 
-- `1317`: The default port for the [Light Client Daemon]({{< ref "start-the-Light-Client-Daemon" >}}) (LCD), which can be executed by `xplad rest-server`. The LCD provides an HTTP RESTful API layer to allow applications and services to interact with your `xplad` instance through RPC. For usage examples, see [Xpla REST API](https://lcd.xpla.io/swagger/). You don't need to open this port unless you have use for it.
+- `1317`: The default port for the [Light Client Daemon]({{< ref "start-the-Light-Client-Daemon" >}}) (LCD), which can be executed by `xplad rest-server`. The LCD provides an HTTP RESTful API layer to allow applications and services to interact with your `xplad` instance through RPC. For usage examples, see [Xpla REST API](https://dimension-lcd.xpla.dev/swagger/). You don't need to open this port unless you have use for it.
 
 - `26660`: The default port for interacting with the [Prometheus](https://prometheus.io) database, which can be used to monitor the environment. In the default configuration, this port is not open.
 
