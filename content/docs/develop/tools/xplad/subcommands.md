@@ -483,8 +483,8 @@ Parameters are returned in the following format:
 ```yaml
 mint_denom: axpla
 inflation_rate_change: "0.000000000000000000"
-inflation_max: "0.070000000000000000"
-inflation_min: "0.070000000000000000"
+inflation_max: "0.000000000000000000"
+inflation_min: "0.000000000000000000"
 goal_bonded: "0.670000000000000000"
 blocks_per_year: 6311520
 ```
