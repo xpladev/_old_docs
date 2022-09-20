@@ -54,7 +54,7 @@ Your deposit will be added to the proposal.
 
 {{< hint warning >}}
 **Avoid unnecessary proposals**  
-To prevent unnecessary proposals or abuse of the system, all governance proposals must obtain a minimum deposit of 50 XPLA. If 33.4% of the total vote is `NoWithVeto`, `quorum` is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded. For more information on deposits and refunds, visit the [governance overview]({{< ref "about-xpla#governance" >}}).
+To prevent unnecessary proposals or abuse of the system, all governance proposals must obtain a minimum deposit of 10 XPLA. If 33.4% of the total vote is `NoWithVeto`, `quorum` is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded. For more information on deposits and refunds, visit the [governance overview]({{< ref "about-xpla#governance" >}}).
 {{< /hint >}}
 
 1. Open Xpla Vault and connect your wallet. In the sidebar, click **Governance**.
@@ -71,4 +71,4 @@ To prevent unnecessary proposals or abuse of the system, all governance proposal
 
 4. Enter your password and click **Submit**.
 
-Your proposal will enter the two-week deposit period. After a minimum deposit of 50 XPLA has been reached, your proposal will enter a one-week voting period. For more information on governance and voting options, visit the [governance overview]({{< ref "about-xpla#governance" >}}).
+Your proposal will enter the two-week deposit period. After a minimum deposit of 10 XPLA has been reached, your proposal will enter a one-week voting period. For more information on governance and voting options, visit the [governance overview]({{< ref "about-xpla#governance" >}}).
