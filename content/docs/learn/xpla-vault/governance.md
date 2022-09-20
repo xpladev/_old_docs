@@ -29,7 +29,7 @@ Your vote will be submitted.
 
 ## Deposit XPLA to a Proposal
 
-Users can vote on a proposal after a minimum deposit of 50 XPLA is reached. To help push a proposal forward to a vote, deposit XPLA to the proposal.
+Users can vote on a proposal after a minimum deposit of 10 XPLA is reached. To help push a proposal forward to a vote, deposit XPLA to the proposal.
 
 {{< hint warning >}}
 **Warning**  
