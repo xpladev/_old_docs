@@ -22,18 +22,18 @@ The following is the governance proposal procedure:
 
 ### Deposit Period
 
-After a proposal is submitted, it enters the deposit period, where it must reach a total minimum deposit of 512 XPLA within 7 days from the time of its submission. The deposit threshold is reached when the sum of the initial deposit (from the proposer) and the deposits from all other interested network participants meet or exceed 512 XPLA.
+After a proposal is submitted, it enters the deposit period, where it must reach a total minimum deposit of 10 XPLA within 7 days from the time of its submission. The deposit threshold is reached when the sum of the initial deposit (from the proposer) and the deposits from all other interested network participants meet or exceed 10 XPLA.
 
 Deposits protect against unnecessary proposals and spam.
 
 Deposits get refunded if all of the following conditions are met:
-- The minimum deposit of 512 XPLA is reached within the 7-day deposit period.
+- The minimum deposit of 10 XPLA is reached within the 7-day deposit period.
 - `Quorum` is met: the number of total votes is greater than 10% of all staked XPLA
 - The total number of `NoWithVeto` votes is less than 33.4% of the total vote.
 - A vote returns a majority of `Yes` or `No` votes.
 
 Deposits are not returned under any of the following conditions:
-- The minimum deposit of 512 XPLA is not reached within the one-week deposit period.
+- The minimum deposit of 10 XPLA is not reached within the one-week deposit period.
 - `Quorum` is not met: the number of total votes after the one-week voting period is less than 10% of all staked XPLA.
 - the number of `NoWithVeto` votes is above 33.4% of the total vote.
 
@@ -266,22 +266,22 @@ type VotingParams struct {
 
 - type: `Coins`
 - denom: `axpla`
-- amount: `512000000000000000000`
+- amount: `10000000000000000000`
 
 
-The minimum deposit amount for a proposal to enter a voting period. Currently 512 XPLA.
+The minimum deposit amount for a proposal to enter a voting period. Currently 10 XPLA.
 
 ### MaxDepositPeriod
 
 - type: `time.Duration` (seconds)
-- `"max_deposit_period": "604800s"`
+- `"max_deposit_period": "172800s"`
 
-Maximum period for XPLA holders to deposit on a proposal. Currently 1 week.
+Maximum period for XPLA holders to deposit on a proposal. Currently 2 days.
 
 ### Quorum
 
 - type: `Dec`
-- `"quorum": "0.100000000000000000",`
+- `"quorum": "0.334000000000000000",`
 
 Minimum percentage of total stake needed to vote for a result to be considered valid.
 
