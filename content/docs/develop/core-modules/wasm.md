@@ -19,7 +19,7 @@ Smart contracts are autonomous agents that can interact with other entities on t
 
 #### Contract Address
 
-Upon instantiation, each contract is automatically assigned a XPLA Chain account address, called the contract address. The address is procedurally generated on-chain without an accompanying private and public key pair, and it can be completely determined by the contract's number order of existence. For instance, on two separate XPLA Chains, the first contract will always be assigned the address `xpla18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5`, and similarly for the second, third, and so on.
+Upon instantiation, each contract is automatically assigned a XPLA Chain account address, called the contract address. The address is procedurally generated on-chain without an accompanying private and public key pair, and it can be completely determined by the contract's number order of existence. For instance, on two separate XPLA Chain, the first contract will always be assigned the address `xpla18vd8fpwxzck93qlwghaj6arh4p7c5n896xzem5`, and similarly for the second, third, and so on.
 
 #### Code ID
 
