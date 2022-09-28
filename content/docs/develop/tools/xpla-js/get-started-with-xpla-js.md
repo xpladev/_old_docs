@@ -12,8 +12,8 @@ In this tutorial, you'll learn how to:
 1. [Set up your project](#1-set-up-your-project)
 2. [Set up a Xpla LCD (light client daemon)](#2-initialize-the-lcd)
 3. [Create and connect a wallet](#3-create-a-cube-testnet-wallet)
-4. [Query a swap contract](#5-query-a-contract-and-set-up-the-transaction)
-5. [Create, sign, and broadcast a transaction](#6-broadcast-the-transaction)
+4. [Query a contract](#4-query-a-contract-and-set-up-the-transaction)
+5. [Create, sign, and broadcast a transaction](#5-broadcast-the-transaction)
 
 By the end of this guide, you'll be able to execute a token swap from your application using xpla.js.
 
