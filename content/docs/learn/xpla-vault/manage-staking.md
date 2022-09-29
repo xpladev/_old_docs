@@ -5,15 +5,15 @@ title: Manage Staking
 
 # Manage Staking
 
-Use this guide to manage your staking delegations in Xpla Vault. To learn how to stake or withdraw rewards, visit the [Xpla mobile vault tutorials]({{< ref "download/mobile-vault" >}}).  
+Use this guide to manage your staking delegations in XPLA Vault. To learn how to stake or withdraw rewards, visit the [XPLA mobile vault tutorials]({{< ref "download/mobile-vault" >}}).  
 
-If this is your first time using Xpla Vault, follow the [Xpla Vault tutorial]({{< ref "xpla-vault" >}}).
+If this is your first time using XPLA Vault, follow the [XPLA Vault tutorial]({{< ref "xpla-vault" >}}).
 
 ## Stake XPLA
 
 Stake your XPLA to a validator to start earning rewards. Before you stake, make sure you have XPLA in your wallet. You can transfer XPLA from an [exchange]({{< ref "wallet" >}}).
 
-1. Open Xpla Vault and click **Stake**.
+1. Open XPLA Vault and click **Stake**.
 
 2. Select a Validator and click on their name in the **Moniker** column of the validator list.
 
@@ -32,9 +32,9 @@ Congratulations, you've just delegated XPLA!
 
 ## Withdraw Staking Rewards
 
-Rewards start accruing the moment you stake XPLA. Monitor your rewards in the staking section of Xpla Vault. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake XPLA. Monitor your rewards in the staking section of XPLA Vault. Once you have sufficient rewards, follow these steps to withdraw them:
 
-1. Open Xpla Vault and click **Stake**.
+1. Open XPLA Vault and click **Stake**.
 
 2. To claim all rewards, click **Withdraw all rewards** in the upper right corner of the staking page. To withdraw rewards only from a single validator, click on their name in the list and click **Withdraw rewards** on their page.  A new window will appear.
 
@@ -51,7 +51,7 @@ Redelegating lets you transfer staked XPLA from one validator to another without
 When a user redelegates staked XPLA from one validator to another, the validator receiving the staked XPLA is barred from making further redelegation transactions for 21 days. This requirement only applies to the wallet that made the redelegation transaction.
 {{< /hint >}}
 
-1. Open Xpla Vault and connect your wallet. Click **Stake**.
+1. Open XPLA Vault and connect your wallet. Click **Stake**.
 
 2. Click on the validator you want to redelegate to.
 
@@ -75,7 +75,7 @@ Once started, the delegating or undelegating processes can't be stopped.
 Undelegating takes 21 days to complete. The only way to undo a delegating or undelegating transaction is to wait for the unbonding process to pass. Alternatively, you can redelegate staked XPLA to a different validator without waiting 21 days.
 {{< /hint >}}
 
-1. Open Xpla Vault and connect your wallet. Click **Stake**.
+1. Open XPLA Vault and connect your wallet. Click **Stake**.
 
 2. Click on the validator you want to unstake from.
 

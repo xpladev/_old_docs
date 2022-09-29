@@ -5,9 +5,9 @@ title: Get Started with Wallet Provider
 
 # Get Started with Wallet Provider
 
-[Wallet Provider](https://github.com/xpladev/wallet-provider) makes it easy to build Xpla Vault (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.
+[Wallet Provider](https://github.com/xpladev/wallet-provider) makes it easy to build XPLA Vault (browser extension and mobile) functionality into your React application. It contains custom hooks that drastically simplify common tasks like connecting a wallet and triggering transactions.
 
-This guide will cover how to set up a React app, integrate Wallet Provider, check the balance of the connected account, and call a token swap. If you want to integrate Xpla Vault into an existing React app you can skip past the `Project Setup` section.
+This guide will cover how to set up a React app, integrate Wallet Provider, check the balance of the connected account, and call a token swap. If you want to integrate XPLA Vault into an existing React app you can skip past the `Project Setup` section.
 
 {{< hint info >}}
 **Just want to dive in?**  
@@ -170,7 +170,7 @@ Now that `App.js` has inherited the context of `WalletProvider`, you can start p
 
 5. Make sure your Xpla extension vault is connected to a wallet. Click **Connect EXTENSION**, and the app will connect to your wallet.
 
-The `status`, `network`, and `wallets` properties in your browser provide useful information about the state of the Xpla Vault. Before connecting, the `status` variable is `WALLET_NOT_CONNECTED`, and upon connection the status becomes `WALLET_CONNECTED`. In addition, the `wallets` array now has one entry with the `connectType` and `xplaAddress` you used to connect.
+The `status`, `network`, and `wallets` properties in your browser provide useful information about the state of the XPLA Vault. Before connecting, the `status` variable is `WALLET_NOT_CONNECTED`, and upon connection the status becomes `WALLET_CONNECTED`. In addition, the `wallets` array now has one entry with the `connectType` and `xplaAddress` you used to connect.
 
 You should be able to see these changes in real-time.
 
@@ -246,7 +246,7 @@ WalletProvider also helps create and send transactions to the Xpla network. You'
 npm install @xpla/xpla.js
 ```
 
-Before broadcasting this example transaction, ensure you're on the Xpla testnet. To change networks click the gear icon in your Xpla Vault and select `testnet`.
+Before broadcasting this example transaction, ensure you're on the Xpla testnet. To change networks click the gear icon in your XPLA Vault and select `testnet`.
 
 You can request testnet funds from the [faucet](https://faucet.xpla.io/).
 

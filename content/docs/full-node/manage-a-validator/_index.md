@@ -15,7 +15,7 @@ Validators and their delegators earn the fees, which are added on to each transa
 
 If validators double sign, are frequently offline, or do not participate in governance, their staked XPLA (including XPLA of users that delegated to them) can be slashed. Penalties can vary depending on the severity of the violation.
 
-For more general information on validators, visit the [validator section]({{< ref "about-xpla#validators" >}}) of the concepts page.
+For more general information on validators, visit the [validator section]({{< ref "about-xpla-chain#validators" >}}) of the concepts page.
 
 ## Additional Resources
 

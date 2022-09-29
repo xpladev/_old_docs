@@ -7,7 +7,7 @@ title: Interacting with the Contract
 
 {{< hint info >}}
 **Note**  
-You can also follow these steps in the official web wallet for Xpla, [Xpla Vault](https://vault.xpla.io).
+You can also follow these steps in the official web wallet for Xpla, [XPLA Vault](https://vault.xpla.io).
 {{< /hint >}}
 
 ## Requirements

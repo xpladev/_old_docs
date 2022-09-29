@@ -83,7 +83,7 @@ As per [ *Cosmos HD Key Derivation* ](https://github.com/confio/cosmos-hd-key-de
 Cosmos blockchains support hierarchical deterministic key generation (HD keys) for deriving multiple cryptographic keypairs from a single secret value. This allows the user to use different keypairs for different accounts on one blockchain and create accounts on multiple blockchains without having to manage multiple secrets.
 {{< /hint >}}
 
-For example, to recover a mnemonic with the old Xpla Vault HD path using coin type for ATOM (118):
+For example, to recover a mnemonic with the old XPLA Vault HD path using coin type for ATOM (118):
 
 ```ts
 const mne_key = new MnemonicKey({

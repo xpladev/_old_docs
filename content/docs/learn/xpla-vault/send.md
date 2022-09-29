@@ -5,9 +5,9 @@ title: Send
 
 # Send
 
-You can send tokens to other Xpla Vaults using the **Send** feature of Xpla Vault. If this is your first time using Xpla Vault, follow the [Xpla Vault tutorial]({{< ref "xpla-vault" >}}).
+You can send tokens to other XPLA Vaults using the **Send** feature of XPLA Vault. If this is your first time using XPLA Vault, follow the [XPLA Vault tutorial]({{< ref "xpla-vault" >}}).
 
-1. Open Xpla Vault and connect to your wallet.
+1. Open XPLA Vault and connect to your wallet.
 
 1. Click **Wallet** in the navigation bar.
 

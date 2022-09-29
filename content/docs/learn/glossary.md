@@ -5,7 +5,7 @@ title: Glossary
 
 # Glossary
 
-Use this glossary to learn about terms specific to the Xpla Protocol.
+Use this glossary to learn about terms specific to the XPLA Chain.
 
 ## Active Set
 
@@ -37,11 +37,11 @@ A special fund designated for funding community projects. Any community member c
 
 ## Consensus
 
-A system used by [validators]({{< ref "#validator" >}}) to agree that each [block]({{< ref "#blocks" >}}) of transactions in a [blockchain]({{< ref "#blockchain" >}}) is correct. The Xpla blockchain uses the Tendermint consensus. Validators earn [rewards]({{< ref "#rewards" >}}) for participating in consensus. Visit the [Tendermint official documentation site](https://docs.tendermint.com/) for more information.
+A system used by [validators]({{< ref "#validator" >}}) to agree that each [block]({{< ref "#blocks" >}}) of transactions in a [blockchain]({{< ref "#blockchain" >}}) is correct. The XPLA Chain uses the Tendermint consensus. Validators earn [rewards]({{< ref "#rewards" >}}) for participating in consensus. Visit the [Tendermint official documentation site](https://docs.tendermint.com/) for more information.
 
 ## Cosmos-SDK
 
-The open-source framework the Xpla blockchain is built on. For more information, check out the [Cosmos SDK Documentation](https://docs.cosmos.network/).
+The open-source framework the XPLA Chain is built on. For more information, check out the [Cosmos SDK Documentation](https://docs.cosmos.network/).
 
 ## dApp
 
@@ -71,19 +71,19 @@ For more information on fees, visit [Fees]({{< ref "fees" >}}).
 
 ## Full Node
 
-A computer connected to the [Xpla mainnet]({{< ref "#mainnet" >}}) that is able to validate transactions and interact with the Xpla blockchain. All active [validators]({{< ref "#validator" >}}) run full nodes.
+A computer connected to the [XPLA mainnet]({{< ref "#mainnet" >}}) that is able to validate transactions and interact with the XPLA Chain. All active [validators]({{< ref "#validator" >}}) run full nodes.
 
 ## XPLA
 
-The native staking token of the Xpla protocol. XPLA is also used as a governance token. [Delegators]({{< ref "#delegator" >}}) can stake XPLA to receive rewards.
+The native staking token of the XPLA Chain. XPLA is also used as a governance token. [Delegators]({{< ref "#delegator" >}}) can stake XPLA to receive rewards.
 
 ## Governance
 
-Governance is the democratic process that allows users and [validators]({{< ref "#validator" >}}) to make changes to the Xpla protocol. Community members submit, vote, and implement proposals. One staked [XPLA]({{< ref "#xpla" >}}) is equal to one vote.
+Governance is the democratic process that allows users and [validators]({{< ref "#validator" >}}) to make changes to the XPLA Chain. Community members submit, vote, and implement proposals. One staked [XPLA]({{< ref "#xpla" >}}) is equal to one vote.
 
 ## Governance Proposal
 
-A written submission for a change or addition to the Xpla blockchain. Topics of proposals can vary from community pool spending, software changes, or parameter changes.
+A written submission for a change or addition to the XPLA Chain. Topics of proposals can vary from community pool spending, software changes, or parameter changes.
 
 ## IBC
 
@@ -103,7 +103,7 @@ When a vote fails to be included in consensus.
 
 ## Module
 
-A section of the Xpla core that represents a particular function of the Xpla protocol. Visit the [Xpla core module specifications]({{< ref "core-modules" >}}) for more information.
+A section of the XPLA Chain core that represents a particular function of the XPLA Chain. Visit the [XPLA Chain_core module specifications]({{< ref "core-modules" >}}) for more information.
 
 ## dimension_37-1
 
@@ -137,7 +137,7 @@ The amount of XPLA a validator bonds to themselves. Also referred to as self-bon
 
 Punishment for validators that misbehave. Validators lose part of their stake when they get slashed.
 
-For more information, see [slashing]({{< ref "about-xpla#slashing" >}}) in the description of the Xpla protocol.
+For more information, see [slashing]({{< ref "about-xpla-chain#slashing" >}}) in the description of the XPLA Chain.
 
 ## Slippage
 
@@ -151,47 +151,47 @@ The amount of [XPLA]({{< ref "#xpla" >}}) bonded to a validator.
 
 When a user delegates or bonds their XPLA to an active validator to receive rewards. Bonded XPLA adds to a validator's stake. Validators provide their stakes as collateral to participate in the consensus process. Validators with larger stakes are chosen to participate more often. Validators receive staking rewards for their participation. A validator's stake can be slashed if the validator misbehaves. Validators never have ownership of a delegator's XPLA, even when staking.
 
-For more information on staking, visit the [concepts page]({{< ref "about-xpla#staking" >}}).
+For more information on staking, visit the [concepts page]({{< ref "about-xpla-chain#staking" >}}).
 
 ## Tendermint Consensus
 
-The consensus procedure used by the Xpla protocol. First, a validator proposes a new block. Other validators vote on the block in two rounds. If a block receives a two-thirds majority or greater of yes votes in both rounds, it gets added to the blockchain. Validators get rewarded with the block's transaction fees. Proposers get rewarded extra. Each validator is chosen to propose based on their weight. Check out the [Tendermint official documentation](https://docs.tendermint.com/) for more information.
+The consensus procedure used by the XPLA Chain. First, a validator proposes a new block. Other validators vote on the block in two rounds. If a block receives a two-thirds majority or greater of yes votes in both rounds, it gets added to the blockchain. Validators get rewarded with the block's transaction fees. Proposers get rewarded extra. Each validator is chosen to propose based on their weight. Check out the [Tendermint official documentation](https://docs.tendermint.com/) for more information.
 
-## Xpla Core
+## XPLA Chain Core
 
-The official source code for the Xpla protocol.
+The official source code for the XPLA Chain.
 
-For more information on the Xpla core, see [Xpla Core Modules]({{< ref "core-modules" >}}).
+For more information on the XPLA Chain core, see [XPLA Chain core module specifications]({{< ref "core-modules" >}}).
 
 ## Mainnet
 
-The Xpla protocol's blockchain network where all transactions take place.
+The XPLA Chain's network where all transactions take place.
 
-## Xpla Vault
+## XPLA Vault
 
-Xpla's native wallet and platform for swaps, governance, and staking. In Xpla Vault, you can send, receive, and stake Xpla coins. You can also participate in governance and vote on proposals.
+XPLA Chain's native wallet and platform for swaps, governance, and staking. In XPLA Vault, you can send, receive, and stake XPLA coins. You can also participate in governance and vote on proposals.
 
-To learn how to install and get started using Xpla Vault, visit the [Xpla Vault tutorial]({{< ref "xpla-vault/download" >}}).
+To learn how to install and get started using XPLA Vault, visit the [XPLA Vault tutorial]({{< ref "xpla-vault/download" >}}).
 
-To learn how to use the advanced features of Xpla Vault, visit the [Xpla Vault how-to guide]({{< ref "xpla-vault/wallet" >}}).
+To learn how to use the advanced features of XPLA Vault, visit the [XPLA Vault how-to guide]({{< ref "xpla-vault/wallet" >}}).
 
 ## xplad
 
-The command line interface for interacting with a Xpla node.
+The command line interface for interacting with a XPLA Chain node.
 
 For more information on xplad, see [`xplad` guides]({{< ref "xplad" >}}).
 
-## Xplavaloper Address
+## `xplavaloper` Address
 
 A validator's public address beginning with `xplavaloper` followed by a string of characters.
 
 ## Testnet
 
-A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions. The current testnet for Xpla is [`cube_47-5`]({{< ref "public-and-private-endpoints" >}})
+A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions. The current testnet for XPLA Chain is [`cube_47-5`]({{< ref "public-and-private-endpoints" >}})
 
-## The Xpla Ecosystem
+## The XPLA Chain Ecosystem
 
-A quickly expanding network of decentralized applications built on the Xpla protocol.
+A quickly expanding network of decentralized applications built on the XPLA Chain.
 
 ## Tombstone
 
@@ -231,9 +231,9 @@ The amount of time a [validator]({{< ref "#validator" >}}) is active in a given 
 
 ## Validator
 
-A Xpla blockchain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and receive rewards. The top 130 validators with the highest total stake can participate in consensus.
+A XPLA Chain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and receive rewards. The top 130 validators with the highest total stake can participate in consensus.
 
-For more information on validators, visit the [concepts page]({{< ref "about-xpla#validators" >}}).
+For more information on validators, visit the [concepts page]({{< ref "about-xpla-chain#validators" >}}).
 
 ## Weight
 

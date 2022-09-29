@@ -5,7 +5,7 @@ title: Contracts
 
 # Contract
 
-Smart contracts are an advanced feature of Xpla Vault. If you’re using Xpla Vault for the first time, follow the [Xpla Vault tutorial]({{< ref "xpla-vault" >}}).
+Smart contracts are an advanced feature of XPLA Vault. If you’re using XPLA Vault for the first time, follow the [XPLA Vault tutorial]({{< ref "xpla-vault" >}}).
 
 ## Prerequisites
 
@@ -13,9 +13,9 @@ Compile a contract locally and create a `.wasm` file.
 
 ## Upload
 
-Deploy a contract by uploading your `.wasm` file to Xpla Vault.
+Deploy a contract by uploading your `.wasm` file to XPLA Vault.
 
-1. Open Xpla Vault and connect your wallet. Click **Contracts**.
+1. Open XPLA Vault and connect your wallet. Click **Contracts**.
 
 2. Click **Upload**.
 
@@ -45,7 +45,7 @@ Use **Query** to find out contract values. Querying does not cost anything.
 
 2. Enter your `Input`. Click **Submit**.
 
-Xpla Vault will show your query result.
+XPLA Vault will show your query result.
 
 ## Execute
 

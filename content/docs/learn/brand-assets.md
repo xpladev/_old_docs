@@ -5,4 +5,4 @@ title: Brand Assets
 
 # Brand Assets
 
-[Xpla brand asset](/Xpla_brand_asset.zip)
+[XPLA Chain brand asset](/XPLA_Chain_brand_asset.zip)

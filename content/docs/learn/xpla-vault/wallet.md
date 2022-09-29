@@ -5,13 +5,13 @@ title: Wallet
 
 # Wallet
 
-This guide is for advanced features of the Xpla Vault. If this is your first time using Xpla Vault, follow the [Xpla Vault tutorial]({{< ref "xpla-vault" >}}).
+This guide is for advanced features of the XPLA Vault. If this is your first time using XPLA Vault, follow the [XPLA Vault tutorial]({{< ref "xpla-vault" >}}).
 
-For information on using multisig wallets in Xpla Vault, see [Multisig wallets]({{< ref "multisig-wallets" >}})
+For information on using multisig wallets in XPLA Vault, see [Multisig wallets]({{< ref "multisig-wallets" >}})
 
 ## Create a wallet
 
-1. Open the Xpla web wallet and click **New wallet**.
+1. Open the XPLA web vault and click **New wallet**.
 
 1. Type in a secure wallet name and password.
 
@@ -36,19 +36,19 @@ For information on using multisig wallets in Xpla Vault, see [Multisig wallets](
 
 1. Click **Create a wallet**.
 
-Congratulations! You have just created a Xpla Vault.
+Congratulations! You have just created a XPLA Vault.
 
 ## Select a Wallet
 
 Follow these steps to connect to a wallet previously accessed on your device.
 
-1. Open Xpla Vault and click **Connect**.
+1. Open XPLA Vault and click **Connect**.
 
 1. Click **Select wallet** and select the wallet you want to connect to.
 
 1. Enter the password of the wallet and click **Next**.
 
-Xpla Vault is now connected to your selected wallet. To change wallets, [disconnect your wallet](#disconnect-a-wallet) and follow these steps again.
+XPLA Vault is now connected to your selected wallet. To change wallets, [disconnect your wallet](#disconnect-a-wallet) and follow these steps again.
 
 ## Connect to a Wallet Using a Private Key
 
@@ -56,9 +56,9 @@ Use a private key to access your wallet from other devices. Unlike recovering yo
 
 ### Export Your Private Key
 
-1. Open Xpla Vault and connect to your wallet.
+1. Open XPLA Vault and connect to your wallet.
 
-1. Locate your wallet address on Xpla Vault. Click the gear icon next to your wallet address.
+1. Locate your wallet address on XPLA Vault. Click the gear icon next to your wallet address.
 
 1. Click **Export private key**.
 
@@ -68,7 +68,7 @@ You can now access your private key. Do not share your private key with anyone. 
 
 ### Import Your Private Key
 
-1. Open Xpla Vault and click **Connect**.
+1. Open XPLA Vault and click **Connect**.
 
 1. Click **Import private key**.
 
@@ -84,9 +84,9 @@ Use a QR code to access your wallet on a mobile device. Unlike recovering your w
 
 ### Export Your QR Code Using Desktop
 
-1. Open Xpla Vault and connect to your wallet.
+1. Open XPLA Vault and connect to your wallet.
 
-1. Locate your wallet address on Xpla Vault. Click the gear icon next to your wallet address.
+1. Locate your wallet address on XPLA Vault. Click the gear icon next to your wallet address.
 
 1. Click **Export with QR code**.
 
@@ -94,7 +94,7 @@ Use a QR code to access your wallet on a mobile device. Unlike recovering your w
 
 ### Export Your QR Code Using the Mobile App
 
-1. Open the Xpla Vault app and connect to your wallet.
+1. Open the XPLA Vault app and connect to your wallet.
 
 1. Tap the gear icon in the upper right corner of the app.
 
@@ -106,7 +106,7 @@ You can now access your private key QR code. Do not share your private key with 
 
 ### Import Your QR Code
 
-1. Open the Xpla Vault and tap **Recover wallet**.
+1. Open the XPLA Vault and tap **Recover wallet**.
 
 1. Tap **Scan QR code**.
 
@@ -120,7 +120,7 @@ Your private key has been imported to the device you are using. You can now use 
 
 If you forgot or deleted your login info, you can recover a wallet using your mnemonic phrase. You can also use this method to change your wallet name.
 
-1. Open Xpla Vault and click **Connect**.
+1. Open XPLA Vault and click **Connect**.
 
 1. Click **Recover existing wallet**.
 
@@ -132,7 +132,7 @@ You can now access your wallet with your login and password.
 
 ## Disconnect a Wallet
 
-1. Locate your wallet address on Xpla Vault. Click the gear icon next to your wallet address.
+1. Locate your wallet address on XPLA Vault. Click the gear icon next to your wallet address.
 
 1. Select **disconnect** from the options.
 
@@ -147,9 +147,9 @@ Deleting a wallet deletes the wallet name, password, and private key from your d
 Before you delete your wallet, always make sure you have your mnemonic phrase and private key. Never store your mnemonic phrase on a digital device. Without a mnemonic phrase or private key and password, your wallet and funds will be permanently inaccessible. Always store your mnemonic phrase in a secure location.
 {{< /hint >}}
 
-1. Open Xpla Vault and connect to your wallet.
+1. Open XPLA Vault and connect to your wallet.
 
-1. Locate your wallet address on Xpla Vault. Click the gear icon next to your wallet address.
+1. Locate your wallet address on XPLA Vault. Click the gear icon next to your wallet address.
 
 1. Select **Delete wallet**.
 
@@ -161,9 +161,9 @@ Your wallet is now deleted. You can only access it again by entering your [mnemo
 
 Follow these steps to change your password. Changing your password only changes your wallet password on a single device. Repeat these steps to change your wallet password on other devices.
 
-1. Open Xpla Vault and connect to your wallet.
+1. Open XPLA Vault and connect to your wallet.
 
-1. Locate your wallet address on Xpla Vault. Click the gear icon next to your wallet address.
+1. Locate your wallet address on XPLA Vault. Click the gear icon next to your wallet address.
 
 1. Select **Change password** from the options.
 

@@ -5,7 +5,7 @@ title: IBC
 
 # IBC Transfers
 
-Xpla has full IBC transfer capabilities through both xpla.js and Xpla Vault. Although IBC functionality is not readily exposed through Xpla Vault’s front-end, it can be fully incorporated into any dApp. It is up to a dApp’s front end to initiate IBC transfers.
+Xpla has full IBC transfer capabilities through both xpla.js and XPLA Vault. Although IBC functionality is not readily exposed through XPLA Vault’s front-end, it can be fully incorporated into any dApp. It is up to a dApp’s front end to initiate IBC transfers.
 
 ## MsgTransfer
 
