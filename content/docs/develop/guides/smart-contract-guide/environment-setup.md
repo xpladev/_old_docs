@@ -7,9 +7,9 @@ title: Environment Setup
 
 As a smart contract developer, you will need to write, compile, upload, and test your contracts before deploying them on the Dimension mainnet. The first step is to set up a specialized environment to streamline development.
 
-## Install Xpla Core Locally
+## Install XPLA Chain Core Locally
 
-Visit [build Xpla core]({{< ref "build-xpla-core" >}}) to install the latest version of Xpla Core to obtain a working version of `xplad`. You will need this to connect to your local Xpla test network to work with smart contracts.
+Visit [build XPLA Chain core]({{< ref "build-xpla-core" >}}) to install the latest version of XPLA Chain Core to obtain a working version of `xplad`. You will need this to connect to your local XPLA Chain test network to work with smart contracts.
 
 ## Install Rust
 

@@ -7,10 +7,10 @@ title: Slashing
 
 {{< hint info >}}
 **Note**  
-Xpla's slashing module inherits from the Cosmos SDK's [`slashing`](https://docs.cosmos.network/master/modules/slashing/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's slashing module inherits from the Cosmos SDK's [`slashing`](https://docs.cosmos.network/master/modules/slashing/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
-The slashing module enables Xpla to disincentivize any attributable action by a protocol-recognized actor with value at stake by penalizing them. The penalty is called [slashing]({{< ref "glossary#slashing" >}}). Xpla mainly uses the [`Staking`]({{< ref "staking" >}}) module to slash when violating validator responsibilities. This module manages lower-level penalties at the Tendermint consensus level, such as double-signing.
+The slashing module enables XPLA Chain to disincentivize any attributable action by a protocol-recognized actor with value at stake by penalizing them. The penalty is called [slashing]({{< ref "glossary#slashing" >}}). XPLA Chain mainly uses the [`Staking`]({{< ref "staking" >}}) module to slash when violating validator responsibilities. This module manages lower-level penalties at the Tendermint consensus level, such as double-signing.
 
 ## Message Types
 

@@ -7,10 +7,10 @@ title: Bank
 
 {{< hint info >}}
 **Note**  
-Xpla's bank module inherits from the Cosmos SDK's [`bank`](https://docs.cosmos.network/master/modules/bank/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's bank module inherits from the Cosmos SDK's [`bank`](https://docs.cosmos.network/master/modules/bank/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
-The bank module is the base transactional layer of the Xpla blockchain. This module allows assets to be sent from one `Account` to another. The bank module defines the following types of send transactions: `MsgSend` and `MsgMultiSend`.
+The bank module is the base transactional layer of the XPLA Chain. This module allows assets to be sent from one `Account` to another. The bank module defines the following types of send transactions: `MsgSend` and `MsgMultiSend`.
 
 ## Message Types
 
@@ -27,7 +27,7 @@ type MsgSend struct {
 }
 ```
 
-The Bank module is used to send coins from one Xpla account to another. `MsgSend` is constructed to facilitate the transfer. If the balance of coins in the sender `Account` is insufficient or the recipient `Account` is unable to receive the funds via the bank module, the transaction fails. Fees already paid through failed transactions are not refunded.
+The Bank module is used to send coins from one XPLA Chain account to another. `MsgSend` is constructed to facilitate the transfer. If the balance of coins in the sender `Account` is insufficient or the recipient `Account` is unable to receive the funds via the bank module, the transaction fails. Fees already paid through failed transactions are not refunded.
 
 ### MsgMultiSend
 

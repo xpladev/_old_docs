@@ -18,7 +18,7 @@ If you're using a frontend framework other than React you'll need to use [Wallet
 
 ## Prerequisites
 
-- [Xpla Chrome extension vault]({{< ref "/docs/learn/xpla-vault/download/extension-vault" >}})
+- [XPLA Chain Chrome extension vault]({{< ref "/docs/learn/xpla-vault/download/extension-vault" >}})
 - Node.js version 16+
 - [NPM](https://www.npmjs.com/)
 
@@ -39,7 +39,7 @@ If you're using a frontend framework other than React you'll need to use [Wallet
 
 ## 2. Wrap Your App in `WalletProvider`
 
-Next, you'll wrap your `App` with `<WalletProvider>` to give all your components access to useful data, hooks, and utilities. You'll also need to pass in information about Xpla networks, such as the mainnet or chainId, into the provider via `getChainOptions`.
+Next, you'll wrap your `App` with `<WalletProvider>` to give all your components access to useful data, hooks, and utilities. You'll also need to pass in information about XPLA Chains, such as the mainnet or chainId, into the provider via `getChainOptions`.
 
 1. Navigate to your `Index.js` in a code editor and replace the code with the following:
 
@@ -106,7 +106,7 @@ Alternatively, you can configure your webpack to include the necessary fallbacks
 
 ## 3. Put `useWallet` to Work
 
-Now that `App.js` has inherited the context of `WalletProvider`, you can start putting your imports to work. You'll use the multi-purpose `useWallet` hook to connect your Xpla extension vault to your web browser.
+Now that `App.js` has inherited the context of `WalletProvider`, you can start putting your imports to work. You'll use the multi-purpose `useWallet` hook to connect your XPLA extension vault to your web browser.
 
 1. Create a new file in the `components` directory called `Connect.js`.
 
@@ -168,7 +168,7 @@ Now that `App.js` has inherited the context of `WalletProvider`, you can start p
 
 4. Refresh your browser. There should be some new text and buttons in your browser.
 
-5. Make sure your Xpla extension vault is connected to a wallet. Click **Connect EXTENSION**, and the app will connect to your wallet.
+5. Make sure your XPLA extension vault is connected to a wallet. Click **Connect EXTENSION**, and the app will connect to your wallet.
 
 The `status`, `network`, and `wallets` properties in your browser provide useful information about the state of the XPLA Vault. Before connecting, the `status` variable is `WALLET_NOT_CONNECTED`, and upon connection the status becomes `WALLET_CONNECTED`. In addition, the `wallets` array now has one entry with the `connectType` and `xplaAddress` you used to connect.
 
@@ -176,7 +176,7 @@ You should be able to see these changes in real-time.
 
 ## 4. Querying a Wallet Balance
 
-It's common for an app to show the connected user's XPLA balance. To achieve this you'll need two hooks. The first is `useLCDClient`. An `LCDClient` is essentially a REST-based adapter for the Xpla blockchain. You can use it to query an account balance. The second is `useConnectedWallet`, which tells you if a wallet is connected, and if so, basic information about that wallet such as its address.
+It's common for an app to show the connected user's XPLA balance. To achieve this you'll need two hooks. The first is `useLCDClient`. An `LCDClient` is essentially a REST-based adapter for the XPLA Chain. You can use it to query an account balance. The second is `useConnectedWallet`, which tells you if a wallet is connected, and if so, basic information about that wallet such as its address.
 
 Note that if your wallet is empty you won't see any tokens.
 
@@ -240,13 +240,13 @@ Note that if your wallet is empty you won't see any tokens.
 
 ## 5. Sending a Transaction
 
-WalletProvider also helps create and send transactions to the Xpla network. You'll also need `xpla.js` to help generate the sample transaction:
+WalletProvider also helps create and send transactions to the XPLA Chain. You'll also need `xpla.js` to help generate the sample transaction:
 
 ```sh
 npm install @xpla/xpla.js
 ```
 
-Before broadcasting this example transaction, ensure you're on the Xpla testnet. To change networks click the gear icon in your XPLA Vault and select `testnet`.
+Before broadcasting this example transaction, ensure you're on the XPLA Chain testnet. To change networks click the gear icon in your XPLA Vault and select `testnet`.
 
 You can request testnet funds from the [faucet](https://faucet.xpla.io/).
 

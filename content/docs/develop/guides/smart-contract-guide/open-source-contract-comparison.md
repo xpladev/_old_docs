@@ -5,7 +5,7 @@ title: Open Source Contract Comparison
 
 # Open Source Contract Comparison
 
-Ethereum | Solana | Xpla                                                                                                                        | Description
+Ethereum | Solana | XPLA Chain                                                                                                                  | Description
 ---------|--------|-----------------------------------------------------------------------------------------------------------------------------|------
 [ERC20](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20) | [SPL](https://spl.solana.com/)| [CW20](https://github.com/CosmWasm/cw-plus/tree/0.9.x/contracts/cw20-base)                                                  | Base implementation for creating tokens
 [ERC721](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) | [Token Metadata Standard](https://docs.metaplex.com/token-metadata/Versions/v1.0.0/nft-standard) | [CW721](https://github.com/CosmWasm/cw-nfts/tree/67afea4c31824ad55839ff3f0e18331cdce9306d/contracts/cw721-metadata-onchain) | Base implementation for creating NFTs 

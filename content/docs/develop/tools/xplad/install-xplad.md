@@ -5,9 +5,9 @@ title: Install xplad
 
 # Install `xplad`
 
-`xplad` is the command-line interface and daemon that connects to Xpla and enables you to interact with the Xpla blockchain. Xpla core is the official Golang reference implementation of the Xpla node software.
+`xplad` is the command-line interface and daemon that connects to XPLA Chain and enables you to interact with the XPLA Chain. XPLA Chain core is the official Golang reference implementation of the XPLA Chain node software.
 
-This guide is for developers who want to install `xplad` and interact with Xpla core without running a full node. If you want to run a full node or join a network, visit [Run a Full Xpla Node]({{< ref "run-a-full-xpla-node" >}}).
+This guide is for developers who want to install `xplad` and interact with XPLA Chain core without running a full node. If you want to run a full node or join a network, visit [Run a Full XPLA Chain Node]({{< ref "run-a-full-xpla-node" >}}).
 
 ### Prerequisites
 
@@ -22,13 +22,13 @@ If you are using a Mac, follow the [`xplad` Mac installation guide]({{< ref "xpl
 
 ## From Binary
 
-The easiest way to install `xplad` and Xpla core is by downloading a pre-built binary for your operating system. You can find the latest binaries on the [releases](https://github.com/xpladev/xpla/releases) page. If you have a Mac, follow the [Mac installation instructions]({{< ref "xplad-mac" >}}).
+The easiest way to install `xplad` and XPLA Chain core is by downloading a pre-built binary for your operating system. You can find the latest binaries on the [releases](https://github.com/xpladev/xpla/releases) page. If you have a Mac, follow the [Mac installation instructions]({{< ref "xplad-mac" >}}).
 
 ## From Source
 
-### 1. Get the Xpla core source code
+### 1. Get the XPLA Chain core source code
 
-Use `git` to retrieve [Xpla core](https://github.com/xpladev/xpla/), and check out the `main` branch, which contains the latest stable release.
+Use `git` to retrieve [XPLA Chain core](https://github.com/xpladev/xpla/), and check out the `main` branch, which contains the latest stable release.
 
 ```
 git clone https://github.com/xpladev/xpla
@@ -36,23 +36,23 @@ cd xpla
 git checkout [latest version]
 ```
 
-### 2. Build Xpla core from source
+### 2. Build XPLA Chain core from source
 
-Build Xpla core, and install the `xplad` executable to your `GOPATH` environment variable.
+Build XPLA Chain core, and install the `xplad` executable to your `GOPATH` environment variable.
 
 ```bash
 make install
 ```
 
-### 3. Verify your Xpla core installation
+### 3. Verify your XPLA Chain core installation
 
-Verify that Xpla core is installed correctly.
+Verify that XPLA Chain core is installed correctly.
 
 ```bash
 xplad version --long
 ```
 
-The following example shows version information when Xpla core is installed correctly:
+The following example shows version information when XPLA Chain core is installed correctly:
 
 ```bash
 name: xpla

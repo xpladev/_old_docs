@@ -5,15 +5,15 @@ title: Extension Wallet
 
 # Extension Wallet
 
-The API for the Xpla extension vault gets updated periodically. If you are developing a dApp, please check regularly for updates as breaking changes may be introduced frequently.
+The API for the XPLA extension vault gets updated periodically. If you are developing a dApp, please check regularly for updates as breaking changes may be introduced frequently.
 
-## What Is the Xpla Extension Vault?
+## What Is the XPLA Extension Vault?
 
-The Xpla extension vault is a web-wallet extension for Chrome that enables webpages to create requests for signing and broadcasting transactions. The webpage can detect the presence of Xpla extension vault and generate a prompt whereby the user can confirm the transaction to be signed.
+The XPLA extension vault is a web-wallet extension for Chrome that enables webpages to create requests for signing and broadcasting transactions. The webpage can detect the presence of XPLA extension vault and generate a prompt whereby the user can confirm the transaction to be signed.
 
 ## Wallet Provider
 
-Wallet Provider is a library that simplifies the development of React dApps that use Xpla extension vault or Xpla mobile vault.
+Wallet Provider is a library that simplifies the development of React dApps that use XPLA extension vault or XPLA mobile vault.
 
 Use one of the following templates to get quickly get started using Wallet Provider:
 

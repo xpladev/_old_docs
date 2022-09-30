@@ -7,14 +7,14 @@ title: Auth
 
 {{< hint info >}}
 **Note**  
-Xpla's auth module inherits from Cosmos SDK's [`auth`](https://docs.cosmos.network/master/modules/auth/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's auth module inherits from Cosmos SDK's [`auth`](https://docs.cosmos.network/master/modules/auth/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
-Xpla's Auth module extends the functionality from Cosmos SDK's `auth` module with a modified ante handler, which applies basic transaction validity checks, such as signatures, nonces, and auxiliary fields. This module also defines a special vesting account type that handles the logic for token vesting from the XPLA presale.
+XPLA Chain's Auth module extends the functionality from Cosmos SDK's `auth` module with a modified ante handler, which applies basic transaction validity checks, such as signatures, nonces, and auxiliary fields. This module also defines a special vesting account type that handles the logic for token vesting from the XPLA presale.
 
 ## Gas Fee
 
-Like all transactions on the Xpla blockchain, [`MsgSend`]({{< ref "bank#msgsend" >}}) and [`MsgMultiSend`]({{< ref "bank#msgmultisend" >}}) incur gas fees. These fees are determined by a validator's minimum gas price and the complexity of the transaction. More complex transactions incur higher fees. Gas fees are specified by the sender when a transaction is outbound. For more information on how gas is calculated, see [fees]({{< ref "using-xplad#fees" >}}).
+Like all transactions on the XPLA Chain, [`MsgSend`]({{< ref "bank#msgsend" >}}) and [`MsgMultiSend`]({{< ref "bank#msgmultisend" >}}) incur gas fees. These fees are determined by a validator's minimum gas price and the complexity of the transaction. More complex transactions incur higher fees. Gas fees are specified by the sender when a transaction is outbound. For more information on how gas is calculated, see [fees]({{< ref "using-xplad#fees" >}}).
 
 ## Parameters
 

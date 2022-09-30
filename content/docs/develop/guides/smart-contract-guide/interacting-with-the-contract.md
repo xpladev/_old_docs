@@ -7,12 +7,12 @@ title: Interacting with the Contract
 
 {{< hint info >}}
 **Note**  
-You can also follow these steps in the official web wallet for Xpla, [XPLA Vault](https://vault.xpla.io).
+You can also follow these steps in the official web wallet for XPLA Chain, [XPLA Vault](https://vault.xpla.io).
 {{< /hint >}}
 
 ## Requirements
 
-You should also have the latest version of `xplad` by building the latest version of Xpla Core. You will configure `xplad` to use it against your isolated testnet environment.
+You should also have the latest version of `xplad` by building the latest version of XPLA Chain core. You will configure `xplad` to use it against your isolated testnet environment.
 
 In a separate terminal, make sure to set up the following mnemonic:
 
@@ -215,10 +215,10 @@ query_result:
   count: 7
 ```
 
-Excellent! Congratulations, you've created your first smart contract, and now know how to get developing with the Xpla dApp Platform.
+Excellent! Congratulations, you've created your first smart contract, and now know how to get developing with the XPLA Chain dApp Platform.
 
 ## What's Next?
 
 So far you've walked through a simple example of a smart contract, that modifies a simple balance within its internal state. Although this is enough to make a simple dApp, you can power more interesting applications by **emitting messages**, which will enable you to interact with other contracts as well as the rest of the blockchain's module.
 
-Check out a couple more examples of smart contracts using Xpla's smart contract [repo](https://github.com/xpladev/cosmwasm-contracts).
+Check out a couple more examples of smart contracts using XPLA Chain's smart contract [repo](https://github.com/xpladev/cosmwasm-contracts).

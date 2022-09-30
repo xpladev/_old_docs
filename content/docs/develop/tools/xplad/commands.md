@@ -212,7 +212,7 @@ xplad validate-genesis </genesis.json>
 
 ## `version`
 
-Returns the version of Xpla you're running.
+Returns the version of xplad you're running.
 
 **Syntax**
 ```bash
