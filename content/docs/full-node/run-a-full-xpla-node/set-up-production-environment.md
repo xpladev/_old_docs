@@ -5,7 +5,7 @@ title: Set-up Production Environment
 
 # Set-up a Production Environment
 
-Use the following information to set up and manage your production-level Xpla full node.
+Use the following information to set up and manage your production-level XPLA Chain full node.
 
 For information about running a validator node, visit the [validator guide]({{< ref "manage-a-validator" >}}).
 
@@ -39,7 +39,7 @@ Modify `/etc/security/limits.conf`[\*](https://linux.die.net/man/5/limits.conf) 
 
    ```bash
    [Unit]
-   Description=Xpla Daemon
+   Description=XPLA Chain Daemon
    After=network.target
 
    [Service]

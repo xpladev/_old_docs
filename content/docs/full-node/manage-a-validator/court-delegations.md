@@ -9,11 +9,11 @@ Consider the following options to help improve your visibility and make yourself
 
 ## Set-up a Website
 
-Set up a website so that your delegators can find you. It is recommended that you make a custom section for Xpla delegators that instructs them how to delegate XPLA tokens.
+Set up a website so that your delegators can find you. It is recommended that you make a custom section for XPLA Chain delegators that instructs them how to delegate XPLA tokens.
 
 ## Announce Yourself on Discord
 
-Join the [Xpla Validators Discord](https://discord.gg/vUBcwm3r6t) channel, and introduce yourself.
+Join the [XPLA Chain Validators Discord](https://discord.gg/vUBcwm3r6t) channel, and introduce yourself.
 
 ## Submit a Validator Profile
 
