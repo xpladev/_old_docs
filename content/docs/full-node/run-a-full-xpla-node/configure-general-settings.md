@@ -42,7 +42,7 @@ You can update your node's moniker by editing the `moniker` field in `~/.xpla/co
 2. Modify `minimum-gas-prices` and set the minimum price of gas a validator will accept to validate a transaction and to prevent spam.
 
 Recommended setting is:
-`minimum-gas-prices = "15axpla"`
+`minimum-gas-prices = "850000000000axpla"`
 
 **Example**:
 
@@ -50,7 +50,7 @@ Recommended setting is:
 # The minimum gas prices a validator is willing to accept for processing a
 # transaction. A transaction's fees must meet the minimum of any denomination
 # specified in this config (e.g. 0.25token1;0.0001token2).
-minimum-gas-prices = "15axpla"
+minimum-gas-prices = "850000000000axpla"
 ````
 
 ## Start the Light Client Daemon (LCD)
