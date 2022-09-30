@@ -133,7 +133,7 @@ Be careful when delegating to validators outside of the active set. Some inactiv
 
 ### Is There a Faucet?
 
-Use the [XPLA Chain faucet](https://faucet.xpla.io/) to obtain coins for the testnet.
+Use the [XPLA faucet](https://faucet.xpla.io/) to obtain coins for the testnet.
 
 ### Is There a Minimum Amount of XPLA That Must Be Staked to Be An Active (bonded) Validator?
 

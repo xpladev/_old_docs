@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 30
-title: Xpla.js
+title: xpla.js
 ---
 
 # xpla.js

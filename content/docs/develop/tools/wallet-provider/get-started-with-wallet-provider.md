@@ -39,7 +39,7 @@ If you're using a frontend framework other than React you'll need to use [Wallet
 
 ## 2. Wrap Your App in `WalletProvider`
 
-Next, you'll wrap your `App` with `<WalletProvider>` to give all your components access to useful data, hooks, and utilities. You'll also need to pass in information about XPLA Chains, such as the mainnet or chainId, into the provider via `getChainOptions`.
+Next, you'll wrap your `App` with `<WalletProvider>` to give all your components access to useful data, hooks, and utilities. You'll also need to pass in information about XPLA Chain, such as the mainnet or chainId, into the provider via `getChainOptions`.
 
 1. Navigate to your `Index.js` in a code editor and replace the code with the following:
 
