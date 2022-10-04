@@ -7,7 +7,7 @@ title: Distribution
 
 {{< hint info >}}
 **Note**  
-Xpla's distribution module inherits from Cosmos SDK's [`distribution`](https://docs.cosmos.network/master/modules/distribution/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's distribution module inherits from Cosmos SDK's [`distribution`](https://docs.cosmos.network/master/modules/distribution/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
 The distribution module describes a mechanism that tracks collected fees and passively distributes them to validators and delegators. Additionally, the distribution module defines the community pool, which is a pool of funds under the control of on-chain governance.

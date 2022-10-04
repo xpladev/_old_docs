@@ -7,10 +7,10 @@ title: Staking
 
 {{< hint info >}}
 **Note**  
-Xpla's staking module inherits from the Cosmos SDK's [`staking`](https://docs.cosmos.network/master/modules/staking/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's staking module inherits from the Cosmos SDK's [`staking`](https://docs.cosmos.network/master/modules/staking/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
-The staking module enables Xpla's proof-of-stake functionality by requiring validators to bond XPLA, the native staking asset.
+The staking module enables XPLA Chain's proof-of-stake functionality by requiring validators to bond XPLA, the native staking asset.
 
 ## Message Types
 

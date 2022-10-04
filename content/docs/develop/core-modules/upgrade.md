@@ -7,7 +7,7 @@ title: Upgrade
 
 {{< hint info >}}
 **Note**  
-Xpla's upgrade module inherits from the Cosmos SDK's [`upgrade`](https://docs.cosmos.network/master/modules/upgrade/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's upgrade module inherits from the Cosmos SDK's [`upgrade`](https://docs.cosmos.network/master/modules/upgrade/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
 The upgrade module allows live chains to be upgraded with breaking changes smoothly. 

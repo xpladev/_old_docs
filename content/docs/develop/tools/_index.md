@@ -7,12 +7,12 @@ title: Tools
 
 # Tools
 
-If this is your first time building on Xpla, check out the [Getting started guide]({{< ref "get-started" >}}). 
+If this is your first time building on XPLA Chain, check out the [Getting started guide]({{< ref "get-started" >}}). 
 
 
-## Xpla Development Suite
+## XPLA Chain Development Suite
 
-The [Xpla Development Suite]({{< ref "which-tools-to-use" >}}) has everything you need to build on Xpla. 
+The [XPLA Chain Development Suite]({{< ref "which-tools-to-use" >}}) has everything you need to build on XPLA Chain. 
 
 Not sure which tool to use? Check out the [tool guide]({{< ref "which-tools-to-use" >}}).
 
@@ -25,12 +25,12 @@ React tooling for frontend integrations.
 {{< tab "xpla.js" >}}
 # xpla.js
 
-Xpla's JavaScript SDK.
+XPLA Chain's JavaScript SDK.
 {{< /tab >}}
 {{< tab "xplad" >}}
 # xplad
 
-Interact with a Xpla node. 
+Interact with a XPLA Chain node. 
 {{< /tab >}}
 {{< tab "Explorer" >}}
 # Explorer

@@ -9,7 +9,7 @@ Use the following common examples to learn how to use xpla.js. If this is your f
 
 {{< hint info >}}
 **Tip**  
-If you are new to Xpla and don't know where to start, visit the [getting started guide]({{< ref "get-started" >}}).
+If you are new to XPLA Chain and don't know where to start, visit the [getting started guide]({{< ref "get-started" >}}).
 {{< /hint >}}
 
 ## Configuring LCDClient
@@ -201,7 +201,7 @@ const result = await lcd.tx.broadcast(tx);
 console.log(result);
 ```
 
-## Swapping a Native Xpla Asset for a CW20 Token Using a common swap pair contract
+## Swapping a Native XPLA Chain Asset for a CW20 Token Using a common swap pair contract
 
 The following code example shows how to swap a native asset for CW20 using a common swap pair contract.
 
@@ -284,9 +284,9 @@ const initMessages = txInfos
 console.log(initMessages);
 ```
 
-## Validate a Xpla Address
+## Validate a XPLA Chain Address
 
-The following code example shows how to do a basic verification on a Xpla address.
+The following code example shows how to do a basic verification on a XPLA Chain address.
 
 This is a basic version of the verification, it does not require external libraries as it performs a simple comparison with a regex string. It could give false positives since it doesn't verify the checksum of the address.
 

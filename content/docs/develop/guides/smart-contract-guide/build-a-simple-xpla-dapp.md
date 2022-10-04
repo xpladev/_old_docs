@@ -1,11 +1,11 @@
 ---
 weight: 10
-title: Build a Simple Xpla dApp
+title: Build a Simple XPLA Chain dApp
 ---
 
-# Build a Simple Xpla dApp
+# Build a Simple XPLA Chain dApp
 
-This tutorial is designed to acquaint you with everything you need to know to launch your own smart-contract powered applications on Xpla.
+This tutorial is designed to acquaint you with everything you need to know to launch your own smart-contract powered applications on XPLA Chain.
 
 Using CosmWasm's default template contract as an example, this tutorial walks through the necessary steps to go from an idea to execution.
 
@@ -18,6 +18,6 @@ In this guide, you will learn:
 ## Requirements
 
 - [Docker](https://www.docker.com/)
-- Basic familiarity with the Xpla ecosystem
+- Basic familiarity with the XPLA Chain ecosystem
 - Basic proficiency with [Rust](https://www.rust-lang.org/)
 - A desire to disrupt traditional finance

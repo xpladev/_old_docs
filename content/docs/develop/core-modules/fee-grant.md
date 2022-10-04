@@ -7,7 +7,7 @@ title: Fee Grant
 
 {{< hint info >}}
 **Note**  
-Xpla's fee grant module inherits from the Cosmos SDK's [`feegrant`](https://docs.cosmos.network/master/modules/feegrant/) module. This document is a stub and explains mainly important Xpla-specific notes about how it is used.
+XPLA Chain's fee grant module inherits from the Cosmos SDK's [`feegrant`](https://docs.cosmos.network/master/modules/feegrant/) module. This document is a stub and explains mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
 This module allows an account, the granter, to permit another account, the grantee, to pay for fees from the granter's account balance. Grantees will not need to maintain their own balance for paying fees.

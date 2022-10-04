@@ -14,11 +14,11 @@ Read this document thoroughly before becoming a validator.
 
 ### What Is a Validator?
 
-The Xpla Core is powered by the Tendermint consensus. Validators run full nodes, participate in consensus by broadcasting votes, commit new blocks to the blockchain, and participate in governance of the blockchain. Validators are able to cast votes on behalf of their delegators. A validator's voting power is weighted according to their total stake.
+The XPLA Chain Core is powered by the Tendermint consensus. Validators run full nodes, participate in consensus by broadcasting votes, commit new blocks to the blockchain, and participate in governance of the blockchain. Validators are able to cast votes on behalf of their delegators. A validator's voting power is weighted according to their total stake.
 
 ### What Is a Full Node?
 
-A full node is a program that validates the transactions and blocks of a blockchain. Validators must run full nodes. Full nodes require more resources than light nodes,  which only processes block headers and a small subset of transactions. Running a full node means you are running a non-compromised and up-to-date version of the Xpla Core software with low network latency and no downtime.
+A full node is a program that validates the transactions and blocks of a blockchain. Validators must run full nodes. Full nodes require more resources than light nodes,  which only processes block headers and a small subset of transactions. Running a full node means you are running a non-compromised and up-to-date version of the XPLA Chain Core software with low network latency and no downtime.
 
 It is possible and encouraged for any user to run full nodes even if they do not plan to be validators.
 
@@ -32,7 +32,7 @@ The active validator set is made up of 130 validators, who hold the most XPLA. T
 
 ### What Is a Delegator?
 
-Delegators are XPLA holders who want to receive staking rewards without the responsibility of running a validator. Through Xpla Vault, a user can delegate XPLA to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
+Delegators are XPLA holders who want to receive staking rewards without the responsibility of running a validator. Through XPLA Vault, a user can delegate XPLA to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
 
 Delegators share the benefits and rewards of staking with their Validator. If a Validator is successful, its delegators will consistently share in the rewards structure. If a Validator is slashed, the delegator’s stake will also be slashed. This is why delegators should perform due-diligence on validators before delegating. Delegators can also diversify by spreading their stake over multiple validators.
 
@@ -123,17 +123,17 @@ A validator operator's "self-bond" refers to the amount of XPLA delegated to its
 
 ### Can I Delegate to a Validator Outside of the Active Set?
 
-You can still delegate to a validator even if they do not appear on Xpla Vault. Simply add the xplavaloper address of your desired validator to the end of the following URL:
+You can still delegate to a validator even if they do not appear on XPLA Vault. Simply add the xplavaloper address of your desired validator to the end of the following URL:
 
 `https://vault.xpla.io/validator/<xplavaloper-address>`
 
 Ask your validator for their xplavaloper address.
 
-Be careful when delegating to validators outside of the active set. Some inactive validators may be jailed or are no longer supported. Xpla Vault only displays active or recently active validators who are able to participate in consensus.
+Be careful when delegating to validators outside of the active set. Some inactive validators may be jailed or are no longer supported. XPLA Vault only displays active or recently active validators who are able to participate in consensus.
 
 ### Is There a Faucet?
 
-Use the [Xpla faucet](https://faucet.xpla.io/) to obtain coins for the testnet.
+Use the [XPLA faucet](https://faucet.xpla.io/) to obtain coins for the testnet.
 
 ### Is There a Minimum Amount of XPLA That Must Be Staked to Be An Active (bonded) Validator?
 
@@ -151,7 +151,7 @@ Delegators are free to choose validators according to their own criteria. This m
 
 - **Track record:** Delegators can look at the track record of a validator they plan to delegate to. This includes seniority, past votes on proposals, historical average uptime, and how often the node was compromised.
 
-Validators can also provide a website address to complete their resume. Validators need to build a good reputation to attract delegators. It's good practice for validators to have their setup audited by third parties. Please note that the Xpla team will not approve or conduct any audits.
+Validators can also provide a website address to complete their resume. Validators need to build a good reputation to attract delegators. It's good practice for validators to have their setup audited by third parties. Please note that the XPLA Chain team will not approve or conduct any audits.
 
 ## Responsibilities
 
@@ -165,7 +165,7 @@ A validator must:
 
 - **Run the correct software versions:** Validators need to make sure that their servers are always online, and that their private keys are not compromised.
 
-- **Provide oversight and feedback on the correct deployment of community pool funds:** The Xpla protocol includes a governance system for proposals to facilitate the adoption of its currencies. Validators are expected to hold budget executors to provide transparency and to use funds efficiently.
+- **Provide oversight and feedback on the correct deployment of community pool funds:** The XPLA Chain includes a governance system for proposals to facilitate the adoption of its currencies. Validators are expected to hold budget executors to provide transparency and to use funds efficiently.
 
 - **Be active members of the community:** Validators should always be up-to-date with the current state of the ecosystem so that they can easily adapt to any change.
 
@@ -268,7 +268,7 @@ In order for delegators to have some guarantee about how much `skin-in-the-game`
 
 ### What Are the Hardware Requirements?
 
-The following requirements are recommended for running Xpla Core:
+The following requirements are recommended for running XPLA Chain Core:
 
 At least 300 mbps of network bandwidth
 - 4 core or higher CPU
@@ -278,7 +278,7 @@ At least 300 mbps of network bandwidth
 
 ### What Are the Software Requirements?
 
-In addition to running a Xpla Core node, validators should develop monitoring, alerting and management solutions.
+In addition to running a XPLA Chain Core node, validators should develop monitoring, alerting and management solutions.
 
 Validators should expect to perform regular software updates to accommodate upgrades and bug fixes. There will inevitably be issues with the network, and this requires vigilance.
 

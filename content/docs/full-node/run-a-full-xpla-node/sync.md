@@ -57,7 +57,7 @@ Compare this height to the **Latest Blocks** by checking the API for latest bloc
 
 ## State Sync
 
-You can significantly accelerate the synchronization process by providing `xplad` with a recent snapshot of the network state. Snapshots are made publicly available by members of the Xpla community, and not maintained as part of this documentation.
+You can significantly accelerate the synchronization process by providing `xplad` with a recent snapshot of the network state. Snapshots are made publicly available by members of the XPLA Chain community, and not maintained as part of this documentation.
 
 ## Sync Complete
 
@@ -79,7 +79,7 @@ xplad status
   }
 ```
 
-Validators can view the status of the network using [Xpla Explorer](https://explorer.xpla.io).
+Validators can view the status of the network using [XPLA Explorer](https://explorer.xpla.io).
 
 ## Sync faster during testing
 
@@ -95,4 +95,4 @@ xplad start --x-crisis-skip-assert-invariants
 
 ## Congratulations!
 
-You've successfully joined a network as a full node operator. If you are a validator, continue to [manage a Xpla validator]({{< ref "manage-a-validator" >}}) for the next steps.
+You've successfully joined a network as a full node operator. If you are a validator, continue to [manage a XPLA Chain validator]({{< ref "manage-a-validator" >}}) for the next steps.

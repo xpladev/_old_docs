@@ -9,17 +9,17 @@ Consider the following options to help improve your visibility and make yourself
 
 ## Set-up a Website
 
-Set up a website so that your delegators can find you. It is recommended that you make a custom section for Xpla delegators that instructs them how to delegate XPLA tokens.
+Set up a website so that your delegators can find you. It is recommended that you make a custom section for XPLA Chain delegators that instructs them how to delegate XPLA tokens.
 
 ## Announce Yourself on Discord
 
-Join the [Xpla Validators Discord](https://discord.gg/vUBcwm3r6t) channel, and introduce yourself.
+Join the [XPLA Chain Validators Discord](https://discord.gg/vUBcwm3r6t) channel, and introduce yourself.
 
 ## Submit a Validator Profile
 
 Submit a [Validator Profile](https://github.com/xpladev/validator-profiles) to make it official.
 
-## Put a Thumbnail on Xpla Vault 
+## Put a Thumbnail on XPLA Vault 
 
 Create a [Keybase Account](https://keybase.io/) follow the Keybase instructions to set up a PGP key, and upload a profile picture.
 For best continuity use the same GitHub account to verify your Keybase, and your [Validator Profile](https://github.com/xpladev/validator-profiles)

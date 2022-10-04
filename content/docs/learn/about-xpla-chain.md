@@ -1,23 +1,23 @@
 ---
 weight: 10
-title: About Xpla
+title: About XPLA Chain
 ---
 
-# About Xpla
+# About XPLA Chain
 
-## What is Xpla?
+## What is XPLA Chain?
 
-Xpla is an [open-source blockchain](https://github.com/xpladev/xpla) hosting a vibrant ecosystem of decentralized applications (dApps) and top-tier developer tools. Xpla is based on [Tendermint](https://tendermint.com/), a popular blockchain engine based on Byzantine Fault Tolerant (BFT) consensus which is robust against double-spend attacks and is tolerant against a set of up to 1/3. Through [IBC](https://ibc.cosmos.network/) and [COSMOS SDK](https://docs.cosmos.network/), the Xpla blockchain can be easily connected with other various chains and is a developer-friendly chain. Using proof-of-stake conesensus, [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/) Compatibility, Xpla SDK, a software kit for the game developers, and Xpla wallet would give the users extensive experiences of De-Fi, Play to Own (P2O) gaming, and lastly, would lead to the adoption of Web 2 users to Web 3 space. Also, XPLA, all capital letters of the blockchain name, is the Xpla blockchain’s native staking token. XPLA is used for [governance]({{< ref "glossary#governance" >}}) and [staking]({{< ref "glossary#staking" >}}).
+XPLA Chain is an [open-source blockchain](https://github.com/xpladev/xpla) hosting a vibrant ecosystem of decentralized applications (dApps) and top-tier developer tools. XPLA Chain is based on [Tendermint](https://tendermint.com/), a popular blockchain engine based on Byzantine Fault Tolerant (BFT) consensus which is robust against double-spend attacks and is tolerant against a set of up to 1/3. Through [IBC](https://ibc.cosmos.network/) and [COSMOS SDK](https://docs.cosmos.network/), the XPLA Chain can be easily connected with other various chains and is a developer-friendly chain. Using proof-of-stake consensus, [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/) Compatibility, XPLA Chain SDK, a software kit for the game developers, and XPLA Vault would give the users extensive experiences of De-Fi, Play to Own (P2O) gaming, and lastly, would lead to the adoption of Web 2 users to Web 3 space. Also, XPLA, all capital letters of the blockchain name, is the XPLA Chain’s native staking token. XPLA is used for [governance]({{< ref "glossary#governance" >}}) and [staking]({{< ref "glossary#staking" >}}).
 
 ## Validators
 
-Validators are the miners of the Xpla [blockchain]({{< ref "glossary#blockchain" >}}). They are responsible for securing the Xpla blockchain and ensuring its accuracy. Validators run programs called full nodes which allow them to verify each transaction made on the Xpla network. Validators propose blocks, vote on their validity, and add each new block to the chain in exchange for staking rewards from transaction fees. Users can stake their XPLA to validators in exchange for staking rewards. Validators also play an important role in the governance of the Xpla protocol.
+Validators are the miners of the XPLA Chain. They are responsible for securing the XPLA Chain and ensuring its accuracy. Validators run programs called full nodes which allow them to verify each transaction made on the XPLA Chain. Validators propose blocks, vote on their validity, and add each new block to the chain in exchange for staking rewards from transaction fees. Users can stake their XPLA to validators in exchange for staking rewards. Validators also play an important role in the governance of the XPLA Chain.
 
 For more information on validators, visit the [Validator FAQ]({{< ref "/docs/full-node/manage-a-validator/validator-faq" >}}).
 
 ### Consensus
 
-The Xpla blockchain is a proof-of-stake blockchain, powered by the [Cosmos SDK](https://cosmos.network/) and secured by a system of verification called the Tendermint consensus.
+The XPLA Chain is a proof-of-stake blockchain, powered by the [Cosmos SDK](https://cosmos.network/) and secured by a system of verification called the Tendermint consensus.
 
 The following process explains how Tendermint consensus works. For more information on the Tendermint consensus, visit the [official Tendermint documentation](https://docs.tendermint.com/).
 
@@ -26,15 +26,15 @@ The following process explains how Tendermint consensus works. For more informat
 3. If accepted, the block is signed and added to the chain.
 4. The transaction fees from the block are distributed as staking rewards to validators and delegators. Proposers get rewarded extra for their participation.
 
-This process repeats, adding new blocks of transactions to the chain. Each validator has a copy of all transactions made on the network, which they compare against the proposed block of transactions before voting. Because multiple independent validators take place in consensus voting, it is infeasible for any false block to be accepted. In this way, validators protect the integrity of the Xpla blockchain and ensure the validity of each transaction.
+This process repeats, adding new blocks of transactions to the chain. Each validator has a copy of all transactions made on the network, which they compare against the proposed block of transactions before voting. Because multiple independent validators take place in consensus voting, it is infeasible for any false block to be accepted. In this way, validators protect the integrity of the XPLA Chain and ensure the validity of each transaction.
 
 ## Staking
 
 Staking is the process of bonding XPLA to a validator in exchange for staking rewards.
 
-The Xpla protocol only allows the top 130 validators to participate in consensus. A validator's rank is determined by their stake or the total amount of XPLA bonded to them. Although validators can bond XPLA to themselves, they mainly amass larger stakes from delegators. Validators with larger stakes get chosen more often to propose new blocks and earn proportionally more rewards.
+The XPLA Chain only allows the top 130 validators to participate in consensus. A validator's rank is determined by their stake or the total amount of XPLA bonded to them. Although validators can bond XPLA to themselves, they mainly amass larger stakes from delegators. Validators with larger stakes get chosen more often to propose new blocks and earn proportionally more rewards.
 
-To learn how to stake your XPLA and earn staking rewards, visit the [Xpla Vault staking guide]({{< ref "xpla-vault/manage-staking" >}})
+To learn how to stake your XPLA and earn staking rewards, visit the [XPLA Vault staking guide]({{< ref "xpla-vault/manage-staking" >}})
 
 ### Delegators
 Delegators are users who want to receive rewards from consensus without running a full node. Any user that stakes XPLA is a delegator. Delegators stake their XPLA to a validator, adding to a validator’s weight, or total stake. In return, delegators receive a portion of transaction fees as staking rewards.
@@ -51,18 +51,18 @@ To start receiving rewards, delegators bond their XPLA to a validator. The bondi
 XPLA exists in the following three phases:
 
 - **Unbonded**: XPLA that can be freely traded and is not staked to a validator.
-- **Bonded**: XPLA that is staked to a validator. Bonded XPLA accrues staking rewards. XPLA bonded to validators in Xpla Vault can’t be traded freely.
+- **Bonded**: XPLA that is staked to a validator. Bonded XPLA accrues staking rewards. XPLA bonded to validators in XPLA Vault can’t be traded freely.
 - **Unbonding**: XPLA that is in the process of becoming unbonded from a validator and does not accrue rewards. This process takes 21 days to complete.
 
 ### Bonding, staking, and delegating
 
 Generally, the terms bonding, staking, and delegating can be used interchangeably, as they happen in the same step. A delegator delegates XPLA to a validator, the XPLA gets bonded to the validator, and the bonded XPLA gets added to the validator's stake.
 
-Delegators can bond XPLA to any validator in the [active set]({{< ref "glossary#active-set" >}}) using the delegate function in Xpla Vault. Delegators start earning staking rewards the moment they bond or stake to a validator.
+Delegators can bond XPLA to any validator in the [active set]({{< ref "glossary#active-set" >}}) using the delegate function in XPLA Vault. Delegators start earning staking rewards the moment they bond or stake to a validator.
 
 ### Unbonding
 
-Delegators can unbond or unstake their XPLA using the undelegate function in Xpla Vault. The unbonding process takes 21 days to complete. During this period, the unbonding XPLA can't be traded, and no staking rewards accrue.
+Delegators can unbond or unstake their XPLA using the undelegate function in XPLA Vault. The unbonding process takes 21 days to complete. During this period, the unbonding XPLA can't be traded, and no staking rewards accrue.
 
 {{< hint warning >}}
 **Warning**  
@@ -70,11 +70,11 @@ Once started, the delegating or undelegating processes can't be stopped.
 Undelegating takes 21 days to complete. The only way to undo a delegating or undelegating transaction is to wait for the unbonding process to pass. Alternatively, you can redelegate staked XPLA to a different validator without waiting 21 days.
 {{< /hint >}}
 
-The 21-day unbonding process helps the long-term stability of the Xpla protocol. The unbonding period discourages volatility by locking staked XPLA in the system for at least 21 days. In exchange, delegators receive staking rewards, further incentivizing network stability.
+The 21-day unbonding process helps the long-term stability of the XPLA Chain. The unbonding period discourages volatility by locking staked XPLA in the system for at least 21 days. In exchange, delegators receive staking rewards, further incentivizing network stability.
 
 ### Redelegation
 
-Redelegating instantly sends staked XPLA from one validator to another. Instead of waiting for the 21-day unstaking period, a user can redelegate their staked XPLA at any time using Xpla Vault's redelegate function. Validators receiving redelegations are barred from further redelegating any amount of XPLA to any validator for 21 days.
+Redelegating instantly sends staked XPLA from one validator to another. Instead of waiting for the 21-day unstaking period, a user can redelegate their staked XPLA at any time using XPLA Vault's redelegate function. Validators receiving redelegations are barred from further redelegating any amount of XPLA to any validator for 21 days.
 
 {{< hint warning >}}
 **Warning**  
@@ -83,7 +83,7 @@ When a user redelegates staked XPLA from one validator to another, the validator
 
 ## Rewards
 
-The Xpla protocol incentivizes validators and delegators with staking rewards from gas fees and inflation rewards:
+The XPLA Chain incentivizes validators and delegators with staking rewards from gas fees and inflation rewards:
 
 - [Gas]({{< ref "fees#gas" >}}): Compute fees added on to each transaction to avoid spamming. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
@@ -114,9 +114,9 @@ For more information on slashing, visit the [slashing module]({{< ref "/docs/dev
 
 ## Governance
 
-The Xpla protocol is a decentralized public [blockchain]({{< ref "glossary#blockchain" >}}) governed by community members. Governance is the democratic process that allows users and validators to make changes to the Xpla protocol. Community members submit, vote, and implement proposals.
+The XPLA Chain is a decentralized public [blockchain]({{< ref "glossary#blockchain" >}}) governed by community members. Governance is the democratic process that allows users and validators to make changes to the XPLA Chain. Community members submit, vote, and implement proposals.
 
-To learn how to vote with your staked XPLA or submit proposals, visit the [Xpla Vault governance guide]({{< ref "xpla-vault/governance" >}}).
+To learn how to vote with your staked XPLA or submit proposals, visit the [XPLA Vault governance guide]({{< ref "xpla-vault/governance" >}}).
 
 ### Proposals
 
@@ -151,7 +151,7 @@ The following is a basic outline of the governance process. Visit the [governanc
 5. Accepted proposals get put into effect.
 6. Deposits get refunded or burned.
 
-Once accepted, the changes described in a governance proposal are automatically put into effect by the proposal handler. Generic proposals, such as a passed `TextProposal`, must be reviewed by the Xpla team and community, and they must be manually implemented.
+Once accepted, the changes described in a governance proposal are automatically put into effect by the proposal handler. Generic proposals, such as a passed `TextProposal`, must be reviewed by the XPLA Chain development team and community, and they must be manually implemented.
 
 ### Deposits
 

@@ -7,24 +7,24 @@ title: Core Modules
 
 # Core Modules
 
-The Xpla Core is the official Golang reference implementation of the Xpla protocol.
-The Xpla Core is built using the [Cosmos SDK](https://cosmos.network/sdk), which provides a robust framework for blockchains that run atop the [Tendermint](https://tendermint.com/) consensus protocol.
+The XPLA Chain Core is the official Golang reference implementation of the XPLA Chain.
+The XPLA Chain Core is built using the [Cosmos SDK](https://cosmos.network/sdk), which provides a robust framework for blockchains that run atop the [Tendermint](https://tendermint.com/) consensus protocol.
 
 Before diving into the core modules, it may be useful to familiarize yourself with the [Cosmos](https://docs.cosmos.network/) and [Tendermint](https://docs.tendermint.com/master/tutorials/go.html) documentation. 
 
-## How to Use the Xpla Core Module Specifications
+## How to Use the XPLA Chain Core Module Specifications
 
-Each module specification begins with a short description of the module's main function within the architecture of the system and an explanation of how it contributes to implementing Xpla's features.
+Each module specification begins with a short description of the module's main function within the architecture of the system and an explanation of how it contributes to implementing XPLA Chain's features.
 
 The body of each module specification provides a more detailed description of its main processes and algorithms alongside any concepts you might need to know. The body of each module specification also contains links to more granular information, such as specific state variables, message handlers, and other functions.
 
-These specifications are not an exhaustive reference and are provided as a companion guide for users who need to work directly with the Xpla Core codebase or understand it. Though all the important functions in each module are described, more trivial functions, such as getters and setters, are omitted for clarity. Module logic is also located in either the message handler or block transitions, such as begin-blocker and end-blocker.
+These specifications are not an exhaustive reference and are provided as a companion guide for users who need to work directly with the XPLA Chain Core codebase or understand it. Though all the important functions in each module are described, more trivial functions, such as getters and setters, are omitted for clarity. Module logic is also located in either the message handler or block transitions, such as begin-blocker and end-blocker.
 
 The end of each module specification includes lists of various module parameters alongside their default values with a brief explanation of their purpose, associated events / tags, and errors issued by the module.
 
 ## Module Architecture
 
-The Xpla Core is organized into the following individual modules that implement different parts of the Xpla protocol. They are listed in the order in which they are initialized during genesis:
+The XPLA Chain Core is organized into the following individual modules that implement different parts of the XPLA Chain. They are listed in the order in which they are initialized during genesis:
 
 1. `genaccounts` - import & export genesis account
 2. [`distribution`]({{< ref "distribution" >}}): distribute rewards between validators and delegators
@@ -44,7 +44,7 @@ The Xpla Core is organized into the following individual modules that implement 
 
 ### Inherited Modules
 
-Many of the modules in Xpla Core inherit from the Cosmos SDK and are configured to work with Xpla through customization in either genesis parameters or by augmenting their functionality with additional code.
+Many of the modules in XPLA Chain Core inherit from the Cosmos SDK and are configured to work with XPLA Chain through customization in either genesis parameters or by augmenting their functionality with additional code.
 
 ## Block Lifecycle
 
@@ -66,15 +66,15 @@ The following processes are executed during each block transition:
 
 5\. Governance: Remove inactive proposals, check active proposals whose voting periods have ended for passes, and run the registered proposal handler of the passed proposal.
 
-6\. Staking: The new set of active validators is determined from the top 130 Xpla stakers. Validators that lose their spot within the set start the unbonding process.
+6\. Staking: The new set of active validators is determined from the top 130 XPLA stakers. Validators that lose their spot within the set start the unbonding process.
 
 ## Conventions
 
 ### Currency Denominations
 
-- XPLA is the Xpla protocol's native staking asset. Delegators earn mining rewards when they stake their Xpla to an active validator. Xpla is also used to make and vote on governance proposals.
+- XPLA is the XPLA Chain's native staking asset. Delegators earn mining rewards when they stake their XPLA to an active validator. XPLA is also used to make and vote on governance proposals.
 
-The attounit {{< katex >}}\times 10^{-18}{{< /katex >}} is the smallest atomic unit of Xpla.
+The attounit {{< katex >}}\times 10^{-18}{{< /katex >}} is the smallest atomic unit of XPLA.
 
 | Denomination | Atto-Unit | Code    | Value                     |
 |:-------------|:-----------|:--------|:--------------------------|

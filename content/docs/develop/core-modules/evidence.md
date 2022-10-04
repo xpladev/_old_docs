@@ -7,7 +7,7 @@ title: Evidence
 
 {{< hint info >}}
 **Note**  
-Xpla's evidence module inherits from Cosmos SDK's [`evidence`](https://docs.cosmos.network/master/modules/evidence/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's evidence module inherits from Cosmos SDK's [`evidence`](https://docs.cosmos.network/master/modules/evidence/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
 The evidence module allows arbitrary evidence of misbehavior, such as equivocation and counterfactual signing, to be submitted and handled.

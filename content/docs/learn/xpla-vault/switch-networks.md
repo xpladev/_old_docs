@@ -5,11 +5,11 @@ title: Switch Networks
 
 # Switch Networks
 
-Use this guide to switch between Xpla mainnet and testnet networks. 
+Use this guide to switch between XPLA Chain mainnet and testnet networks. 
 
-1. Open Xpla Vault and connect your wallet.
+1. Open XPLA Vault and connect your wallet.
 
-1. Click the "MORE" icon in the bottom right of the Xpla Vault menu.
+1. Click the "MORE" icon in the bottom right of the XPLA Vault menu.
 
 1. Click the "Settings" button.
 

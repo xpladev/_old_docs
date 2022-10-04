@@ -7,7 +7,7 @@ title: Capability
 
 {{< hint info >}}
 **Note**  
-Xpla's capability module inherits from Cosmos SDK's [`capability`](https://docs.cosmos.network/master/modules/capability/) module. This document is a stub and covers mainly important Xpla-specific notes about how it is used.
+XPLA Chain's capability module inherits from Cosmos SDK's [`capability`](https://docs.cosmos.network/master/modules/capability/) module. This document is a stub and covers mainly important XPLA Chain-specific notes about how it is used.
 {{< /hint >}}
 
 The capability module allows you to provision, track, and authenticate multiowner capabilities at runtime.

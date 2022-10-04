@@ -2,11 +2,11 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 40
-title: Xpla Vault
+title: XPLA Vault
 ---
 
-# Xpla Vault
+# XPLA Vault
 
-The Xpla Vault is the official wallet of the Xpla blockchain. If this is your first time using Xpla Vault, visit the [download tutorial]({{< ref "download" >}}) to create a wallet.
+The XPLA Vault is the official wallet of the XPLA Chain. If this is your first time using XPLA Vault, visit the [download tutorial]({{< ref "download" >}}) to create a wallet.
 
 - [Vault WebApp](https://vault.xpla.io)

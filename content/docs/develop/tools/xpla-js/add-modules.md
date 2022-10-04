@@ -5,7 +5,7 @@ title: Add Modules
 
 # Add Modules
 
-When a new module is added to Xpla core, you must add it to several places in xpla.js too. To add a module, complete the following steps:
+When a new module is added to XPLA Chain core, you must add it to several places in xpla.js too. To add a module, complete the following steps:
 
 ## Create a New Folder
 
