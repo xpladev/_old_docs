@@ -116,13 +116,13 @@ XPLA Chain’s LCD or Light Client Daemon allows users to connect to the blockch
 
 ## 4. Query a Contract and Set-up the Transaction
 
-Before you can perform a transaction, you may need to know a configuration of an inserted contract.
+Before you can perform a transaction, you can check the token information
 
 1. Add the following code to your `index.js` file. Make sure the contract address is correct.
 
    ```ts
-   const contract = "<INSERT_CONTRACT_ADDRESS>"; // A contract address on cube.
-   const { config } = await lcd.wasm.contractQuery(contract, { config: {} }); // Query a configuration of an inserted contract
+   const contract = "<TOKEN_CONTRACT_ADDRESS>"; // A token contract address on cube.
+   const info = await lcd.wasm.contractQuery(contract, { token_info: {} }); // Query
    ```
 
 2. Next, generate a message to broadcast to the network:
@@ -133,22 +133,11 @@ Before you can perform a transaction, you may need to know a configuration of an
      wallet.key.accAddress,
      contract,
      {
-       // Insert a transaction message to execute
-       // e.g.
-       // swap: {
-       //   max_spread: "0.001",
-       //   offer_asset: {
-       //     info: {
-       //       native_token: {
-       //         denom: "axpla",
-       //       },
-       //     },
-       //     amount: "100000000000",
-       //   },
-       //   belief_price: beliefPrice,
-       // },
-     },
-     new Coins({ axpla: "100000000000" })
+       transfer: {
+         amount: "10",
+         recipient: "<RECIPIENT_ADDRESS>"
+       }
+     }
    );
    ```
 
