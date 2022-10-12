@@ -69,12 +69,27 @@ The default number of files Linux can open per process is `1024`. `xplad` is kno
    [Install]
    WantedBy=multi-user.target
    ```
+   
 ## `xplad` Crashes Because of Memory Fragmentation
 
 Huge memory allocation can cause memory fragmentation issue. Temporal solution is just using small wasm cache size like 50~100MB.
 
 ```toml
 contract-memory-cache-size = 100
+```
+
+## `xplad` Crashes Because of Exceeding Message Max Size 
+
+Default message max size is too small for peer service.
+
+```
+xplad[123793]: 1:47AM ERR Stopping peer for error err="message exceeds max size (1406 > 1034)" module=p2p peer={"Data":{},"Logger":{}}
+```
+
+Increase `max_packet_msg_payload_size` in `config.toml` to `2048`
+
+```toml
+max_packet_msg_payload_size = 2048
 ```
 
 ## The Validator is Not Active
