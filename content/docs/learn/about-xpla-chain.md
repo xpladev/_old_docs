@@ -87,7 +87,9 @@ The XPLA Chain incentivizes validators and delegators with staking rewards from 
 
 - [Gas]({{< ref "fees#gas" >}}): Compute fees added on to each transaction to avoid spamming. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- [Inflation rewards]({{< ref "docs/develop/core-modules/mint" >}}): Every block, new XPLA is minted and released to validators and delegators as staking rewards. The rate for the minting of this new XPLA is fixed at 7% per year. 
+- [Inflation rewards]({{< ref "docs/develop/core-modules/mint" >}}): Every block, new XPLA is minted and released to validators and delegators as staking rewards only if the inflation on the XPLA Chain exceeds 0%. As the current rate for the minting of new XPLA is fixed at 0% per year, there are no extra rewards from inflation.
+
+- Rewards from XPLA foundation's delegation: 20% of rewards that the foundation earns are released to validators and delegators.
 
 For more information on fees, visit the [fee page]({{< ref "fees" >}}).
 
