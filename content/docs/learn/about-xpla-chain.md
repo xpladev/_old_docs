@@ -146,7 +146,7 @@ The following is a basic outline of the governance process. Visit the [governanc
     - `Abstain`: Voter abstains.
 4. The votes are tallied.
     Proposals pass if they meet three conditions:
-    - `Quorum` is met: at least 10% of all staked XPLA must vote.
+    - `Quorum` is met: at least 33.4% of all staked XPLA must vote.
     - The total number of `NoWithVeto` votes is less than 33.4% of the total vote.
     - The number of `Yes` votes reaches a 50% majority.
     If the previous conditions are not met, the proposal is rejected.
@@ -161,11 +161,11 @@ Deposits protect against unnecessary proposals and spam. Users can veto any prop
 
 Deposits get refunded if all of the following conditions are met:
 - The minimum deposit of 50 XPLA is reached within the two-week deposit period.
-- `Quorum` is met: the number of total votes is greater than 10% of all staked XPLA
+- `Quorum` is met: the number of total votes is greater than 33.4% of all staked XPLA
 - The total number of `NoWithVeto` votes is less than 33.4% of the total vote.
 - A vote returns a majority of `Yes` or `No` votes.
 
 Deposits are not returned under any of the following conditions:
 - The minimum deposit of 50 XPLA is not reached within the two-week deposit period.
-- `Quorum` is not met: the number of total votes after the one-week voting period is less than 10% of all staked XPla.
+- `Quorum` is not met: the number of total votes after the one-week voting period is less than 33.4% of all staked XPla.
 - the number of `NoWithVeto` votes is above 33.4% of the total vote.
