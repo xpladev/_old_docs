@@ -119,7 +119,7 @@ Proof of Stake. A style of blockchain where validators are chosen to propose blo
 
 ## Quorum
 
-The minimum amount of votes needed to make an election viable. 40% of all staked XPLA must vote to meet quorum. If quorum is not met before the voting period ends, the proposal fails, and the proposer's deposit is burned.
+The minimum amount of votes needed to make an election viable. 33.4% of all staked XPLA must vote to meet quorum. If quorum is not met before the voting period ends, the proposal fails, and the proposer's deposit is burned.
 
 ## Redelegate
 

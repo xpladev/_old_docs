@@ -28,13 +28,13 @@ Deposits protect against unnecessary proposals and spam.
 
 Deposits get refunded if all of the following conditions are met:
 - The minimum deposit of 10 XPLA is reached within the 7-day deposit period.
-- `Quorum` is met: the number of total votes is greater than 10% of all staked XPLA
+- `Quorum` is met: the number of total votes is greater than 33.4% of all staked XPLA
 - The total number of `NoWithVeto` votes is less than 33.4% of the total vote.
 - A vote returns a majority of `Yes` or `No` votes.
 
 Deposits are not returned under any of the following conditions:
 - The minimum deposit of 10 XPLA is not reached within the one-week deposit period.
-- `Quorum` is not met: the number of total votes after the one-week voting period is less than 10% of all staked XPLA.
+- `Quorum` is not met: the number of total votes after the one-week voting period is less than 33.4% of all staked XPLA.
 - the number of `NoWithVeto` votes is above 33.4% of the total vote.
 
 ### Voting Period
