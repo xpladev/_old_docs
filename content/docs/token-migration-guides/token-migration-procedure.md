@@ -25,15 +25,9 @@ Please contact us via official [Telegram channel](https://t.me/Official_XPLA) if
 You must first agree to the following disclaimer by checking the box and clicking “Agree” before you proceed with the migration. Please keep in mind that in no event XPLA is liable for any loss that occurred during the migration process, so it is very important that you follow all of the given instructions to safely complete the migration procedure. Please refer to the whitepaper for detailed tokenomics behind XPLA chain.
 {{< /hint >}}
 
-{{< hint info >}}
-**Note**  
-The images below are still in development and are subject to change when it goes live.
-Please note that the date for migration is also subject to change.
-{{< /hint >}}
-
 {{< figure src="/migration/migration-1.png" width="70%" >}}
 
-The following screen will appear after agreeing to the disclaimer and connecting your C2X Station. Check If the shown address under “Terra Classic” is correct, and please copy and paste your XPLA or C2X Vault’s address under “XPLA”.
+The following screen will appear after agreeing to the disclaimer and connecting your C2X Station. Check If the shown address under “Terra Classic” is correct, and please copy and paste your XPLA Vault or C2X Station’s address under “XPLA”.
 
 {{< figure src="/migration/migration-2.png" width="70%" >}}
 
