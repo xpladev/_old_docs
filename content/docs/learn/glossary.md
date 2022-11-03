@@ -227,7 +227,7 @@ When a [delegator]({{< ref "#delegator" >}}) no longer wants to have their XPLA 
 
 ## Uptime
 
-The amount of time a [validator]({{< ref "#validator" >}}) is active in a given timeframe. Validators with low up time may be [slashed]({{< ref "#slashing" >}}).
+The amount of time a [validator]({{< ref "#validator" >}}) is active in a given timeframe. Validators with low uptime may be [slashed]({{< ref "#slashing" >}}).
 
 ## Validator
 

@@ -92,7 +92,7 @@ Once a validator is created and registered, XPLA holders can delegate XPLA to th
 - **Tendermint Consensus Keypair:** This Consensus Keypair is on the [tendermint](https://docs.tendermint.com/master/nodes/validators.html#validator-keys) layer and consists of a unique Private Key used to sign block hashes associated with a Public Key `xplavalconspub`.
 
   - This Keypair is generated when a node is created with `xplad init`.
-  - The Private Key can be found in the `priv_validator_key.json` file in the `config` directory after runing `xplad init`.
+  - The Private Key can be found in the `priv_validator_key.json` file in the `config` directory after running `xplad init`.
   - The Public Key is derived from the Private Key and can be found and seen by running the command `xplad tendermint show-validator`
 
     **Example:** `xplavalconspub1zcjduc3qcyj09qc03elte23zwshdx92jm6ce88fgc90rtqhjx8v0608qh5ssp0w94c`
@@ -108,7 +108,7 @@ After a validator is created with the `create-validator` transaction, it can be 
 
 - `bonded`: A validator that is in the active set and participates in consensus. This validator is earning rewards and can be slashed for misbehavior.
 
-- `unbonding`: A validator that is not in the active set and can't not participate in consensus. This validator is not earning rewards but can still be slashed for misbehaviour. This is a transition state from `bonded` to `unbonded`. If a validator does not send a `rebond` transaction while in `unbonding` mode, it will take three weeks for the state transition to complete.
+- `unbonding`: A validator that is not in the active set and can't participate in consensus. This validator is not earning rewards but can still be slashed for misbehaviour. This is a transition state from `bonded` to `unbonded`. If a validator does not send a `rebond` transaction while in `unbonding` mode, it will take three weeks for the state transition to complete.
 
 - `unbonded`: A validator that is not in the active set and not signing blocks. Unbonded validators can't be slashed and can't earn any rewards from their operation. It is still possible to delegate XPLA to unbonded validators. Un-delegating from an `unbonded` validator is immediate.
 

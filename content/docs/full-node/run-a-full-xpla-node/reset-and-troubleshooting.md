@@ -7,7 +7,7 @@ title: Reset and Troubleshooting
 
 ## Complete Reset
 
-Occasionally you may need to perform a comlpete reset of your node due to data corruption or misconfiguration. Resetting will remove all data in `~/.xpla/data` and the addressbook in `~/.xpla/config/addrbook.json` and reset the node to genesis state.
+Occasionally you may need to perform a complete reset of your node due to data corruption or misconfiguration. Resetting will remove all data in `~/.xpla/data` and the addressbook in `~/.xpla/config/addrbook.json` and reset the node to genesis state.
 
 To perform a complete reset of your `xplad` state, use:
 

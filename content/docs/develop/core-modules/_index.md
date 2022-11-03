@@ -77,5 +77,5 @@ The following processes are executed during each block transition:
 The attounit {{< katex >}}\times 10^{-18}{{< /katex >}} is the smallest atomic unit of XPLA.
 
 | Denomination | Atto-Unit | Code    | Value                     |
-|:-------------|:-----------|:--------|:--------------------------|
-| XPLA         | axpla      | `axpla` | 0.000000000000000001 XPLA |
+|:-------------|:----------|:--------|:--------------------------|
+| XPLA         | axpla     | `axpla` | 0.000000000000000001 XPLA |
