@@ -6,7 +6,7 @@ title: System Configuration
 # System Configuration
 
 {{< hint warning >}}
-**Recommended operation systems**  
+**Recommended operating systems**  
 This guide has been tested against Linux distributions only. To ensure a successful production environment setup, consider using a Linux system.
 {{< /hint >}}
 
@@ -14,13 +14,13 @@ Running a full XPLA Chain node is a resource-intensive process that requires a p
 
 ## Hardware Requirements
 
-The the minimum requirements for running a XPLA Chain full node are:
+The minimum requirements for running a XPLA Chain full node are:
 
-| Network                                                               | CPU cores     | RAM     | Disk                       | BANDWIDTH |
-|-----------------------------------------------------------------------|---------------|---------|----------------------------|-----------|
-| [`dimension_37-1`](../join-a-network#join-a-public-network)           | 4 (+4 threads)| 32 GB   | 2 TB (SSD 2000 MB/s R/W)   | 300 Mbps  |
-| [`cube_47-5`](../join-a-network#join-a-public-network)                | 2 (+2 threads)| 16 GB   | 500 GB (SSD 1000 MB/s R/W) | 150 Mbps  |
-| [`private-network`](../join-a-network#start-your-private-xpla-network) | 1             | 2 GB    | 20 GB (SSD 500 MB/s R/W)   |  N/A      |
+| Network                                                                | CPU cores      | RAM   | Disk                       | BANDWIDTH |
+|------------------------------------------------------------------------|----------------|-------|----------------------------|-----------|
+| [`dimension_37-1`](../join-a-network#join-a-public-network)            | 4 (+4 threads) | 32 GB | 2 TB (SSD 2000 MB/s R/W)   | 300 Mbps  |
+| [`cube_47-5`](../join-a-network#join-a-public-network)                 | 2 (+2 threads) | 16 GB | 500 GB (SSD 1000 MB/s R/W) | 150 Mbps  |
+| [`private-network`](../join-a-network#start-your-private-xpla-network) | 1              | 2 GB  | 20 GB (SSD 500 MB/s R/W)   | N/A       |
 
 {{< hint warning >}}
 **Storage requirements**  
@@ -31,7 +31,7 @@ As the network grows, the minimum hardware requirements will also grow. It is re
 
 - [Golang v1.18+ linux/amd64](https://go.dev/dl/)
 
-  {{< expand "Installing Go for MacOS & Linux" >}}
+  {{< expand "Installing Go for macOS & Linux" >}}
   Go releases can be found here: [ https://go.dev/dl/ ](https://go.dev/dl/)
 
   In your browser, you can right-click the correct release (V1.18) and `Copy link`.

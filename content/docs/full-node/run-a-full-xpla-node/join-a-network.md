@@ -56,10 +56,10 @@ These instructions are for setting up a brand new full node from scratch. You ca
 
 Specify the network you want to join by choosing the corresponding **genesis file** and **seeds**:
 
-| Network     | Type    | Genesis                                                                                           | Seed or Known Peers    |
-| :---------- | :------ | :------------------------------------------------------------------------------------------------ | :------------------------------ |
+| Network          | Type    | Genesis                                                                                            | Seed or Known Peers                                                     |
+|:-----------------|:--------|:---------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 | `dimension_37-1` | Mainnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/mainnet/main/dimension_37-1/genesis.json) | e7b6016ce5663a69ba71a982072315545eb0d5f6@seed.xpla.delightlabs.io:26656 |
-| `cube_47-5`   | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnets/main/cube_47-5/genesis.json) | 9ddfac28dc6b28601e3039902ee5a8915dc7891f@3.35.54.221:26656 |
+| `cube_47-5`      | Testnet | [Genesis Link](https://raw.githubusercontent.com/xpladev/testnets/main/cube_47-5/genesis.json)     | 9ddfac28dc6b28601e3039902ee5a8915dc7891f@3.35.54.221:26656              |
 
 {{< hint info >}}
 **Selecting a network**  

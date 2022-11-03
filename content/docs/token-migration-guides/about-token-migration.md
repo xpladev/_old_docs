@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: About Token Migraion
+title: About Token Migration
 ---
 
 # About Token Migration

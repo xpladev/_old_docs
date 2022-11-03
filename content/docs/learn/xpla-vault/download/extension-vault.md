@@ -15,7 +15,7 @@ Complete this tutorial to install the XPLA extension vault for the web browser.
 
 1. Open your browser and visit the link below corresponding to the browser.
 - [XPLA vault for Chrome Extension](https://chrome.google.com/webstore/detail/xpla-vault-wallet/ocjobpilfplciaddcbafabcegbilnbnb).
-- [XPLA vault for Firefo Add-on](https://addons.mozilla.org/firefox/addon/xpla-vault-wallet/).
+- [XPLA vault for Firefox Add-on](https://addons.mozilla.org/firefox/addon/xpla-vault-wallet/).
 
 2. Install the extension and add it to your browser.
 
