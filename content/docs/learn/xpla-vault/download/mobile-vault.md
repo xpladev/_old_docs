@@ -110,4 +110,4 @@ Congratulations, you've just withdrawn your staking rewards!
 
 ## Next Steps
 
-To use XPLA Vault on your computer, visit the [Web wallet tutorial]({{< ref "extension-wallet" >}} ). To learn how to use other wallet features, visit the [XPLA Vault guides]({{< ref "xpla-vault" >}}).
+To use XPLA Vault on your computer, visit the [Web wallet tutorial]({{< ref "extension-vault" >}} ). To learn how to use other wallet features, visit the [XPLA Vault guides]({{< ref "xpla-vault" >}}).
