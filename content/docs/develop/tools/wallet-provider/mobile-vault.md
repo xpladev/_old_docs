@@ -1,17 +1,17 @@
 ---
 weight: 40
-title: Mobile Wallet
+title: Mobile Vault
 ---
 
-# Mobile Wallet
+# Mobile Vault
 
 XPLA mobile vault is an application that enables users to interact with XPLA Chain Core.
 
 XPLA mobile vault allows users to:
 
-- Create wallets and send tokens
+- Create vaults and send tokens
 - Get involved with staking by browsing through validator information and delegating XPLA tokens.
-- Use QRCodes for easy interactions when sending assets and recovering wallets
+- Use QRCodes for easy interactions when sending assets and recovering vaults
 
 ## URL Scheme
 
@@ -32,7 +32,7 @@ xplavault://send/?payload=${base64 json}
 #### Payload Format
 
 | Key     | Description                                   | Required? |
-| ------- |-----------------------------------------------| --------- |
+|---------|-----------------------------------------------|-----------|
 | address | XPLA Chain address to send funds to           |           |
 | token   | Native token denom or cw20 contract address   | ✔️        |
 | amount  | Amount of tokens in micro format              |           |
@@ -62,5 +62,3 @@ ewogICJhZGRyZXNzIjogInhwbGExZGNlZ3lyZWtsdHN3dnl5MHh5Njl5ZGd4bjl4OHgzMnpkdGFwZDgi
 ```
 xplavault://send/?payload=ewogICJhZGRyZXNzIjogInhwbGExZGNlZ3lyZWtsdHN3dnl5MHh5Njl5ZGd4bjl4OHgzMnpkdGFwZDgiLAogICJ0b2tlbiI6ICJheHBsYSIsCiAgImFtb3VudCI6ICIyNTAwMDAiLAogICJtZW1vIjogIk9yZGVyICMxMTIyIgp9
 ```
-
-**Find out more on [GitHub](https://github.com/xpladev/mobile-wallet/#app-scheme).**

@@ -1,9 +1,9 @@
 ---
 weight: 30
-title: Extension Wallet
+title: Extension Vault
 ---
 
-# Extension Wallet
+# Extension Vault
 
 The API for the XPLA extension vault gets updated periodically. If you are developing a dApp, please check regularly for updates as breaking changes may be introduced frequently.
 
@@ -27,22 +27,6 @@ yarn start
 ```
 
 [Learn more](https://github.com/xpladev/wallet-provider/tree/main/templates/create-react-app)
-
-### Next.js
-
-```sh
-npx copy-github-directory https://github.com/xpladev/wallet-provider/tree/main/templates/next your-app-name
-cd your-app-name
-yarn install
-yarn run dev
-```
-
-[Learn more](https://github.com/xpladev/wallet-provider/tree/main/templates/next)
-
-### Experimental Templates
-
-- [Wallet Provider + Vite.js](https://github.com/xpladev/wallet-provider/tree/main/templates/vite)
-- [Wallet Controller](https://github.com/xpladev/wallet-provider/tree/main/templates/wallet-controller)
 
 {{< hint info >}}
 **Tip**  

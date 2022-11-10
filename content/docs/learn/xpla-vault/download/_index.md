@@ -7,5 +7,5 @@ title: Download
 
 # Download
 
-- [Extension wallet]({{< ref "extension-wallet" >}})
-- [Mobile wallet]({{< ref "mobile-wallet" >}})
+- [Extension vault]({{< ref "extension-vault" >}})
+- [Mobile vault]({{< ref "mobile-vault" >}})

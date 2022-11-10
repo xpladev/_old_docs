@@ -78,4 +78,4 @@ After a few moments, the tokens will appear in the receiver's wallet.
 
 # Next Steps
 
-For on-the-go transactions, check out the [XPLA mobile vault app]({{< ref "mobile-wallet" >}}). To learn how to use other XPLA Vault features, visit the [XPLA Vault guides]({{< ref "xpla-vault" >}}).
+For on-the-go transactions, check out the [XPLA mobile vault app]({{< ref "mobile-vault" >}}). To learn how to use other XPLA Vault features, visit the [XPLA Vault guides]({{< ref "xpla-vault" >}}).
