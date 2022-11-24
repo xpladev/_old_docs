@@ -32,7 +32,7 @@ xplad collect-gentxs
 
 ## `debug`
 
-Helps debug the application. For a list of syntax and subcommands, see the [debug subcommands](subcommands#debug-addr).
+Helps debug the application. For a list of syntax and subcommands, see the [debug subcommands]({{< ref "subcommands#debug-addr" >}}).
 
 ## `export`
 
@@ -89,7 +89,7 @@ xplad init myNode
 
 ## `keys`
 
-Manages Keyring commands. For a list of syntax and subcommands, see the [keys subcommands](subcommands#keys-add).
+Manages Keyring commands. For a list of syntax and subcommands, see the [keys subcommands]({{< ref "subcommands#keys-add" >}}).
 
 
 ## `migrate`
@@ -107,7 +107,7 @@ xplad migrate /genesis.json --chain-id=testnet --genesis-time=2020-04-19T17:00:0
 
 ## `query`
 
-Manages queries. For a list of syntax and subcommands, see the [query subcommands](subcommands#query-authz-grants).
+Manages queries. For a list of syntax and subcommands, see the [query subcommands]({{< ref "subcommands#query-authz-grants" >}}).
 
 ## `rosetta`
 
@@ -156,7 +156,7 @@ xplad testnet --v 6 --output-dir ./output --starting-ip-address 192.168.10.2
 
 ## `tx`
 
-Retrieves a transaction by its hash, account sequence, or signature. For a list of full syntax and subcommands, see the [tx subcommands](subcommands#tx-authz-exec).
+Retrieves a transaction by its hash, account sequence, or signature. For a list of full syntax and subcommands, see the [tx subcommands]({{< ref "subcommands#tx-authz-exec" >}}).
 
 **Syntax to query by hash**
 ```bash
