@@ -18,6 +18,6 @@ Gas on XPLA Chain works differently than it works on other decentralized platfor
 
 For an in-depth explanation of how gas fees are calculated, visit the [xplad reference]({{< ref "using-xplad#fees" >}}) page.
 
-To view current gas rates in your browser, visit the [gas rates](https://api.xpla.dev/gas-prices) page.
+To view current gas rates in your browser, visit the [gas rates](https://dimension-fcd.xpla.dev/v1/txs/gas_prices) page.
 
 Every block, gas fees are sent to the reward pool and dispersed to validators who distribute them to delegators in the form of staking rewards.
